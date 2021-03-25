@@ -2,9 +2,9 @@
 title: 양식
 description: 패턴 탐지기 코드 도움말 페이지
 translation-type: tm+mt
-source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
+source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 * `modified.feature`:이러한 기능, 자산 또는 API는 Cloud Service에 대해 업데이트되거나 수정되었습니다. Cloud Service으로 마이그레이션하기 전에 마이그레이션 유틸리티를 실행하여 이러한 기능과 에셋이 Cloud Service과 호환되도록 합니다.
 * `unavailable.feature`:사용 가능한 기능 및 에셋이 없거나 Cloud Service에서 제거됩니다. 이러한 기능 또는 자산을 Cloud Service 환경으로 마이그레이션하지 마십시오.
-* `unsupported.feature`:Cloud Service에서 지원되지 않는 일부 기능이 사용 중입니다. 이러한 기능 또는 자산을 Cloud Service 환경으로 마이그레이션하지 마십시오. 기능을 사용할 수 있는지 매월 릴리스 노트를 확인해 보십시오.
-* `unsupported.api`:환경에 일부 API가 아직 Cloud Service에서 지원되지 않습니다. Cloud Service으로 마이그레이션하기 전에 코드에서 이러한 API를 비활성화, 교체 또는 제거합니다. 기능을 사용할 수 있는지 매월 릴리스 노트를 확인해 보십시오.
+* `unsupported.feature`:Cloud Service에서 지원되지 않는 일부 기능이 사용 중입니다. 이러한 기능 또는 자산을 Cloud Service 환경으로 마이그레이션하지 마십시오. 기능 사용 가능 여부에 대한 자세한 내용은 월별 릴리스 노트를 참조하십시오.
+* `unsupported.api`:환경에 일부 API가 아직 Cloud Service에서 지원되지 않습니다. Cloud Service으로 마이그레이션하기 전에 코드에서 이러한 API를 비활성화, 교체 또는 제거합니다. 기능 사용 가능 여부에 대한 자세한 내용은 월별 릴리스 노트를 참조하십시오.
 
 Cloud Service과 호환되는 일부 기능 및 API를 만드는 데 필요한 교체 및 기타 작업에 대한 자세한 내용은 [가능한 함수와 위험](#implications-and-risks) 및 [가능한 솔루션](#solutions) 섹션을 참조하십시오
 
@@ -75,19 +75,19 @@ Cloud Service과 호환되는 일부 기능 및 API를 만드는 데 필요한 �
 
 * 기존 적응형 Forms에서 확인 단계를 제거한 다음 해당 양식을 [!DNL Cloud Service] 환경으로 이동합니다. (VERIFY_STEP)
 
-* 기존 적응형 양식을 수정하여 [REST 끝점에 제출](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [전자 메일 보내기](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [양식 데이터 모델](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)을 사용하여 제출 및 [AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) 작업 제출 Forms 포털 및 Forms 포털 제출 작업은 아직 사용할 수 없습니다. 기능을 사용할 수 있는지 매월 릴리스 노트를 확인해 보십시오. (FORMS._PORTAL_SUBMISSION, FORMS._PORTAL)
+* 기존 적응형 양식을 수정하여 [REST 끝점에 제출](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [전자 메일 보내기](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [양식 데이터 모델](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)을 사용하여 제출 및 [AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) 작업 제출 Forms 포털 및 Forms 포털 제출 작업은 아직 사용할 수 없습니다. 기능 사용 가능 여부에 대한 자세한 내용은 월별 릴리스 노트를 참조하십시오. (FORMS._PORTAL_SUBMISSION, FORMS._PORTAL)
 
 * AEM Workflow를 개발하고 기존 적응형 양식을 수정하여 [AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Action을 사용하여 **[!UICONTROL Forms Workflow에 제출]** 작업 제출 대신 AEM Workflow로 데이터를 전송할 수 있습니다. [!UICONTROL Forms Workflow에 제출]을 사용하는 대신 데이터, 첨부 파일 또는 기록 문서(DoR)를 LiveCycle 프로세스로 보내는 사용자 지정 제출 동작을 개발할 수 있습니다. (LC_WORKFLOW_SUBMISSION)
 
-* 인터랙티브 커뮤니케이션 기능을 사용할 수 있는지 매월 릴리스 노트를 확인해 보십시오. 기능을 사용할 수 없을 때까지 대화형 통신, 문자 및 관련 사전을 Cloud Service 환경으로 마이그레이션하지 마십시오. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* 인터랙티브 커뮤니케이션 기능의 사용 가능 여부에 대한 자세한 내용은 매월 릴리스 노트를 참조하십시오. 기능을 사용할 수 없을 때까지 대화형 통신, 문자 및 관련 사전을 Cloud Service 환경으로 마이그레이션하지 마십시오. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Cloud Service으로 마이그레이션하기 전에 응용 Forms에서 **[!UICONTROL 초안]** 및 **[!UICONTROL 자동 저장 사용]** 옵션을 비활성화하십시오. Cloud Service에 대해 Forms Portal 기능이 릴리스되면 이러한 옵션을 활성화할 수 있습니다. 기능을 사용할 수 있는지 매월 릴리스 노트를 확인해 보십시오. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* Cloud Service으로 마이그레이션하기 전에 응용 Forms에서 **[!UICONTROL 초안]** 및 **[!UICONTROL 자동 저장 사용]** 옵션을 비활성화하십시오. Cloud Service에 대해 Forms Portal 기능이 릴리스되면 이러한 옵션을 활성화할 수 있습니다. 기능 사용 가능 여부에 대한 자세한 내용은 월별 릴리스 노트를 참조하십시오. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * 메타데이터 아코디언을 대체할 수 없습니다. 양식에서 Cloud Service으로 마이그레이션하기 전에 양식을 제거합니다.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Adobe Experience Manager에서 제공하는 CAPTCHA 서비스 대신 Google reCaptcha를 사용하십시오. (FORMS._CAPTCHA)
 
-* 적응형 Forms은 반응형 디자인을 제공합니다. 이러한 양식은 기본 장치에 따라 모양, 디자인 및 상호 작용을 변경합니다. 모바일 장치에서 응용 Forms을 계속 사용할 수 있으며, [!DNL AEM Forms] 앱이 사용 가능한 경우에 대한 월별 릴리스 노트를 볼 수 있습니다. (AEM_FORMS._APP)
+* 적응형 Forms은 반응형 디자인을 제공합니다. 이러한 양식은 기본 장치에 따라 모양, 디자인 및 상호 작용을 변경합니다. 모바일 장치에서 응용 Forms을 계속 사용할 수 있습니다. [!DNL AEM Forms] 앱의 가용성에 대한 정보는 매월 릴리스 노트를 찾습니다. (AEM_FORMS._APP)
 
 * 문서 서비스 워크플로우 단계를 사용하는 AEM 워크플로우 모델을 마이그레이션하지 마십시오. 또한 양식을 마이그레이션하기 전에 사용자 데이터를 Document Services 워크플로우 단계를 사용하는 워크플로우 모델로 보내는 적응형 Forms을 마이그레이션하거나 업데이트하거나 작업 제출 작업을 [지원되는 하나](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)로 변경하지 마십시오. (WORKFLOW_DOCSERVICES)
 
