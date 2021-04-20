@@ -4,8 +4,8 @@ user-guide-title: Experience Manager 패턴 감지 가이드
 breadcrumb-title: AEM 패턴 감지
 user-guide-description: Adobe Experience Manager 패턴 감지에 대해 알아봅니다.
 feature-set: Experience Manager
-feature: 개발자 도구
-role: 개발자
+feature: Developer Tools
+role: Developer
 translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: tm+mt
