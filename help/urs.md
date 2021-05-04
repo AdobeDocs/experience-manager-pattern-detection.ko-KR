@@ -1,18 +1,24 @@
 ---
 title: 흐림 효과
 description: 패턴 탐지기 코드 도움말 페이지
+exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 translation-type: tm+mt
-source-git-commit: 5a83dd8d08da974a5d775032b8dbea2593be9d15
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-
 # {#urs}
 
 지원되지 않는 저장소 구조
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_overview"
+>title="지원되지 않는 저장소 구조"
+>abstract="URS는 지원되지 않는 저장소 구조의 경우를 식별합니다. 이 경우 AEM 제품 코드와 고객 코드 간 충돌, /etc 외부에서 저장소의 다른 폴더로 재구성된 컨텐츠 등을 방지하기 위한 정보가 표시됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="저장소 재구성"
 
 ## 배경 {#background}
 
@@ -34,6 +40,13 @@ ht-degree: 0%
 * 변경할 수 없는 컨텐츠와 변경할 수 없는 컨텐츠를 모두 포함하는 패키지는 배포 중에 문제를 일으킬 수 있습니다.
 
 ## 가능한 솔루션 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_guidance"
+>title="구현 지침"
+>abstract="가장 좋은 방법은 코드 프로젝트를 검토하고 코드가 AEM 프로젝트 구조 지침을 준수하고 AEM에서 원치 않는 행동을 Cloud Service으로 발생시킬 수 있는 이전/지원되지 않는 저장소 경로에 코드를 사용하지 않는 것입니다. 도움말 및 분류에 대한 Adobe 지원"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="AEM 프로젝트 구조 지침"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * AEM을 Cloud Service으로 준비하는 방법에 대한 지침은 [저장소 재구성](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html)을 참조하십시오.
 * 저장소의 변경 및 변경 불가능한 영역에 대한 자세한 내용은 [AEM 프로젝트 구조](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)를 참조하십시오.
