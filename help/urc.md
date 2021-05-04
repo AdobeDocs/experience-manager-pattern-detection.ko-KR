@@ -1,14 +1,14 @@
 ---
 title: URC
 description: 패턴 탐지기 코드 도움말 페이지
+exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 translation-type: tm+mt
-source-git-commit: ae3e162da40441fba39e6e9d283c495d15f40ba1
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
-
 
 # URC {#urc}
 
@@ -16,14 +16,34 @@ ht-degree: 0%
 
 ## 배경 {#background}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urc_overview"
+>title="지원되지 않는 런타임 모드 구성"
+>abstract="URC는 AEM에서 지원되지 않는 런타임 모드 이름을 기반으로 한 구성을 Cloud Service으로 식별합니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes" text="지원되는 런타임 모드"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes" text="런타임 모드"
+
 `URC` 은 AEM에서 지원되지 않는 런타임 모드 이름을 기반으로 한 구성을 Cloud Service으로 식별합니다.
 
 ## 가능한 의미 및 위험 {#implications-and-risks}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urc_guidance"
+>title="구현 지침"
+>abstract="가장 좋은 방법은 응용 프로그램에 사용된 모든 런타임 모드가 지원되는지 검토하고 런타임 모드 해결 지침을 따르는지 확인하는 것입니다"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#deploying" text="실행 모드 해결 지침"
 
 * Cloud Service으로 AEM의 런타임 모드에 사용할 수 있는 이름 집합이 제한됩니다.
 * 지원되지 않는 런타임 모드 이름을 기반으로 하는 구성은 Cloud Service으로 AEM에 배포될 때 아무런 효과가 없습니다.
 
 ## 가능한 솔루션 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urc_tools"
+>title="도구 및 리소스"
+>abstract="WKND 레거시 프로젝트를 검토하여 URC 위반 사항이 AEM Cloud Service과 호환되도록 하는 방법을 파악하십시오. 또한 Github에서 URC 위반 사례를 검토하여 AEM을 Cloud Service으로 준수하도록 사용자 정의 런타임 모드 기반 OSGi 구성을 업데이트하는 방법을 파악하십시오."
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-레거시 프로젝트"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 위반 예 - Github"
 
 * 이 구성을 검토하여 필요한 경우 확인합니다.
 * 지원되는 [runmode names](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes) 중 하나를 사용하도록 구성 이름을 변경하고 [runmode 해상도 지침](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#runmode-resolution)을 따릅니다.
