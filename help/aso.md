@@ -1,20 +1,26 @@
 ---
 title: ASO
 description: 패턴 탐지기 코드 도움말 페이지
+exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 5%
 
 ---
-
 
 # ASO {#aso}
 
 AEM 시스템 개요
 
 ## 배경 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_overview"
+>title="AEM 시스템 개요"
+>abstract="ASO 코드는 AEM 인스턴스에 대한 일반 정보를 식별합니다. 각 검색 결과는 마이그레이션 계획 및 리팩토링 작업에 도움이 될 수 있는 특정 유형의 시스템 정보 값을 제공합니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM을 Cloud Service - 릴리스 노트"
 
 `ASO` AEM 인스턴스에 대한 일반 정보를 식별합니다. 각 검색 결과는 특정 시스템 정보 유형의 값 하나를 제공합니다.
 
@@ -36,6 +42,12 @@ AEM 시스템 개요
 
 ## 가능한 솔루션 {#solutions}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_guidance"
+>title="구현 지침"
+>abstract="ASO 코드를 통해 노출된 정보는 버전, 제품 추가 기능, 시스템 수준 정보 등 AEM 환경에 대한 일반 정보를 제공하며, AEM에서 지원되지 않는 제품 또는 기능을 Cloud Service으로 검토해야 합니다. 도움말 및 분류에 대한 Adobe 지원 서비스를 이용하십시오."
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
+
 * 지원되지 않는 제품 또는 기능이 있는 AEM 업그레이드는 권장되지 않으며 지원되지 않을 수 있습니다.
-* AEM의 최신 변경 사항을 Cloud Service으로 확인하려면 [릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)를 검토하십시오.
+* AEM의 최신 변경 사항을 Cloud Service으로 확인하려면 [릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ko-KR)를 검토하십시오.
 * 명확히 파악하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
