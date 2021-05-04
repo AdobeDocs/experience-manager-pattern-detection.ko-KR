@@ -1,20 +1,26 @@
 ---
 title: CAV
 description: 패턴 탐지기 코드 도움말 페이지
+exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 translation-type: tm+mt
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
+source-git-commit: 1966a3e83ab6b2247d9f1095c8965eac399e3b6e
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
-
 
 # CAV {#cav}
 
 콘텐츠 영역 위반
 
 ## 배경 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_cav_overview"
+>title="콘텐츠 영역 위반"
+>abstract="CAV 코드는 컨텐츠 분류 규칙을 위반하는 방법으로 서로 다른 컨텐츠 영역을 사용하는 패턴을 식별합니다. 이 위반은 Cloud Service으로 AEM으로 전환한 후 변경이 필요할 수 있는 오버레이, 제한된 콘텐츠에 대한 개요를 제공합니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Sling 자원 통합"
 
 `CAV` 컨텐트 분류 규칙을 위반하는 방법으로 서로 다른 컨텐트 영역이 사용되는 패턴을 식별합니다.
 
@@ -28,6 +34,13 @@ Sling 요청 처리는 리소스 내용(특히 `sling:resourceType` 속성)을 �
 * 보안 업데이트가 유효하지 않습니다.
 
 ## 가능한 솔루션 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_cav_guidance"
+>title="구현 지침"
+>abstract="서로 다른 컨텐츠 영역 위반이 존재하는 CAS로 식별된 패턴을 검토해야 합니다. 최종 및 내부 컨텐츠 분류 영역은 피해야 합니다. 도움말 및 분류에 대한 Adobe 지원 서비스를 이용하십시오."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="지속적인 업그레이드"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 필요한 경우 내용 오버레이의 사용을 최소화할 수 있습니다.
 * 특히, 제한된 컨텐츠(최종 및 내부 분류)를 오버레이하지 마십시오.
