@@ -1,20 +1,26 @@
 ---
 title: 양식
 description: 패턴 탐지기 코드 도움말 페이지
+exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 translation-type: tm+mt
-source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## 배경 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_overview"
+>title="Forms."
+>abstract="Forms. 코드는 Adobe Experience Manager Forms에서 Adobe Experience Manager Forms으로 마이그레이션하는 것과 관련된 잠재적 문제를 Cloud Service으로 식별합니다. Cloud Service으로 마이그레이션하기 전에 연관된 잠재적인 위험과 위험을 검토하고 이러한 문제를 해결합니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="가능한 의미 및 위험"
 
 `FORMS` s에서 s로 마이그레이션하는 것과 관련된 잠재적 문제 [!DNL Adobe Experience Manager Forms] 를  [!DNL Adobe Experience Manager Form]a로 식별합니다 [!DNL Cloud Service]. [!DNL Cloud Service]으로 마이그레이션하기 전에 이러한 문제를 해결하십시오.
 
@@ -62,6 +68,12 @@ Cloud Service과 호환되는 일부 기능 및 API를 만드는 데 필요한 �
 * [문서 ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) 서비스 단계는 AEM 워크플로우에서 사용할 수 없습니다. (WORKFLOW_DOCSERVICES)
 
 ## 가능한 솔루션 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_guidance"
+>title="구현 지침"
+>abstract="FORMS을 통해 노출된 정보. 코드는 Cloud Service과 호환되는 일부 기능 및 API를 만드는 데 필요한 교체 및 기타 작업에 대한 지침을 제공할 수 있습니다. 도움말 및 분류에 대한 Adobe 지원"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 마이그레이션 유틸리티를 사용하여 환경에 있는 모든 규칙 스크립트를 재사용 가능한 함수로 변환할 수 있습니다. 시각적 규칙 편집기에서 재사용 가능한 함수를 사용하여 규칙 스크립트로 얻은 결과를 계속 얻을 수 있습니다. (CODE_EDITOR)
 
