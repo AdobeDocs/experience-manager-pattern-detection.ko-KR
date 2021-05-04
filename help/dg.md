@@ -1,20 +1,28 @@
 ---
 title: DG
 description: 패턴 탐지기 코드 도움말 페이지
+exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
-
 
 # DG {#dg}
 
 개발자 지침
 
 ## 배경 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_overview"
+>title="개발자 지침"
+>abstract="DG 코드는 AEM 6.5 및 AEM에 대해 선택한 개발 지침을 Cloud Service으로 식별합니다. 다음 우수 사례를 통해 시스템의 유지 관리 능력과 성능을 향상시킬 수 있습니다. 이전 버전의 AEM을 포함하여 다른 응용 프로그램 컨텍스트에서는 이러한 편차 중 일부가 문제가 되지 않을 수 있지만 AEM을 Cloud Service으로 사용할 때 문제가 발생할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM 개발 - 지침 및 우수 사례"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service 개발 지침"
+
 
 `DG` AEM 6.5 및  [AEM에 대해 선택한 개발 지침](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html) 의 편차를 Cloud Service으로 식별합니다 [ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html). 다음 우수 사례를 통해 시스템의 유지 관리 능력과 성능을 향상시킬 수 있습니다. 이전 버전의 AEM을 포함하여 다른 응용 프로그램 컨텍스트에서는 이러한 편차 중 일부가 문제가 되지 않을 수 있지만 AEM을 Cloud Service으로 사용할 때 문제가 발생할 수 있습니다.
 
@@ -38,6 +46,13 @@ ht-degree: 0%
    * AEM은 [백그라운드 작업과 긴 실행 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs)에 대한 Cloud Service 개발 지침으로서 예약된 작업으로 실행되는 코드가 실행 중인 인스턴스를 언제든지 중지할 수 있다고 가정해야 합니다. 따라서 코드는 복원력이 있고 다시 시작할 수 있어야 합니다.
 
 ## 가능한 솔루션 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_guidance"
+>title="구현 지침"
+>abstract="AEM 개발 지침 및 모범 사례에 따라 고객은 Sling Commons Scheduler 사용에 대한 구현을 검토하고 Sling Jobs로 재구성하여 시스템 유지 관리 작업을 다시 구성하고 바이너리 데이터의 스트리밍을 검토하고 코드를 Cloud Service으로 AEM과 호환되도록 재평가해야 합니다."
+>additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling 작업"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="Cloud Service의 유지 관리 작업"
 
 * `java.io.inputstream`
    * 바이너리가 데이터 저장소에 직접 추가되는 직접적인 바이너리 업로드 방법을 사용합니다.
