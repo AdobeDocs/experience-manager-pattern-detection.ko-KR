@@ -1,20 +1,27 @@
 ---
 title: REP
 description: 패턴 탐지기 코드 도움말 페이지
+exl-id: e788deba-a301-404f-8e90-51f721409e69
 translation-type: tm+mt
-source-git-commit: 7d05067fc624571e6fe520e2a1addd5dff8acbd8
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
-
 
 # [!DNL REP] {#rep}
 
 복제 에이전트
 
 ## 배경 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_rep_overview"
+>title="복제 에이전트"
+>abstract="REP은 활성화된 복제 에이전트를 식별합니다. 이러한 문제는 Cloud Service으로 AEM으로 업그레이드할 때 해결해야 하는 문제가 발생할 수 있기 때문에 보고됩니다. AEM은 Cloud Service의 Sling Content Distribution을 사용하여 작성자의 컨텐츠를 게시 환경으로 배포합니다. Adobe I/O의 파이프라인 서비스를 사용하여 AEM 런타임 외부에서 수행됩니다.제공된 AEM에서 Cloud Service 환경으로 자동으로 구성됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents" text="주목할 만한 변경 사항 - Cloud Service으로 AEM"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents" text="개발 지침"
 
 `REP` 활성화된 복제 에이전트를 식별합니다. 이러한 문제는 Cloud Service으로 AEM으로 업그레이드할 때 해결해야 하는 문제가 발생할 수 있기 때문에 보고됩니다.
 
@@ -28,6 +35,13 @@ AEM은 [Sling Content Distribution](https://sling.apache.org/documentation/bundl
 * 별도의 디스패처 플러시 에이전트를 구성할 필요가 없습니다. AEM에서 Cloud Service 환경으로 자동으로 구성됩니다.
 
 ## 가능한 솔루션 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_rep_guidance"
+>title="구현 지침"
+>abstract="가장 좋은 방법은 복제 에이전트에 따라 직접 사용자 지정 기능을 검토, 리팩터 및 최적화하여 Cloud Service으로 AEM과 호환되도록 하는 것입니다. 도움말 및 분류에 대한 Adobe 지원"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication" text="복제 - Cloud Service으로 AEM"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * AEM을 Cloud Service [개발 지침](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents) 및 [복제 에이전트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents)에 대한 릴리스 노트를 참조하십시오.
 * 복제 에이전트에 따라 기능을 직접 검토, 리팩터 및 최적화하여 비즈니스 작업을 수행합니다.
