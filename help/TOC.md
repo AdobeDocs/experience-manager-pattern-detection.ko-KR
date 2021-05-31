@@ -6,9 +6,9 @@ user-guide-description: Adobe Experience Manager 패턴 감지에 대해 알아�
 feature-set: Experience Manager
 feature: 개발자 도구
 role: Developer
-source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
+source-git-commit: aaa66b80725dc92fc3e21c198f820f0cf6255da5
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '46'
 ht-degree: 6%
 
 ---
@@ -41,3 +41,4 @@ ht-degree: 6%
 + [URC](urc.md)
 + [URS](urs.md)
 + [작업](wrk.md)
++ [CIF](cif.md)
