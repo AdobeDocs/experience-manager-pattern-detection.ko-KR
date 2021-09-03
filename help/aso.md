@@ -2,10 +2,10 @@
 title: ASO
 description: 패턴 탐지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '309'
+ht-degree: 4%
 
 ---
 
@@ -25,15 +25,15 @@ AEM 시스템 개요
 
 하위 유형은 다양한 유형의 정보를 식별하는 데 사용됩니다.
 
-* `aem.version`:AEM 버전입니다.
-* `aem.product`:AEM 제품 사용 감지(상거래, Forms 등).
-* `node.count`:특정 유형의 대략적인 노드 수(페이지, 자산 등)입니다.
-* `node.store`:노드 저장소 구현 유형(SegmentNodeStore, DocumentNodeStore)입니다.
-* `data.store`:데이터 저장소 구현 유형(FileDataStore, S3DataStore, AzureDataStore)입니다.
-* `maintenance.task`:유지 관리 작업입니다.
-* `slow.query`:느린 쿼리
+* `aem.version`: AEM 버전입니다.
+* `aem.product`: AEM 제품 사용 감지(상거래, Forms 등).
+* `node.count`: 특정 유형의 대략적인 노드 수(페이지, 자산 등) 그리고 노드의 총 합계입니다.
+* `node.store`: 노드 저장소 구현 유형(SegmentNodeStore, DocumentNodeStore) 및 그 크기입니다.
+* `data.store`: 데이터 저장소 구현 유형(FileDataStore, S3DataStore, AzureDataStore)입니다.
+* `maintenance.task`: 유지 관리 작업입니다.
+* `slow.query`: 느린 쿼리
 
-## 가능한 의미 및 위험 {#implications-and-risks}
+## 가능한 의미와 위험 {#implications-and-risks}
 
 * AEM 버전, 노드 수, 노드 저장소 및 데이터 저장소 구현 유형은 정보 제공을 위해 제공됩니다.
 * 사용자 지정 애플리케이션은 AEM에서 Cloud Service으로 사용할 수 없는 제품이나 기능을 사용할 수 있습니다.
