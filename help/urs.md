@@ -2,10 +2,10 @@
 title: URS
 description: 패턴 탐지기 코드 도움말 페이지
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 3%
 
 ---
 
@@ -27,13 +27,14 @@ ht-degree: 0%
 * AEM as a Cloud Service에 대해 이러한 지침을 따르는 것이 좋습니다.
 
 하위 유형은 해결해야 하는 특정 유형의 저장소 문제를 식별하는 데 사용됩니다.
-* `clientlibs.location`:경로별로 참조하 `/etc` 는 클라이언트 라이브러리.
-* `file.location`:설치  `/etc` 후 수정된 아래의 파일입니다.
-* `node.location`:설치  `/etc` 후 수정된 아래의 노드입니다.
-* `workflow.location`:아래의 워크플로우 모델 또는 런처  `/etc/workflow`.
-* `package.structure`:변경할 수 있는 컨텐츠와 변경할 수 없는 컨텐츠를 모두 포함하는 패키지입니다.
+* `clientlibs.location`: 경로별로 참조하 `/etc` 는 클라이언트 라이브러리.
+* `file.location`: 설치  `/etc` 후 수정된 아래의 파일입니다.
+* `node.location`: 설치  `/etc` 후 수정된 아래의 노드입니다.
+* `workflow.location`: 아래의 워크플로우 모델 또는 런처  `/etc/workflow`.
+* `package.structure`: 변경할 수 있는 컨텐츠와 변경할 수 없는 컨텐츠를 모두 포함하는 패키지입니다.
+* `node.name.length`: 지원되지 않는 길이의 노드 이름입니다.
 
-## 가능한 의미 및 위험 {#implications-and-risks}
+## 가능한 의미와 위험 {#implications-and-risks}
 
 * 이전 경로에 의존하는 사용자 지정 코드는 원치 않는 동작과 제품 기능에 영향을 줄 수 있습니다.
 * 변경할 수 있는 컨텐츠와 변경할 수 없는 컨텐츠를 모두 포함하는 패키지는 배포 중에 문제를 일으킬 수 있습니다.
