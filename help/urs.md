@@ -2,9 +2,9 @@
 title: URS
 description: 패턴 탐지기 코드 도움말 페이지
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
+source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '431'
 ht-degree: 3%
 
 ---
@@ -16,14 +16,16 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="지원되지 않는 저장소 구조"
->abstract="URS는 지원되지 않는 저장소 구조의 사례를 식별합니다. 이는 AEM 제품 코드와 고객 코드 간의 충돌, /etc에서 저장소의 다른 폴더로 재구성된 컨텐츠 등을 방지하기 위한 정보를 나타냅니다."
+>abstract="URS는 지원되지 않는 저장소 구조 및 노드 특성의 사례를 식별합니다. 이는 AEM 제품 코드와 고객 코드 간의 충돌, /etc에서 저장소의 다른 폴더로 재구성된 컨텐츠 등을 방지하기 위한 정보를 나타냅니다."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="저장소 구조 변경"
 
 ## 배경 {#background}
 
-`URS` 지원되지 않는 저장소 구조의 사례를 식별합니다. AEM 6.4부터 저장소 컨텐츠 재구성에 대한 지침이 제공되었습니다. AEM 제품 코드와 고객 코드에 대한 계층을 명확히 설명하고 계층 간 충돌을 방지하여 컨텐츠가 `/etc`에서 리포지토리의 다른 폴더로 재구성되어 다음 고급 규칙을 따릅니다.
+`URS` 지원되지 않는 저장소 구조 및 노드 특성의 사례를 식별합니다. AEM 6.4부터 저장소 컨텐츠 재구성에 대한 지침이 제공되었습니다. AEM 제품 코드와 고객 코드에 대한 계층을 명확히 설명하고 계층 간 충돌을 방지하여 컨텐츠가 `/etc`에서 리포지토리의 다른 폴더로 재구성되어 다음 고급 규칙을 따릅니다.
 
-* AEM 제품 코드는 항상 `/libs`에 배치되며, 사용자 지정 코드는 `/apps`, `/content` 및 `/conf`에 삽입해야 합니다.
+* AEM 제품 코드는 항상 `/libs`에 배치되며, 사용자 지정 코드로 덮어쓰면 안 됩니다.
+* 사용자 지정 코드는 `/apps`, `/content` 및 `/conf`에 삽입해야 합니다.
+* AEM as a Cloud Service은 긴 노드 이름(>150바이트)을 지원하지 않습니다.
 * AEM as a Cloud Service에 대해 이러한 지침을 따르는 것이 좋습니다.
 
 하위 유형은 해결해야 하는 특정 유형의 저장소 문제를 식별하는 데 사용됩니다.
