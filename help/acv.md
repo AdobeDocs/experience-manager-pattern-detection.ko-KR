@@ -39,7 +39,7 @@ Assets Content Validator
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="구현 지침"
->abstract="Adobe은 상속된 속성에 의존하는 끊어진 워크플로우를 방지하기 위해 컨텐츠 구조를 검토하도록 권장합니다. 도움이 필요하면 고객 지원팀에 문의하십시오.&quot;
+>abstract="Adobe은 상속된 속성에 의존하는 끊어진 워크플로우를 방지하기 위해 컨텐츠 구조를 검토하도록 권장합니다. 도움이 필요하면 고객 지원팀에 문의하십시오."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 누락된 하위 노드가 있는 폴더를 분석합니다. 폴더 수를 관리할 수 있으면 수동으로 노드를 만들고, 그렇지 않으면 스크립트를 사용합니다.
