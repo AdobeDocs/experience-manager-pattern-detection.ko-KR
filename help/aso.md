@@ -2,9 +2,9 @@
 title: ASO
 description: 패턴 탐지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
+source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '324'
 ht-degree: 4%
 
 ---
@@ -32,11 +32,12 @@ AEM 시스템 개요
 * `data.store`: 데이터 저장소 구현 유형(FileDataStore, S3DataStore, AzureDataStore)입니다.
 * `maintenance.task`: 유지 관리 작업입니다.
 * `slow.query`: 느린 쿼리
+* `group.membership`: 그룹의 사용자 및 하위 그룹( 직접/선언된 멤버만) 수입니다.
 
 ## 가능한 의미와 위험 {#implications-and-risks}
 
-* AEM 버전, 노드 수, 노드 저장소 및 데이터 저장소 구현 유형은 정보 제공을 위해 제공됩니다.
-* 사용자 지정 애플리케이션은 AEM에서 Cloud Service으로 사용할 수 없는 제품이나 기능을 사용할 수 있습니다.
+* AEM 버전, 노드 수, 그룹 멤버십 및 노드 저장소 및 데이터 저장소 구현 유형은 정보용으로 제공됩니다.
+* 사용자 지정 애플리케이션은 AEM as a Cloud Service에서 사용할 수 없는 제품이나 기능을 사용할 수 있습니다.
 * 지원되지 않는 기능을 사용하여 업그레이드하면 업그레이드에 실패하고 작동하지 않는 응용 프로그램이 발생할 수 있습니다.
 
 ## 가능한 솔루션 {#solutions}
@@ -44,9 +45,9 @@ AEM 시스템 개요
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="구현 지침"
->abstract="ASO 코드를 통해 노출된 정보는 버전, 제품 추가 기능, 시스템 수준 정보 등 AEM 환경에 대한 일반 정보를 제공하며, 이 정보는 AEM as a Cloud Service에서 지원되지 않는 제품 또는 기능에 대해 검토해야 합니다. 도움말 및 분류에 대한 Adobe 지원 센터에 문의하십시오."
+>abstract="ASO 코드를 통해 노출된 정보는 버전, 제품 추가 기능, 시스템 수준 정보 등 AEM 환경에 대한 일반 정보를 제공하며 AEM as a Cloud Service에서 지원되지 않는 제품이나 기능에 대해 검토해야 합니다. 도움말 및 분류에 대한 Adobe 지원 센터에 문의하십시오."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 지원되지 않는 제품이나 기능을 사용한 AEM 업그레이드는 권장되지 않으며 지원되지 않을 수 있습니다.
-* AEM as a Cloud Service의 최신 변경 사항에 대해 알아보려면 [릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ko-KR)를 검토하십시오.
-* 명확히 하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+* 를 검토합니다. [릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ko-KR) AEM as a Cloud Service의 최신 변경 사항에 대해 알아보십시오.
+* 연락하여 [AEM 지원 팀](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 명확히 하거나 문제를 해결하기 위해.
