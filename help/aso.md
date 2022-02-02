@@ -2,9 +2,9 @@
 title: ASO
 description: 패턴 탐지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
+source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '359'
 ht-degree: 4%
 
 ---
@@ -33,10 +33,14 @@ AEM 시스템 개요
 * `maintenance.task`: 유지 관리 작업입니다.
 * `slow.query`: 느린 쿼리
 * `group.membership`: 그룹의 사용자 및 하위 그룹( 직접/선언된 멤버만) 수입니다.
+* `cqtag.count`: CQ 태그가 지정된 자산 수입니다.
+* `smarttag.count`: 스마트 태그가 지정된 자산 수입니다.
+* `ccom.version`: 코어 구성 요소 패키지의 버전입니다.
+* `instance.type`: AEM 인스턴스 유형(작성자|게시)입니다.
 
 ## 가능한 의미와 위험 {#implications-and-risks}
 
-* AEM 버전, 노드 수, 그룹 멤버십 및 노드 저장소 및 데이터 저장소 구현 유형은 정보용으로 제공됩니다.
+* AEM 버전, 노드 수, 그룹 멤버십, 노드 저장소, 데이터 저장소 구현 유형, CQ 태그 수, 스마트 태그 수, 코어 구성 요소 버전 및 AEM 인스턴스 유형이 정보용으로 제공됩니다.
 * 사용자 지정 애플리케이션은 AEM as a Cloud Service에서 사용할 수 없는 제품이나 기능을 사용할 수 있습니다.
 * 지원되지 않는 기능을 사용하여 업그레이드하면 업그레이드에 실패하고 작동하지 않는 응용 프로그램이 발생할 수 있습니다.
 
