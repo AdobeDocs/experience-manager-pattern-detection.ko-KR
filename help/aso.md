@@ -2,9 +2,9 @@
 title: ASO
 description: 패턴 탐지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
+source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '364'
 ht-degree: 4%
 
 ---
@@ -37,6 +37,7 @@ AEM 시스템 개요
 * `smarttag.count`: 스마트 태그가 지정된 자산 수입니다.
 * `ccom.version`: 코어 구성 요소 패키지의 버전입니다.
 * `instance.type`: AEM 인스턴스 유형(작성자|게시)입니다.
+* `unprocessed.asset.count`: 처리되지 않은 자산 수입니다.
 
 ## 가능한 의미와 위험 {#implications-and-risks}
 
