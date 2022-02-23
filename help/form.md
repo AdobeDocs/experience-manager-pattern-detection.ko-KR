@@ -2,7 +2,7 @@
 title: FORM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 75024e4af3be2d58edf8b77de9a5e6b397bbdf5c
+source-git-commit: 6b4d13ba49aba72be60f01eb040b0cb7e7741694
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 97%
@@ -58,9 +58,9 @@ ht-degree: 97%
 
 * 이제 CAPTCHA 구성 요소는 기본적으로 Google reCAPTCHA 서비스를 사용하여 CAPTCHA의 유효성을 검사합니다. Adobe Experience Manager를 사용하여 CAPTCHA의 유효성을 검사하는 옵션은 더 이상 사용되지 않습니다. (FORMS_CAPTCHA)
 
-* [!DNL AEM Forms] 앱은 [!DNL Cloud Services]에서 사용할 수 없습니다. (AEM_FORMS_APP)
-
 * [문서 서비스](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) 단계는 AEM Workflow에서 사용할 수 없습니다. (WORKFLOW_DOCSERVICES)
+
+* [!DNL AEM Forms] 앱은 [!DNL Cloud Services]에서 사용할 수 없습니다. (AEM_FORMS_APP)
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -92,10 +92,10 @@ ht-degree: 97%
 
 * Adobe Experience Manager에서 제공하는 CAPTCHA 서비스 대신 Google reCaptcha를 사용하십시오. (FORMS._CAPTCHA)
 
-* 적응형 양식은 반응형 디자인을 제공합니다. 이러한 양식은 기본 디바이스에 따라 모양, 디자인 및 인터랙티브 요소를 변경합니다. 모바일 디바이스에서 적응형 양식을 계속 사용할 수 있습니다. [!DNL AEM Forms] 앱의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. (AEM_FORMS._APP)
-
 * 문서 서비스 워크플로 단계를 사용하는 AEM Workflow 모델을 마이그레이션하지 마십시오. 또한 문서 서비스 워크플로 단계를 사용하는 워크플로 모델로 사용자 데이터를 전송하는 적응형 양식을 마이그레이션 또는 업데이트하거나 양식을 마이그레이션하기 전에 제출 액션을 [지원되는 액션](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)으로 변경하지 마십시오. (WORKFLOW_DOCSERVICES)
 
 * XFA 기반 적응형 양식에 대한 지원은 즉시 사용할 수 없습니다. XFA 기반 적응형 양식을 사용하려는 경우 Adobe 지원 팀에 문의하여 사용 사례 및 특정 요구 사항에 대해 자세히 알아보십시오.(XFA_BASED_FORM, XDP_BASED_FORM)
+
+* 적응형 양식은 반응형 디자인을 제공합니다. 이러한 양식은 기본 디바이스에 따라 모양, 디자인 및 인터랙티브 요소를 변경합니다. 모바일 디바이스에서 적응형 양식을 계속 사용할 수 있습니다. [!DNL AEM Forms] 앱의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. (AEM_FORMS._APP)
 
 필요한 설명을 얻거나 문제를 해결하려면 [Adobe 지원 팀](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
