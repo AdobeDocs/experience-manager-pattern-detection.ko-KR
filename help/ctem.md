@@ -1,52 +1,52 @@
 ---
 title: CTEM
-description: 패턴 탐지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # CTEM {#ctem}
 
-사용자 정의 템플릿
+사용자 지정 템플릿
 
 ## 배경 {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
->title="사용자 정의 템플릿"
->abstract="CTEM은 AEM에 설치된 사용자 지정 구성 요소를 식별합니다. 이 정보는 Best Practices 평가를 위해 제공됩니다"
+>title="사용자 지정 템플릿"
+>abstract="CTEM은 AEM에 설치된 사용자 지정 구성 요소를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다."
 
-`CTEM` AEM에 설치된 사용자 지정 템플릿을 식별합니다. 이 정보는 모범 사례 평가를 위해 제공됩니다.
+`CTEM`은 AEM에 설치된 사용자 지정 템플릿을 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
 
-템플릿은 &quot;cq:Template&quot;이라는 기본 유형 값으로 식별됩니다. 템플릿의 카테고리를 식별하기 위해 하위 유형이 이 코드와 함께 사용됩니다.
+템플릿은 “cq:Template”의 기본 유형 값을 통해 식별됩니다. 템플릿의 범주를 식별하기 위해 하위 유형이 이 코드와 함께 사용됩니다.
 
-* `custom.editable.template`:템플릿의 경로는 &quot;/apps&quot;로 시작되지 않습니다.
-* `custom.static.template`:템플릿의 경로는 &quot;/apps&quot;로 시작합니다.
+* `custom.editable.template`: “/apps”로 시작하지 않는 템플릿 패스
+* `custom.static.template`: “/apps”로 시작하는 템플릿 패스
 
-## 가능한 의미 및 위험 {#implications-and-risks}
+## 가능한 영향 및 위험 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 이동하는 것입니다. 고객은 기존 AEM 현대화 도구를 활용하여 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
+>abstract="가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다. 고객은 기존 AEM 현대화 도구를 사용하여 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html" text="편집 가능한 템플릿"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 현대화 도구"
 
-* 가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 이동하는 것입니다.
+* 가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다.
 
-## 가능한 솔루션 {#solutions}
+## 가능한 해결 방법 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="도구 및 리소스"
->abstract="AEM 현대화 세트의 도움을 받아 고객이 정적 정의에서 편집 가능한 템플릿으로 페이지의 구조를 조작할 수 있습니다. 고객이 기존 기능의 제한된 기능에서 강력하고 최신 AEM 오퍼링으로 이동할 수 있도록 지원하기 위한 것입니다. 이러한 도구는 구성, 구성 인식 및 확장 가능합니다. 도움말 및 분류에 대한 Adobe 지원 센터에 문의하십시오"
+>abstract="AEM 현대화 제품군을 통해 고객은 정적 정의에서 편집 가능한 템플릿으로 페이지 구조를 조작할 수 있습니다. 이는 고객이 제한된 기존 기능에서 강력한 최신 AEM 서비스로 전환하는 것을 돕기 위함입니다. 이들 기능은 구성, 구성 인식 및 확장이 가능합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="페이지 구조 변환기"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
+>additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
-* [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/)를 활용하여 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션합니다.
-* [템플릿](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)에서 편집 가능한 템플릿에 대한 자세한 정보를 찾을 수 있습니다.
-* 명확히 하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+* [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/)를 활용하여 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다.
+* [템플릿](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)에서 편집 가능한 템플릿에 대해 자세히 알아보십시오.
+* 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
