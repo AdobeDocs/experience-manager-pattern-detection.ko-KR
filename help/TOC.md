@@ -7,9 +7,9 @@ feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
 source-git-commit: cf5f2f8a9bcc4d745f424570875d21001e2f26f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '47'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 + [OU](ou.md)
 + [PCX](pcx.md)
 + [[!DNL REP]](rep.md)
-+ [유미](umi.md)
++ [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
-+ [작업](wrk.md)
++ [WRK](wrk.md)
