@@ -60,7 +60,7 @@ ht-degree: 97%
 
 * [!DNL AEM Forms] 앱은 [!DNL Cloud Services]에서 사용할 수 없습니다. (AEM_FORMS_APP)
 
-* [문서 서비스](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) 단계는 AEM Workflow에서 사용할 수 없습니다. (WORKFLOW_DOCSERVICES)
+* [문서 서비스](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=ko#deployment-topology) 단계는 AEM Workflow에서 사용할 수 없습니다. (WORKFLOW_DOCSERVICES)
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -98,4 +98,4 @@ ht-degree: 97%
 
 * XFA 기반 적응형 양식에 대한 지원은 즉시 사용할 수 없습니다. XFA 기반 적응형 양식을 사용하려는 경우 Adobe 지원 팀에 문의하여 사용 사례 및 특정 요구 사항에 대해 자세히 알아보십시오.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-필요한 설명을 얻거나 문제를 해결하려면 [Adobe 지원 팀](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+자세한 설명이 필요하거나 문제를 해결하려면 [Adobe 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
