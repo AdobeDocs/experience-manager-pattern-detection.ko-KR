@@ -1,14 +1,13 @@
 ---
 source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
 # Adobe Experience Manager 설명서에 대한 기여
 
-Adobe Experience Manager 문서에 기여해 주셔서 감사합니다! Adobe는 전체 Reader 커뮤니티의 기여뿐만 아니라 동료 Adobe 직원의 컨텐츠 기여 또한 환영합니다.
+Adobe Experience Manager 문서에 기여해 주셔서 감사합니다! Adobe는 전체 Reader 커뮤니티의 기여뿐만 아니라 동료 Adobe 직원의 콘텐츠 기여 또한 환영합니다.
 
 이 파일은 설명서에 기여할 수 있는 방법을 설명하고 기여할 때 따라야 할 지침을 안내합니다.
 
@@ -59,4 +58,4 @@ Adobe에서는 물론 모든 기여를 환영하며 공개 보관소에 게재�
 
 ## 추가 정보
 
-GitHub 작성 플랫폼을 사용하는 방법에 대한 자세한 내용은 [Adobe 문서 기여 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
+GitHub 작성 플랫폼을 사용하는 방법에 대한 자세한 내용은 [Adobe 문서 기여 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko-KR)를 참조하십시오.
