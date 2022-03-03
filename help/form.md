@@ -3,9 +3,9 @@ title: FORM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 127f6ee2268d27d78067f030ef343da50a625004
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 97%
 
 * 확인 단계를 사용할 수 없습니다. (VERIFY_STEP)
 
-* **[!UICONTROL Forms Workflow에 제출]** 액션을 사용할 수 없습니다. AEM 6.5 Forms 및 이전 버전에서 제출 작업 은 JEE 워크플로우 및 LiveCycle Workflow의 기존 AEM Forms에 적응형 양식 데이터를 제출하는 데 사용되었습니다. (LC_WORKFLOW_SUBMISSION)
+* **[!UICONTROL Forms Workflow에 제출]** 액션을 사용할 수 없습니다. AEM 6.5 Forms 및 이전 버전에서는 제출 액션을 사용하여 기존 JEE Workflow의 AEM Forms 및 LiveCycle Workflow에 적응형 양식을 제출했습니다. (LC_WORKFLOW_SUBMISSION)
 
 * 대화형 커뮤니케이션 기능을 사용할 수 없습니다. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 
 * [!DNL AEM Forms] 앱은 [!DNL Cloud Services]에서 사용할 수 없습니다. (AEM_FORMS_APP)
 
-* [문서 서비스](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) 단계는 AEM Workflow에서 사용할 수 없습니다. (WORKFLOW_DOCSERVICES)
+* [문서 서비스](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=ko#deployment-topology) 단계는 AEM Workflow에서 사용할 수 없습니다. (WORKFLOW_DOCSERVICES)
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -68,7 +68,7 @@ ht-degree: 97%
 >id="aemcloud_bpa_forms_guidance"
 >title="구현 지침"
 >abstract="FORMS 코드를 통해 노출된 정보에서 일부 기능 및 API를 Cloud Service와 호환되도록 하는 데 필요한 대체 기능 및 기타 작업에 대한 지침을 얻을 수 있습니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
+>additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 마이그레이션 유틸리티를 사용하여 환경의 모든 규칙 스크립트를 재사용 가능한 기능으로 변환하십시오. 재사용 가능한 기능을 시각적 규칙 편집기와 함께 사용하여 규칙 스크립트를 통해 얻은 결과를 유지할 수 있습니다. (CODE_EDITOR)
 
@@ -90,12 +90,12 @@ ht-degree: 97%
 
 * 메타데이터 아코디언에 대한 대체 기능은 존재하지 않습니다. Cloud Service로 마이그레이션하기 전에 귀하의 양식에서 메타데이터 아코디언을 제거하십시오.(METADATA_ACCORDION_FORM_CONTAINER)
 
-* Adobe Experience Manager에서 제공하는 CAPTCHA 서비스 대신 Google reCaptcha를 사용하십시오. (FORMS._CAPTCHA)
+* Adobe Experience Manager에서 제공하는 CAPTCHA 서비스 대신 Google reCaptcha를 사용하십시오. (FORMS_CAPTCHA)
 
 * 문서 서비스 워크플로 단계를 사용하는 AEM Workflow 모델을 마이그레이션하지 마십시오. 또한 문서 서비스 워크플로 단계를 사용하는 워크플로 모델로 사용자 데이터를 전송하는 적응형 양식을 마이그레이션 또는 업데이트하거나 양식을 마이그레이션하기 전에 제출 액션을 [지원되는 액션](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)으로 변경하지 마십시오. (WORKFLOW_DOCSERVICES)
 
-* 적응형 양식은 반응형 디자인을 제공합니다. 이러한 양식은 기본 디바이스에 따라 모양, 디자인 및 인터랙티브 요소를 변경합니다. 모바일 디바이스에서 적응형 양식을 계속 사용할 수 있습니다. [!DNL AEM Forms] 앱의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. (AEM_FORMS._APP)
+* 적응형 양식은 반응형 디자인을 제공합니다. 이러한 양식은 기본 디바이스에 따라 모양, 디자인 및 인터랙티브 요소를 변경합니다. 모바일 디바이스에서 적응형 양식을 계속 사용할 수 있습니다. [!DNL AEM Forms] 앱의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. (AEM_FORMS_APP)
 
 * XFA 기반 적응형 양식에 대한 지원은 즉시 사용할 수 없습니다. XFA 기반 적응형 양식을 사용하려는 경우 Adobe 지원 팀에 문의하여 사용 사례 및 특정 요구 사항에 대해 자세히 알아보십시오.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-필요한 설명을 얻거나 문제를 해결하려면 [Adobe 지원 팀](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+자세한 설명이 필요하거나 문제를 해결하려면 [Adobe 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
