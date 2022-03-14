@@ -2,14 +2,14 @@
 title: UMI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+source-git-commit: e72ddc20578f8ca736da198e626478816e7ca641
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# UMI {#umi}
+# 유미 {#umi}
 
 업그레이드 구성 오류 문제
 
@@ -29,6 +29,7 @@ ht-degree: 100%
 * `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
+* `com.day.cq.commons.impl.ExternalizerImpl`
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -36,6 +37,7 @@ ht-degree: 100%
    * 업그레이드가 멈출 수 있습니다(예: `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName`이 누락되었지만 `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`에 존재함).
    * 업그레이드 이후 인증 문제가 발생할 수 있습니다(`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * 특정 기능이 예상대로 작동하지 않을 수 있습니다. 예를 들어 `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`를 변경하면 일부 JSP 파일이 컴파일되지 않아 궁극적으로 기능 손실이 발생할 수 있습니다.
+   * 외부 도우미 구성의 값 `com.day.cq.commons.impl.ExternalizerImpl` 는 AEM as a Cloud Service에서 cloud manager 환경 변수에 의해 설정됩니다.
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -43,8 +45,9 @@ ht-degree: 100%
 >id="aemcloud_bpa_umi_guidance"
 >title="구현 지침"
 >abstract="가장 좋은 방법은 현재 구성을 검토하고 언급된 구성에 대한 변경 내용을 이전으로 되돌려 향후 발생할 업그레이드 문제를 방지하는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
->additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 위에서 언급한 4가지의 구성을 변경하거나 제거하지 마십시오.
 * 구성을 변경한 경우 예상 값으로 다시 복원해야 합니다. 이들 값은 `UMI` 메시지에 기재되어 있습니다.
+* 대상 `com.day.cq.commons.impl.ExternalizerImpl`을(를) 참조하십시오. [설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=en) AEM as a Cloud Service에서 cloud manager 환경 변수를 사용하여 externalizer 구성을 설정하는 중입니다.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
