@@ -3,9 +3,9 @@ title: LUI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -25,20 +25,20 @@ ht-degree: 73%
 
 업그레이드해야 하는 다양한 유형의 사용자 인터페이스 요소를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
-* `legacy.dialog.classic`: ExtJS를 기반으로 하는 클래식 UI 대화 상자는 Coral로 변경해야 합니다.
+* `legacy.dialog.classic`: ExtJS 기반의 클래식 UI 대화 상자를 식별하며, 코랄로 변경해야 합니다.
    * 이는 대화 상자 이름이 “dialog” 또는 “design_dialog”이며 `jcr:primaryType` 속성 값 또는 `xtype` 속성 값이 “cq:Dialog”인 경우 감지됩니다.
-* `legacy.dialog.coral2`: Coral 2 대화 상자는 Coral 3을 사용하도록 업데이트해야 합니다.
+* `legacy.dialog.coral2`: 코랄 2 대화 상자를 식별하며, 코랄 3을 사용하도록 업데이트해야 합니다.
    * 이는 대화 상자 및 하위 콘텐츠 노드 이름이 “cq:dialog/content”, “cq:design_dialog/content”, “cq:dialog.coral2/content” 또는 “cq:design_dialog.coral2/content”이며 `sling:resourceType` 속성 값에 “granite/ui/components/coral/foundation”이 포함되어 있지 않은 경우 감지됩니다.
-* `legacy.custom.component`: 에서 상속되는 구성 요소 `foundation/components` 핵심 구성 요소를 사용하도록 를 업데이트해야 합니다.
+* `legacy.custom.component`: `foundation/components`로부터 상속받는 구성 요소를 식별하며, 핵심 구성 요소를 사용하도록 업데이트해야 합니다.
    * 이는 `jcr:primaryType` 속성 값이 “cq:Component”인 경우와
       `sling:resourceSuperType` 속성 값에 “foundation/components”가 포함되어 있는 경우, 또는
       슈퍼타입 구성 요소 체인의 `sling:resourceSuperType` 속성 값에 “foundation/components”가 포함되어 있는 경우 감지됩니다.
-* `legacy.static.template`: 정적 템플릿은 편집 가능한 템플릿으로 업그레이드해야 합니다.
+* `legacy.static.template`: 정적 템플릿을 식별하며, 편집 가능한 템플릿으로 업그레이드해야 합니다.
    * 이는 `jcr:primaryType` 속성 값이 “cq:Template”인 경우 감지됩니다.
-* `content.fragment.template`: 컨텐츠 조각 템플릿은 조각 템플릿을 대체할 조각 모델을 만들어야 합니다.
-   * 컨텐츠 조각 템플릿은 다음 위치에 있습니다.
-      * 즉시 사용 가능한 컨텐츠 조각 템플릿은에 저장됩니다. `/libs/settings/dam/cfm/templates`
-      * 그것들은 오버레이될 수 있다  `/apps/settings/dam/cfm/templates`  또는  `/conf/.../settings/dam/cfm/templates`(... = 글로벌 또는 &quot;테넌트&quot;)
+* `content.fragment.template`: 콘텐츠 조각 템플릿이 조각 템플릿을 대체할 조각 모델을 생성해야 합니다.
+   * 콘텐츠 조각 템플릿은 다음 위치에서 찾을 수 있습니다.
+      * 기본 제공 콘텐츠 조각 템플릿은 `/libs/settings/dam/cfm/templates`에 저장됩니다.
+      * 이는 `/apps/settings/dam/cfm/templates` 또는 `/conf/.../settings/dam/cfm/templates`(... = global 또는 &quot;tenant&quot;)에 오버레이할 수 있습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -50,7 +50,7 @@ ht-degree: 73%
 
 * 클래식 UI는 AEM as a Cloud Service에서 더 이상 사용할 수 없습니다. 제작을 위한 표준 인터페이스는 터치 기능이 지원되는 UI입니다.
 * 기존 사용자 지정 구성 요소에 의지하면 시간이 지남에 따라 유지 관리에 더 많은 비용이 필요하게 될 수 있습니다.
-* 컨텐츠 조각 템플릿은 AEM 6.3의 컨텐츠 조각 모델로 대체되었습니다. 기존 템플릿을 기반으로 하는 컨텐츠 조각을 AEM as a Cloud Service으로 마이그레이션하면 이러한 조각이 기능적으로 유지되지만, 기존 템플릿을 기반으로 새 조각을 생성할 수는 없습니다. 또한 컨텐츠 조각 모델을 스키마로 필요로 하는 AEM GraphQL을 사용하여 이러한 조각을 전달할 수도 없습니다.
+* 콘텐츠 조각 템플릿은 AEM 6.3에서 콘텐츠 조각 모델로 대체되었습니다. 레거시 템플릿을 기반으로 하는 콘텐츠 조각을 AEM as a Cloud Service로 마이그레이션하면 이들 조각은 기능적으로 유지되지만 레거시 템플릿을 기반으로 하는 새 조각은 생성할 수 없습니다. 또한 스키마로 콘텐츠 조각 모델을 필요로 하는 AEM GraphQL을 사용하여 이들 조각을 전달할 수 없습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -59,7 +59,7 @@ ht-degree: 73%
 >title="도구 및 리소스"
 >abstract="AEM 현대화 제품군을 통해 클래식(ExtJS) 대화 상자를 코랄 대화 상자로 변환할 수 있습니다. 이는 고객이 지원되지 않는 또는 기존 기능에서 강력한 최신 AEM 서비스로 전환하는 것을 돕기 위함입니다. 이들 기능은 구성, 구성 인식 및 확장이 가능합니다. 또한 사용자 지정 구성 요소를 표준화된 핵심 구성 요소 세트로 대체하여 개발을 가속화하고 애플리케이션 유지 관리 비용을 절감할 수 있습니다."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="구성 요소 변환기"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="코어 구성 요소"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ko" text="코어 구성 요소"
 
 * [AEM 현대화 도구 세트](https://opensource.adobe.com/aem-modernize-tools/)를 활용하여 AEM Sites 구현을 현대화하는 데 필요한 수고를 줄일 수 있습니다. 이들 도구에는 다음과 같은 변환 작업이 포함됩니다.
    * 클래식(ExtJS) 대화 상자를 코랄 대화 상자로 변환
@@ -67,5 +67,5 @@ ht-degree: 73%
    * 정적 템플릿 및 열 제어를 편집 가능한 템플릿 및 반응형 격자로 변환
    * 디자인 및 디자인 대화 상자를 편집 가능한 템플릿 정책으로 변환
 * 프로젝트의 사용자 지정 구성 요소 라이브러리를 검토하고 가능한 경우 표준화된 [핵심 구성 요소](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) 세트로 전환하면 개발을 가속화하고 애플리케이션 유지 관리 비용을 절감할 수 있습니다.
-* 기존 템플릿에 동등한 기능을 가진 컨텐츠 조각 모델을 만들고 이 모델을 사용하여 컨텐츠를 앞으로 만드는 것이 좋습니다.참조: [컨텐츠 조각 모델](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) 자세한 내용
+* 레거시 템플릿과 동등한 기능을 가진 콘텐츠 조각 모델을 생성하고 이들 모델을 사용하여 콘텐츠 조각을 만드는 것이 좋습니다. 자세한 내용은 [콘텐츠 조각 모델](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=ko)을 참조하십시오.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
