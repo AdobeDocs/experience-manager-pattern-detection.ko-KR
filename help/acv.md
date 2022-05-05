@@ -2,9 +2,9 @@
 title: ACV
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
+source-git-commit: 09e6149b971dc975dff517d98f8b2faaa8138b51
 workflow-type: ht
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -22,17 +22,19 @@ Assets 콘텐츠 유효성 검사기
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="주요 변경 내용 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager as a Cloud Service - 릴리스 정보"
 
-`ACV`(Assets Content Validator)는 에셋 콘텐츠의 누락된 필수 노드를 식별합니다. 이로 인해 Experience Manager as a Cloud Service의 특정 Assets 기능이 작동하지 않을 수 있습니다.
+`ACV`  Assets Content Validator는 에셋 콘텐츠에서 누락된 필수 노드 및 위반 사항을 식별합니다. 이로 인해 Experience Manager as a Cloud Service의 특정 Assets 기능이 작동하지 않을 수 있습니다.
 
 다양한 유형의 정보 식별을 위해 다음과 같은 하위 유형이 사용됩니다.
 
 * `missing.jcrcontent`: 저장소에서 누락된 필수 노드가 포함된 폴더를 식별합니다. 저장소에서 누락된 콘텐츠를 식별하면 기능 또는 사용 사례가 끊어지는 것을 방지할 수 있습니다.
 * `missing.original.rendition`: 저장소에서 누락된 필수 원본 렌디션이 포함된 에셋을 식별합니다.
+* `metadata.descendants.violation`: 저장소에 있는 에셋의 메타데이터 노드 아래에서 하위 항목이 100개를 초과하는 에셋을 식별합니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
 * 이로 인해 상속된 속성에 의존하는 Experience Manager as a Cloud Service의 특정 Assets 기능이 작동하지 않을 수 있습니다.
 * AEM Assets는 원본 렌디션의 존재 여부에 좌우됩니다. 원본 렌디션이 누락된 경우 Cloud Service에서 처리되는 에셋은 루프로 이동합니다.
+* 메타데이터 노드 아래에 하위 항목이 많으면 이를 위반하는 에셋으로 구성된 폴더의 로드 속도가 느려질 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
