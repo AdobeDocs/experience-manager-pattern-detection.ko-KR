@@ -2,9 +2,9 @@
 title: REP
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 254d530763c2fbddcb8203895662bfe1c7f66483
 workflow-type: ht
-source-wordcount: '426'
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,13 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents" text="개발 지침"
 
 `REP`는 활성화된 복제 에이전트를 식별합니다. 이들 에이전트는 AEM as a Cloud Service로 업그레이드할 때 해결해야 할 문제의 발생 가능성을 감지하기 위해 보고됩니다.
+
+다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
+
+* `forward.replication`: 활성화된 순방향 복제 에이전트를 식별합니다.
+* `reverse.replication`: 활성화된 역방향 복제 에이전트를 식별합니다.
+* `standard.replication.agent.modification`: 활성화되고 수정되는 표준 복제 에이전트를 식별합니다.
+* `custom.replication.agent.detection`: 활성화된 사용자 정의 복제 에이전트를 식별합니다.
 
 AEM as a Cloud Service는 [Sling 콘텐츠 배포](https://sling.apache.org/documentation/bundles/content-distribution.html)를 사용하여 작성자 환경에서 게시 환경으로 콘텐츠를 배포합니다. 이 작업은 AEM 런타임 이외의 시간에 Adobe I/O의 파이프라인 서비스를 사용하여 수행됩니다. 이는 프로비저닝된 AEM as a Cloud Service 환경에 자동으로 구성됩니다.
 
