@@ -3,13 +3,13 @@ title: UMI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: b19818f3f043641328b68adfe37a9c9cb09d1143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# 유미 {#umi}
+# UMI {#umi}
 
 업그레이드 구성 오류 문제
 
@@ -45,12 +45,12 @@ ht-degree: 86%
 >id="aemcloud_bpa_umi_guidance"
 >title="구현 지침"
 >abstract="가장 좋은 방법은 현재 구성을 검토하고 언급된 구성에 대한 변경 내용을 이전으로 되돌려 향후 발생할 업그레이드 문제를 방지하는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
+>additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 위에서 언급한 4가지의 구성을 변경하거나 제거하지 마십시오.
-   * 다음 위반 시:\
-      &quot;OSGi 구성 &#39;xyz-configuration&#39;에 필요한 속성이 없습니다. `[1,property-2..]&#39;.&quot;\
-      이러한 OSGI 구성이 OOTB이며 OSGi 구성 관리자에서 수정/저장된 적이 없으므로 이러한 삭제 내용이 기존 상태인지 확인하십시오.
+   * 다음 사항을 위반하는 경우:\
+      “OSGi 구성 “xyz-configuration”에 대한 필수 속성이 누락되었습니다. “[property-1, property-2 ...]”.”\
+      이러한 OSGI 구성이 OOTB이며 OSGi 구성 관리자에서 수정/저장된 적이 없을 수 있으므로 이러한 삭제가 합법적인지 여부를 확인하십시오.
 * 구성을 변경한 경우 예상 값으로 다시 복원해야 합니다. 이들 값은 `UMI` 메시지에 기재되어 있습니다.
 * `com.day.cq.commons.impl.ExternalizerImpl`에 대해서는 AEM as a Cloud Service의 클라우드 관리자 환경 변수를 사용하여 외부화 구성 설정하기에 대한 [설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=ko-kr)를 참조하십시오.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
