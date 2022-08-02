@@ -3,9 +3,9 @@ title: CTEM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 9a993a5cf078e5bc61cb5d314d2a15abcbd33f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="도구 및 리소스"
->abstract="AEM 현대화 제품군을 통해 고객은 정적 정의에서 편집 가능한 템플릿으로 페이지 구조를 조작할 수 있습니다. 이는 고객이 제한된 기존 기능에서 강력한 최신 AEM 서비스로 전환하는 것을 돕기 위함입니다. 이러한 도구는 구성 가능하고 구성 인식 가능하며 확장 가능합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="AEM 현대화 제품군을 통해 고객은 정적 정의에서 편집 가능한 템플릿으로 페이지 구조를 조작할 수 있습니다. 이는 고객이 제한된 기존 기능에서 강력한 최신 AEM 서비스로 전환하는 것을 돕기 위함입니다. 이들 기능은 구성, 구성 인식 및 확장이 가능합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="페이지 구조 변환기"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
+>additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/)를 활용하여 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다.
 * [템플릿](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)에서 편집 가능한 템플릿에 대해 자세히 알아보십시오.
