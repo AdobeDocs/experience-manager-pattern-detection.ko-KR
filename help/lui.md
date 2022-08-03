@@ -3,9 +3,9 @@ title: LUI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,9 +57,9 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="도구 및 리소스"
->abstract="AEM 현대화 제품군을 통해 클래식(ExtJS) 대화 상자를 코랄 대화 상자로 변환할 수 있습니다. 이는 고객이 지원되지 않는 또는 기존 기능에서 강력한 최신 AEM 서비스로 전환하는 것을 돕기 위함입니다. 이러한 도구는 구성 가능하고 구성 인식 가능하며 확장 가능합니다. 또한 사용자 지정 구성 요소를 표준화된 핵심 구성 요소 세트로 대체하여 개발을 가속화하고 애플리케이션 유지 관리 비용을 절감할 수 있습니다."
+>abstract="AEM 현대화 제품군을 통해 클래식(ExtJS) 대화 상자를 코랄 대화 상자로 변환할 수 있습니다. 이는 고객이 지원되지 않는 또는 기존 기능에서 강력한 최신 AEM 서비스로 전환하는 것을 돕기 위함입니다. 이들 기능은 구성, 구성 인식 및 확장이 가능합니다. 또한 사용자 지정 구성 요소를 표준화된 핵심 구성 요소 세트로 대체하여 개발을 가속화하고 애플리케이션 유지 관리 비용을 절감할 수 있습니다."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="구성 요소 변환기"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="코어 구성 요소"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ko" text="코어 구성 요소"
 
 * [AEM 현대화 도구 세트](https://opensource.adobe.com/aem-modernize-tools/)를 활용하여 AEM Sites 구현을 현대화하는 데 필요한 수고를 줄일 수 있습니다. 이들 도구에는 다음과 같은 변환 작업이 포함됩니다.
    * 클래식(ExtJS) 대화 상자를 코랄 대화 상자로 변환
