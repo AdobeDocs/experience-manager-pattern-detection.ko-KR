@@ -2,10 +2,10 @@
 title: DG
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 * `maintenance.task.configuration`: 특정 정기 유지 관리 활동 구성
 * `sling.commons.scheduler`: 예정된 작업에 대한 Sling Commons 스케줄러 API 사용
 * `unsupported.asset.api`: 애플리케이션 코드에서 지원되지 않는 에셋 관리자 API의 사용입니다.
+* `javax.jcr.observation.EventListener`: 애플리케이션 코드에서 이벤트 리스너 사용
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -51,6 +52,10 @@ ht-degree: 100%
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
+
+* `javax.jcr.observation.EventListener`
+   * 실행을 보장할 수 없기 때문에 이벤트 리스너에 종속된 애플리케이션이 예상대로 작동하지 않을 수 있습니다.
+
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -75,4 +80,7 @@ ht-degree: 100%
 
 * `unsupported.asset.api`
    * 에셋 관리자의 지원되지 않는 API를 사용하지 말고 [aem-upload](https://github.com/adobe/aem-upload)를 사용하십시오.
+
+* `javax.jcr.observation.EventListener`
+   * 이벤트 리스너를 사용하는 대신 이벤트 처리 메커니즘을 리팩터링하는 것이 좋습니다. [Sling 작업](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) 처리 보장을 제공하기 때문입니다.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
