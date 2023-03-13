@@ -3,9 +3,9 @@ title: ACV
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Assets 콘텐츠 유효성 검사기
 * `missing.original.rendition`: 저장소에서 누락된 필수 원본 렌디션이 포함된 에셋을 식별합니다. PDF의 페이지 미리보기는 AEMaaCS에서 하위 에셋을 생성할 필요가 없다는 점을 참고하십시오. 따라서 PDF 에셋의 경우 원본 렌디션이 누락된 하위 에셋 보고가 억제됩니다.
 * `metadata.descendants.violation`: 저장소에 있는 에셋의 메타데이터 노드 아래에서 하위 항목이 100개를 초과하는 에셋을 식별합니다.
 * `conflict.node`: /content/dam/ 경로 아래의 저장소에 충돌 노드가 있는지 식별합니다.
-* `psb.file.large`: 크기가 2GB보다 큰 큰 PSB 파일(dc:format : application/vnd.3gpp.pic-bw-small)을 식별합니다.
+* `psb.file.large`: 크기가 2GB보다 큰 대용량 PSB 파일(dc:format : application/vnd.3gpp.pic-bw-small)을 식별합니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -38,7 +38,7 @@ Assets 콘텐츠 유효성 검사기
 * AEM Assets는 원본 렌디션의 존재 여부에 좌우됩니다. 원본 렌디션이 누락된 경우 Cloud Service에서 처리되는 에셋은 루프로 이동합니다. 하위 에셋 생성은 AEMaaCS에서 지원되지 않습니다.
 * 메타데이터 노드 아래에 하위 항목이 많으면 이를 위반하는 에셋으로 구성된 폴더의 로드 속도가 느려질 수 있습니다.
 * 충돌 노드가 있으면 AEM as a Cloud Service에서 수집 실패가 발생할 수 있습니다.
-* Experience Manager은 매우 고해상도 PSB 파일을 처리하지 못할 수 있습니다. Experience Manager 서버에 대한 적절한 벤치마킹이 수행되지 않은 경우 대용량 파일 처리에 ImageMagick을 사용하는 고객이 성능에 영향을 줄 수 있습니다.
+* Experience Manager는 고해상도 PSB 파일을 처리하지 못할 수 있습니다. 대용량 파일을 처리하기 위해 ImageMagick을 사용하는 고객은 Experience Manager 서버를 적절하게 벤치마킹하지 않으면 성능에 영향을 받을 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -52,5 +52,5 @@ Assets 콘텐츠 유효성 검사기
 * 원본 렌디션이 누락된 에셋의 경우 에셋을 다시 업로드하거나 마이그레이션하기 전에 에셋을 삭제하십시오.
 * 누락된 하위 에셋 원본 렌디션에 대해서는 조치가 필요하지 않습니다.
 * 노드가 충돌하는 경우 AEM as a Cloud Service으로 마이그레이션하기 전에 노드를 해결하거나 삭제해야 할 수 있습니다.
-* 많은 대용량 PSD 또는 PSB 파일을 처리할 계획인 경우 Adobe 고객 지원 센터에 문의하십시오. Experience Manager은 30000 x 23000 픽셀보다 큰 고해상도 PSB 파일을 처리하지 못할 수 있습니다. 다음을 참조하십시오. [설명서](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
+* 여러 개의 대용량 PSD 또는 PSB 파일을 처리하려면 Adobe 고객 지원 센터에 문의하십시오. Experience Manager는 30000 x 23000픽셀이 넘는 고해상도 PSB 파일을 처리하지 못할 수 있습니다. [설명서](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html)를 참조하십시오.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
