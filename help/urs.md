@@ -3,7 +3,7 @@ title: URS
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 3e14d73acbe480dd861f492c24f67ffc37b1090d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 

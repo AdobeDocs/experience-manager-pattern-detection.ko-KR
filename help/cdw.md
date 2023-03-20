@@ -1,8 +1,9 @@
 ---
 title: CDW
 description: 패턴 감지기 코드 도움말 페이지
-source-git-commit: 04709ba74eedad903669aae589c605542e1e3b09
-workflow-type: ht
+exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
+source-git-commit: d12f2613493d9bf379464d9c089ad376532c4de2
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 

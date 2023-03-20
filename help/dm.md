@@ -3,7 +3,7 @@ title: DM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: FORM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 100%
 

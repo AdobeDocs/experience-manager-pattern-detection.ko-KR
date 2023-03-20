@@ -3,7 +3,7 @@ title: CCOM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 

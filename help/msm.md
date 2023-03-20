@@ -3,7 +3,7 @@ title: MSM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 
