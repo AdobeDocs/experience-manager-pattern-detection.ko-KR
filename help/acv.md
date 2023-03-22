@@ -2,7 +2,7 @@
 title: ACV
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
+source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
@@ -52,5 +52,5 @@ Assets 콘텐츠 유효성 검사기
 * 원본 렌디션이 누락된 에셋의 경우 에셋을 다시 업로드하거나 마이그레이션하기 전에 에셋을 삭제하십시오.
 * 누락된 하위 에셋 원본 렌디션에 대해서는 조치가 필요하지 않습니다.
 * 노드가 충돌하는 경우 AEM as a Cloud Service으로 마이그레이션하기 전에 노드를 해결하거나 삭제해야 할 수 있습니다.
-* 여러 개의 대용량 PSD 또는 PSB 파일을 처리하려면 Adobe 고객 지원 센터에 문의하십시오. Experience Manager는 30000 x 23000픽셀이 넘는 고해상도 PSB 파일을 처리하지 못할 수 있습니다. [설명서](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html)를 참조하십시오.
+* 여러 개의 대용량 PSD 또는 PSB 파일을 처리하려면 Adobe 고객 지원 센터에 문의하십시오. Experience Manager는 30000 x 23000픽셀이 넘는 고해상도 PSB 파일을 처리하지 못할 수 있습니다. [설명서](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html)를 참조하십시오.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
