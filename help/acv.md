@@ -3,7 +3,7 @@ title: ACV
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Assets 콘텐츠 유효성 검사기
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="주요 변경 내용 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager as a Cloud Service - 릴리스 정보"
 
-`ACV`  Assets Content Validator는 에셋 콘텐츠에서 누락된 필수 노드 및 위반 사항을 식별합니다. 이로 인해 Experience Manager as a Cloud Service의 특정 Assets 기능이 작동하지 않을 수 있습니다.
+`ACV` Assets Content Validator는 에셋 콘텐츠에서 누락된 필수 노드 및 위반 사항을 식별합니다. 이로 인해 Experience Manager as a Cloud Service의 특정 Assets 기능이 작동하지 않을 수 있습니다.
 
 다양한 유형의 정보 식별을 위해 다음과 같은 하위 유형이 사용됩니다.
 
