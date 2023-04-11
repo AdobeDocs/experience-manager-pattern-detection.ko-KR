@@ -3,9 +3,9 @@ title: ASO
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ AEM 시스템 개요
 * `unprocessed.asset.count`: 처리되지 않은 에셋 수
 * `vanity.url.count`: vanity URL 수
 * `index.size`: 총 마이그레이션 가능한 Lucene 인덱스 크기입니다.
-* `workflow.count`: 실행 중이며 오래된 상태의 작성자 워크플로우 수입니다.
+* `workflow.count`: 실행 중이고 오래된 상태의 작성자 워크플로 수입니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -48,7 +48,7 @@ AEM 시스템 개요
 * Vanity URL의 수가 많을수록(1,000개 초과) 디스패처 및 게시 서버에 고가의 쿼리가 있는 로드가 발생할 수 있습니다.
 * 맞춤형 애플리케이션은 AEM as a Cloud Service에서 사용할 수 없는 제품 및 기능에 의존할 수 있습니다.
 * 지원되지 않는 기능을 업그레이드하면 업그레이드 실패 및 애플리케이션 오작동을 야기할 수 있습니다.
-* 실행 중이거나 부실 상태의 작성자 워크플로우가 많으면 성능이 저하될 수 있습니다.
+* 실행 중이거나 오래된 상태의 작성자 워크플로가 많으면 성능이 저하될 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
