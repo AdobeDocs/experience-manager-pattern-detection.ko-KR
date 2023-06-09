@@ -2,10 +2,10 @@
 title: OID
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Oak 색인 정의
 
 다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
-* `index.rule.violation`: 사용자 지정 Oak 색인과 AEM as a Cloud Service와의 비호환성
+* `index.rule.violation`: 사용자 지정 Oak 색인과 AEM as a Cloud Service의 비호환성
 * `standard.index.modification`: 표준 Oak 색인의 수정 내용
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
