@@ -2,10 +2,10 @@
 title: ASO
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ AEM 시스템 개요
 * 맞춤형 애플리케이션은 AEM as a Cloud Service에서 사용할 수 없는 제품 및 기능에 의존할 수 있습니다.
 * 지원되지 않는 기능을 업그레이드하면 업그레이드 실패 및 애플리케이션 오작동을 야기할 수 있습니다.
 * 실행 중이거나 오래된 상태의 작성자 워크플로가 많으면 성능이 저하될 수 있습니다.
+* 쿼리가 느리면 시스템의 성능이 저하될 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -61,5 +62,6 @@ AEM 시스템 개요
 * 지원되지 않는 제품 또는 기능을 통해 AEM을 업그레이드하는 방법은 권장되지 않으며 이러한 기능은 지원되지 않을 수 있습니다.
 * 처리되지 않은 에셋은 반드시 처리되어야 하며, 에셋의 jcr:content 노드에서 dam:assetState 속성을 “처리됨”으로 설정하거나 AEMaaCS로 마이그레이션하기 전에 마이그레이션 세트에서 이들 에셋을 제거해야 합니다.
 * Vanity URL은 Apache Rewrite로 대체할 수 있습니다.
+* 다음을 참조하십시오. [설명서](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) 느린 쿼리 문제 해결을 위해
 * AEM as a Cloud Service의 최신 변경 내용에 대해 알아보려면 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)를 확인하십시오.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
