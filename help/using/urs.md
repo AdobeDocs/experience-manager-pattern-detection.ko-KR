@@ -2,9 +2,9 @@
 title: URS
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,6 @@ ht-degree: 100%
 * `node.location`: 설치 이후 수정된 `/etc` 하의 노드
 * `workflow.location`: `/etc/workflow` 하의 워크플로 모델 또는 런처
 * `package.structure`: 변경 가능한 콘텐츠 및 변경 불가능한 콘텐츠가 모두 포함된 패키지
-* `node.name.length`: 지원되지 않는 길이의 노드 이름
 * `node.size`: 지원되지 않는 크기의 노드
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
