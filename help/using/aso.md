@@ -2,10 +2,10 @@
 title: ASO
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
+source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 95%
+source-wordcount: '498'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ AEM 시스템 개요
 * `vanity.url.count`: vanity URL 수
 * `index.size`: 총 마이그레이션 가능한 Lucene 인덱스 크기입니다.
 * `workflow.count`: 실행 중이고 오래된 상태의 작성자 워크플로 수입니다.
+* `jvm.arguments`: AEM을 시작할 때 명령줄에 추가된 JVM 인수
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
