@@ -3,9 +3,9 @@ title: ASO
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ AEM 시스템 개요
 >id="aemcloud_bpa_aso_overview"
 >title="AEM 시스템 개요"
 >abstract="ASO 코드는 AEM 인스턴스에 대한 일반 정보를 식별합니다. 각각의 결과는 마이그레이션 계획 수립 및 리팩터링에 도움이 되는 특정 유형의 시스템 정보 중 하나의 값을 제공합니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 릴리스 정보"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ko-KR" text="AEM as a Cloud Service - 릴리스 정보"
 
 `ASO`는 AEM 인스턴스에 대한 일반 정보를 식별합니다. 각각의 결과는 특정 유형의 시스템 정보 중 하나의 값을 제공합니다.
 
@@ -41,7 +41,7 @@ AEM 시스템 개요
 * `vanity.url.count`: vanity URL 수
 * `index.size`: 총 마이그레이션 가능한 Lucene 인덱스 크기입니다.
 * `workflow.count`: 실행 중이고 오래된 상태의 작성자 워크플로 수입니다.
-* `jvm.arguments`: AEM을 시작할 때 명령줄에 추가된 JVM 인수
+* `jvm.arguments`: AEM을 시작할 때 명령줄에 추가되는 JVM 인수입니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -63,6 +63,6 @@ AEM 시스템 개요
 * 지원되지 않는 제품 또는 기능을 통해 AEM을 업그레이드하는 방법은 권장되지 않으며 이러한 기능은 지원되지 않을 수 있습니다.
 * 처리되지 않은 자산은 반드시 처리되어야 하며, 자산의 jcr:content 노드에서 dam:assetState 속성을 “처리됨”으로 설정하거나 AEMaaCS로 마이그레이션하기 전에 마이그레이션 세트에서 이들 자산을 제거해야 합니다.
 * Vanity URL은 Apache Rewrite로 대체할 수 있습니다.
-* 느린 쿼리에 대한 문제 해결 방법은 [설명서](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html)를 참조하십시오.
-* AEM as a Cloud Service의 최신 변경 내용에 대해 알아보려면 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)를 확인하십시오.
+* 느린 쿼리에 대한 문제 해결 방법은 [설명서](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=ko-KR)를 참조하십시오.
+* AEM as a Cloud Service의 최신 변경 내용에 대해 알아보려면 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ko-KR)를 확인하십시오.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
