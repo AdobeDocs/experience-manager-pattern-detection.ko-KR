@@ -2,9 +2,9 @@
 title: URS
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 
 * AEM 제품 코드는 항상 `/libs`에 배치되며, 이는 사용자 지정 코드로 덮어쓸 수 없습니다.
 * 사용자 지정 코드는 `/apps`, `/content` 및 `/conf`에 배치해야 합니다.
-* AEM as a Cloud Service는 150바이트를 초과하는 긴 노드 이름을 지원하지 않습니다.
 * AEM as a Cloud Service에 대해 이들 지침을 따르는 것이 좋습니다.
 
 해결이 필요한 특정 유형의 저장소 문제를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
