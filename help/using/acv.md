@@ -2,10 +2,10 @@
 title: ACV
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ Assets 콘텐츠 유효성 검사기
 * `metadata.descendants.violation`: 저장소에 있는 에셋의 메타데이터 노드 아래에서 하위 항목이 100개를 초과하는 에셋을 식별합니다.
 * `conflict.node`: /content/dam/ 경로 아래의 저장소에 충돌 노드가 있는지 식별합니다.
 * `psb.file.large`: 크기가 2GB보다 큰 대용량 PSB 파일(dc:format : application/vnd.3gpp.pic-bw-small)을 식별합니다.
+* `invalid.asset.name`: 잘못된 문자가 있는 자산 식별[* / : [\] | # % { } ? 이름에 &amp;]가 있습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -39,6 +40,7 @@ Assets 콘텐츠 유효성 검사기
 * 메타데이터 노드 아래에 하위 항목이 많으면 이를 위반하는 에셋으로 구성된 폴더의 로드 속도가 느려질 수 있습니다.
 * 충돌 노드가 있으면 AEM as a Cloud Service에서 수집 실패가 발생할 수 있습니다.
 * Experience Manager는 고해상도 PSB 파일을 처리하지 못할 수 있습니다. 대용량 파일을 처리하기 위해 ImageMagick을 사용하는 고객은 Experience Manager 서버를 적절하게 벤치마킹하지 않으면 성능에 영향을 받을 수 있습니다.
+* 자산 이름에 잘못된 문자가 있으면 AEM as a Cloud Service으로 마이그레이션하는 동안 오류가 발생할 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
