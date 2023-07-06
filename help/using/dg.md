@@ -2,10 +2,10 @@
 title: DG
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
 * `sling.commons.scheduler`: 예정된 작업에 대한 Sling Commons 스케줄러 API 사용
 * `unsupported.asset.api`: 애플리케이션 코드에서 지원되지 않는 에셋 관리자 API 사용
 * `javax.jcr.observation.EventListener`: 애플리케이션 코드에서 이벤트 리스너 사용
+* `custom.guava.cache`: 애플리케이션 코드의 구아바 캐시 사용
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -55,6 +56,9 @@ ht-degree: 100%
 
 * `javax.jcr.observation.EventListener`
    * 실행을 보장할 수 없기 때문에 이벤트 리스너에 의존하는 애플리케이션이 예상대로 작동하지 않을 수 있습니다.
+
+* `custom.guava.cache`
+   * Guava 캐시를 사용하면 AEM에서 성능 문제가 발생할 수 있습니다.
 
 
 ## 가능한 해결 방법 {#solutions}
@@ -83,4 +87,7 @@ ht-degree: 100%
 
 * `javax.jcr.observation.EventListener`
    * 이벤트 리스너를 사용하는 대신 처리 보장을 제공하므로 이벤트 처리 메커니즘을 [Sling 작업](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)으로 리팩터링하는 것이 좋습니다.
+
+* `custom.guava.cache`
+   * 필요한 경우 AEM 외부에서 캐시를 만들어야 합니다. 외부 캐싱 솔루션을 고려할 수 있습니다.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
