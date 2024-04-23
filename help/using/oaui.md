@@ -2,10 +2,10 @@
 title: OAUI
 description: 패턴 감지기 코드 도움말 페이지..
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 47%
+source-wordcount: '229'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ OAUI는 최소 한 명 이상의 올바른 마이그레이션이 필요한 OAuth
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="구현 지침"
->abstract="OAuth를 통해 구성된 외부 사용자는 AEM as a Cloud Service과 호환되도록 재구성된 다음 작성자/게시 인스턴스에 로그인할 수 있습니다. AEM as a Cloud Service에서는 작성자, 관리자 및 개발자 사용자에 대해서만 IMS 인증 지원을 제공하며 게시 환경에 대한 SAML 기반 통합을 제공합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="OAuth를 통해 구성된 외부 사용자는 AEM as a Cloud Service과 호환되도록 재구성된 다음 작성자/게시 인스턴스에 로그인할 수 있습니다. AEM as a Cloud Service에서는 작성자, 관리자 및 개발자 사용자에 대해서만 IMS 인증 지원을 제공하며 게시 환경에 대한 SAML 기반 통합을 제공합니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS 지원 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 통합 - 게시"
 

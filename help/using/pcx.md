@@ -2,10 +2,10 @@
 title: PCX
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 57%
+source-wordcount: '199'
+ht-degree: 53%
 
 ---
 
@@ -38,7 +38,7 @@ PCX는 구조에 많은 노드가 포함된 페이지를 식별합니다.
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 컨텐츠 구조를 검토하여 페이지 복잡성을 줄이는 것입니다. 이를 통해 페이지 렌더링 성능을 개선하는 데 도움이 됩니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="가장 좋은 방법은 컨텐츠 구조를 검토하여 페이지 복잡성을 줄이는 것입니다. 이를 통해 페이지 렌더링 성능을 개선하는 데 도움이 됩니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 다음 작업을 수행하여 페이지 내 총 노드 수를 줄입니다.

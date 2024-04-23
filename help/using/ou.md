@@ -2,10 +2,10 @@
 title: OU
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 93%
+source-wordcount: '267'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 고객 노드를 검토 및 조정하여 최신 버전의 AEM 구성 요소 또는 API를 사용하는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="가장 좋은 방법은 고객 노드를 검토 및 조정하여 최신 버전의 AEM 구성 요소 또는 API를 사용하는 것입니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

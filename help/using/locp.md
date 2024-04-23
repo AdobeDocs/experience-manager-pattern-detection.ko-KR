@@ -2,10 +2,10 @@
 title: LOCP
 description: 패턴 감지기 코드 도움말 페이지..
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 61%
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
@@ -34,7 +34,7 @@ LOCP는 콘텐츠를에 제공하는 맞춤형 패키지 감지를 식별합니�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="구현 지침"
->abstract="고객은 사용자 지정 코드 및 패키지를 검토하여 콘텐츠가 /libs에 전달되었는지 확인하고 /apps 하의 콘텐츠 위에 오버레이되도록 리팩터링하여 AEM as a Cloud Service와 호환되도록 해야 합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="고객은 사용자 지정 코드 및 패키지를 검토하여 콘텐츠가 /libs에 전달되었는지 확인하고 /apps 하의 콘텐츠 위에 오버레이되도록 리팩터링하여 AEM as a Cloud Service와 호환되도록 해야 합니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="오버레이"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

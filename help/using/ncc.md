@@ -2,10 +2,10 @@
 title: NCC
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 91%
+source-wordcount: '194'
+ht-degree: 64%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="호환되지 않는 변경 내용"
->abstract="NCC는 일부 JCR 노드 또는 번들이 호환되지 않는 방식으로 변경되는 상황을 식별합니다. 고객은 업그레이드 전 이러한 변경 내용에 대해 알지 못할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="주요 변경 내용 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="릴리스 정보 - AEM as a Cloud Service"
+>abstract="NCC는 일부 JCR 노드 또는 번들이 호환되지 않는 방식으로 변경되는 상황을 식별합니다. 고객은 업그레이드 전에 이러한 변경 내용을 알지 못할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="릴리스 정보 - AEM as a Cloud Service"
 
-`NCC`는 일부 JCR 노드 또는 번들이 호환되지 않는 방식으로 변경되는 상황을 식별합니다. 고객은 업그레이드 전 이러한 변경 내용에 대해 알지 못할 수 있습니다.
+NCC는 일부 JCR 노드 또는 번들이 호환되지 않는 방식으로 변경되는 상황을 식별합니다. 고객은 업그레이드 전에 이러한 변경 내용을 알지 못할 수 있습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -34,8 +34,8 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 사용자 지정 코드를 검토한 다음 호환되는 Sling 구성 요소만 오버레이 또는 참조하는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="오버레이"
+>abstract="가장 좋은 방법은 사용자 지정 코드를 검토한 다음 호환되는 Sling 구성 요소만 오버레이 또는 참조하는 것입니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="오버레이"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 호환되는 Sling 구성 요소만 오버레이하거나 참조하십시오.

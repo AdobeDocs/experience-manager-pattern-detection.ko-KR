@@ -2,10 +2,10 @@
 title: FORM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 99%
+source-wordcount: '981'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="구현 지침"
->abstract="FORMS 코드를 통해 노출된 정보에서 일부 기능 및 API를 Cloud Service와 호환되도록 하는 데 필요한 대체 기능 및 기타 작업에 대한 지침을 얻을 수 있습니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="FORMS 코드를 통해 노출된 정보에서 일부 기능 및 API를 Cloud Service와 호환되도록 하는 데 필요한 대체 기능 및 기타 작업에 대한 지침을 얻을 수 있습니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 마이그레이션 유틸리티를 사용하여 환경의 모든 규칙 스크립트를 재사용 가능한 기능으로 변환하십시오. 재사용 가능한 기능을 시각적 규칙 편집기와 함께 사용하여 규칙 스크립트를 통해 얻은 결과를 유지할 수 있습니다. (CODE_EDITOR)

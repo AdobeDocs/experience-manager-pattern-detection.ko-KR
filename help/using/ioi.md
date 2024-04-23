@@ -2,10 +2,10 @@
 title: IOI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 92%
+source-wordcount: '221'
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="구현 지침"
->abstract="고객은 사용자 지정 코드를 검토하여 이러한 API의 사용을 식별하고 이를 AEM as a Cloud Service와 호환되도록 리팩터링해야 합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="고객은 사용자 지정 코드를 검토하여 이러한 API의 사용을 식별하고 이를 AEM as a Cloud Service와 호환되도록 리팩터링해야 합니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 낮은 수준의 액세스 대신 Sling 리소스 API(또는 JCR API)를 사용하십시오.

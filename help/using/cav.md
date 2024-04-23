@@ -2,10 +2,10 @@
 title: CAV
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 47%
+source-wordcount: '318'
+ht-degree: 45%
 
 ---
 
@@ -37,7 +37,7 @@ Sling 요청 처리는 리소스의 콘텐츠 및 해당 콘텐츠를 정의하�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="구현 지침"
->abstract="CAS를 통해 식별된, 서로 다른 콘텐츠 영역 위반 이 존재하는 패턴을 검토해야 합니다. 최종 및 내부 콘텐츠 분류 영역을 피해야 합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="CAS를 통해 식별된, 서로 다른 콘텐츠 영역 위반 이 존재하는 패턴을 검토해야 합니다. 최종 및 내부 콘텐츠 분류 영역을 피해야 합니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="지속 가능한 업그레이드"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
