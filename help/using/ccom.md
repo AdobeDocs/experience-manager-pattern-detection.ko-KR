@@ -2,10 +2,10 @@
 title: CCOM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 92%
 
 ---
 
@@ -44,4 +44,4 @@ ht-degree: 100%
 
 * [핵심 구성 요소 소개](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)에서 핵심 구성 요소에 대해 자세히 알아보십시오.
 * [스타일 시스템 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=ko#page-authoring)에서 스타일 시스템에 대해 자세히 알아보십시오.
-* 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.

@@ -2,10 +2,10 @@
 title: DG
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 * `java.io.inputstream`
    * 데이터 스토어에 바이너리를 바로 추가하는 다이렉트 바이너리 업로드 방식을 사용하십시오.
-   * 자산 사용 사례의 경우 [AEM 업로드](https://github.com/adobe/aem-upload) 방식을 사용하십시오. 다른 바이너리 유형의 경우 동일한 패턴을 따라 사용자 정의 업로드 논리를 모델링할 수 있습니다.
+   * 에셋 사용 사례의 경우 [aem 업로드](https://github.com/adobe/aem-upload). 다른 바이너리 유형의 경우 동일한 패턴을 따라 사용자 정의 업로드 논리를 모델링할 수 있습니다.
 
 * `maintenance.task.configuration`
    * AEM as a Cloud Service [유지 관리 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=ko-KR) 설명서를 검토하십시오.
@@ -83,11 +83,11 @@ ht-degree: 100%
    * 가능한 경우 장기 실행 작업을 피하십시오.
 
 * `unsupported.asset.api`
-   * 자산 관리자의 지원되지 않는 API를 사용하지 말고 [aem-upload](https://github.com/adobe/aem-upload)를 사용하십시오.
+   * 에셋 관리자의 지원되지 않는 API를 사용하는 대신 [aem 업로드](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * 이벤트 리스너를 사용하는 대신 처리 보장을 제공하므로 이벤트 처리 메커니즘을 [Sling 작업](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)으로 리팩터링하는 것이 좋습니다.
 
 * `custom.guava.cache`
    * 필요한 경우 캐시는 AEM 외부에서 생성되어야 합니다. 외부 캐싱 솔루션을 고려해 볼 수 있습니다.
-* 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.

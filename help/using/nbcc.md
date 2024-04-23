@@ -2,10 +2,10 @@
 title: NBCC
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '204'
+ht-degree: 91%
 
 ---
 
@@ -40,4 +40,4 @@ ht-degree: 100%
 
 * 역으로 호환되는 Sling 구성 요소만 오버레이하거나 참조하십시오.
 * AEM 업그레이드 이후 `/libs` 또는 번들 내의 리소스를 사용하는 것이 좋습니다.
-* 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.

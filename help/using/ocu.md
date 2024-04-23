@@ -2,10 +2,10 @@
 title: OCU
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 93%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 100%
 
 * 단기적 지원: 호환성 패키지를 설치하십시오.
 * 장기적 지원: 고객 노드를 조정하여 최신 버전의 AEM 구성 요소 또는 API를 사용하십시오.
-* 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.

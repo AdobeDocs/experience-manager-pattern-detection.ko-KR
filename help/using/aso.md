@@ -2,10 +2,10 @@
 title: ASO
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -63,6 +63,6 @@ AEM 시스템 개요
 * 지원되지 않는 제품 또는 기능을 통해 AEM을 업그레이드하는 방법은 권장되지 않으며 이러한 기능은 지원되지 않을 수 있습니다.
 * 처리되지 않은 자산은 반드시 처리되어야 하며, 자산의 jcr:content 노드에서 dam:assetState 속성을 “처리됨”으로 설정하거나 AEMaaCS로 마이그레이션하기 전에 마이그레이션 세트에서 이들 자산을 제거해야 합니다.
 * Vanity URL은 Apache Rewrite로 대체할 수 있습니다.
-* 느린 쿼리에 대한 문제 해결 방법은 [설명서](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=ko-KR)를 참조하십시오.
+* 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=ko-KR) 느린 쿼리 문제 해결을 위해
 * AEM as a Cloud Service의 최신 변경 내용에 대해 알아보려면 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ko-KR)를 확인하십시오.
-* 자세한 설명이 필요하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.

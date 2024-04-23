@@ -2,10 +2,10 @@
 title: MI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="구성 오류 문제"
 >abstract="MI는 AEM 인스턴스에서 구성 문제 식별"
 
-`MI` 구성 오류 문제는 AEM 인스턴스의 구성 문제를 식별합니다.
+MI 잘못된 구성 문제가 AEM 인스턴스의 구성 문제를 식별합니다.
 
 다양한 유형의 정보 식별을 위해 다음과 같은 하위 유형이 사용됩니다.
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * `sling.job.max.parallel`
-   * 사용 가능한 프로세서의 절반을 사용하려면 값을 0.5로 설정하는 것이 좋습니다.
+   * Adobe은 사용 가능한 프로세서의 절반을 활용하려면 값을 0.5로 설정하는 것이 좋습니다.
 * `missing.maintenance.configuration`
-   * 개정 정리: [개정 정리](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html)를 참조하십시오. 구성과 관련된 중요한 부분은 [개정 정리 - 테일 및 전체 압축 구성](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html#how-to-configure-full-and-tail-compaction)에 있습니다.
-   * Lucene 바이너리 정리: [작업 대시보드 - Lucene 바이너리 정리](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#lucene-binaries-cleanup)를 참조하십시오.
-   * 데이터 스토어 가비지 수집: [데이터 스토어 가비지 수집](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html)을 참조하십시오.
-   * 워크플로 제거: [정기적인 워크플로 인스턴스 제거](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html#regular-purging-of-workflow-instances)를 참조하십시오.
-   * 감사 로그 유지 관리 작업: [감사 로그 유지 관리](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html)를 참조하십시오.
-* 자세한 설명이 필요하거나 문제를 해결하려면 [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+   * 개정 정리: 참조 [개정 정리](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). 구성과 관련된 중요한 부분은 [개정 정리 - 테일 및 전체 압축 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)에 있습니다.
+   * Lucene 바이너리 정리: 다음을 참조하십시오. [작업 대시보드 - Lucene 바이너리 정리](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * 데이터 저장소 가비지 수집: 참조 [데이터 저장소 가비지 수집](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * 워크플로우 삭제: 참조 [정기적인 워크플로 인스턴스 제거](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * AuditLog 유지 관리 작업: 을 참조하십시오. [감사 로그 유지 관리](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* 다음으로 문의: [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명 또는 문제 해결을 위해.
