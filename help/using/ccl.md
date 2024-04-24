@@ -2,10 +2,10 @@
 title: CCL
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 83%
+ht-degree: 77%
 
 ---
 
@@ -20,9 +20,10 @@ ht-degree: 83%
 >title="맞춤형 클라이언트 라이브러리"
 >abstract="CCL은 AEM에 설치된 클라이언트 라이브러리를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다."
 
-`CCL`은 AEM에 설치된 클라이언트 라이브러리를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
+`CCL` AEM에 설치된 클라이언트 라이브러리를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
 
 하나의 하위 유형이 이 코드와 함께 사용됩니다.
+
 * `custom.client.library`
 
 ## 가능한 영향 및 위험 {#implications-and-risks}

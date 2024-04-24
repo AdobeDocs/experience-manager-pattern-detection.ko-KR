@@ -2,9 +2,9 @@
 title: DM
 description: 패턴 탐지기 코드가 AEM Assets - Dynamic Media 사용을 식별하는 방법에 대해 알아봅니다.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 52%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 지침 및 모범 사례"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 개발 지침"
 
-`DM` (Dynamic Media)는 AEM Assets Dynamic Media의 사용을 식별합니다. Dynamic Media 모드는 실행 모드에 의해 감지됩니다.
+`DM` (Dynamic Media) AEM Assets Dynamic Media의 사용을 식별합니다. Dynamic Media 모드는 실행 모드에 의해 감지됩니다.
 
 하위 유형이 이 코드와 함께 사용됩니다.
 
@@ -48,4 +48,4 @@ Dynamic Media
 * `dynamic.media.runmode`
    * 다음에서 추가 정보 찾기: [Dynamic Media 설정](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
-* 다음 대상에게 연결 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제를 해결해야 하는 경우
+* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제를 해결해야 하는 경우

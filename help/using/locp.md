@@ -1,10 +1,10 @@
 ---
 title: LOCP
-description: 패턴 감지기 코드 도움말 페이지..
+description: 패턴 감지기 코드 도움말 페이지
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 57%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 57%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="지속 가능한 업그레이드"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 리소스 병합"
 
-LOCP는 콘텐츠를에 제공하는 맞춤형 패키지 감지를 식별합니다 `/libs`: 앤티 패턴입니다(ACL의 경우 제외).
+`LOCP`  에 콘텐츠를 제공하는 맞춤형 패키지 감지 식별 `/libs`: 앤티 패턴입니다(ACL의 경우 제외).
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 

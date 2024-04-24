@@ -2,10 +2,10 @@
 title: MI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 54%
+source-wordcount: '196'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 54%
 >title="구성 오류 문제"
 >abstract="MI는 AEM 인스턴스에서 구성 문제 식별"
 
-MI 잘못된 구성 문제가 AEM 인스턴스의 구성 문제를 식별합니다.
+`MI` (잘못된 구성 문제) AEM 인스턴스의 구성 문제를 식별합니다.
 
 다양한 유형의 정보 식별을 위해 다음과 같은 하위 유형이 사용됩니다.
 

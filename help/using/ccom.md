@@ -2,10 +2,10 @@
 title: CCOM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 69%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >title="사용자 지정 구성 요소"
 >abstract="CCOM은 AEM에 설치된 사용자 지정 구성 요소를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다."
 
-CCOM은 AEM에 설치된 사용자 지정 구성 요소를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
+`CCOM` AEM에 설치된 사용자 지정 구성 요소를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
 
 구성 요소의 범주를 식별하기 위해 하위 유형이 이 코드와 함께 사용됩니다.
 

@@ -2,10 +2,10 @@
 title: CDW
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 87%
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >title="맞춤형 대화 상자 위젯"
 >abstract="CDW는 AEM as a Cloud Service와 호환되도록 업데이트해야 하는 맞춤형 대화 상자 위젯을 식별합니다."
 
-`CDW` 사용자 정의 대화 상자 위젯은 사용자 정의 클래식 대화 상자 위젯을 식별합니다. AEM as a Cloud Service와 호환되도록 업데이트해야 합니다.
+`CDW`  (맞춤형 대화 상자 위젯) 사용자 정의 클래식 대화 상자 위젯을 식별합니다. AEM as a Cloud Service와 호환되도록 업데이트해야 합니다.
 
 정보 식별을 위해 다음과 같은 하위 유형이 사용됩니다.
 

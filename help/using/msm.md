@@ -2,9 +2,9 @@
 title: MSM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 >abstract="MSM은 AEM 다중 사이트 관리자 기능에 대한 일반 정보를 식별합니다. 이 정보는 시스템을 특성화하는 데 유용합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 
-MSM은 AEM 다중 사이트 관리자 기능에 대한 일반 정보를 식별합니다. 이 정보는 시스템을 특성화하는 데 유용합니다.
+`MSM`  AEM 다중 사이트 관리자 기능에 대한 일반 정보를 식별합니다. 이 정보는 시스템을 특성화하는 데 유용합니다.
 
 다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 

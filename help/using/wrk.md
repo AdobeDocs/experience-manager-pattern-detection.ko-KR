@@ -2,9 +2,9 @@
 title: WRK
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 62%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 62%
 >abstract="WRK 코드는 워크플로 모델 또는 런처 관련 검색 결과를 식별합니다. AEM as a Cloud Service로 업그레이드할 때 사용자 지정 에셋 워크플로 모델을 마이그레이션하기 위해 보고됩니다. 이제 AEM as a Cloud Service를 통해 에셋 마이크로서비스에서 에셋 처리를 수행합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="에셋 마이크로서비스"
 
-WRK는 워크플로 모델 또는 런처 관련 검색 결과를 식별합니다. AEM as a Cloud Service로 업그레이드할 때 사용자 지정 에셋 워크플로 모델을 마이그레이션하기 위해 보고됩니다.
+`WRK`  워크플로 모델 또는 런처 관련 검색 결과를 식별합니다. AEM as a Cloud Service로 업그레이드할 때 사용자 지정 에셋 워크플로 모델을 마이그레이션하기 위해 보고됩니다.
 
 현재 감지되는 워크플로 문제를 식별하기 위해 하위 유형이 사용됩니다.
 

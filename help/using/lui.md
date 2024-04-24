@@ -2,10 +2,10 @@
 title: LUI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 58%
+source-wordcount: '703'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 58%
 >abstract="LUI는 최신 버전의 AEM 및 AEM as a Cloud Service에서 권장되거나 지원되지 않는, 더 이상 사용되지 않는 사용자 인터페이스 요소의 사용을 식별합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 
-LUI는 최신 버전의 AEM 및 AEM as a Cloud Service에서 권장되거나 지원되지 않는, 더 이상 사용되지 않는 사용자 인터페이스 요소의 사용을 식별합니다.
+`LUI`  는 최신 버전의 AEM 및 AEM as a Cloud Service에서 권장되거나 지원되지 않는, 더 이상 사용되지 않는 사용자 인터페이스 요소의 사용을 식별합니다.
 
 업그레이드해야 하는 다양한 유형의 사용자 인터페이스 요소를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 

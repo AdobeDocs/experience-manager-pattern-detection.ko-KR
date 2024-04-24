@@ -2,9 +2,9 @@
 title: CIF
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 52%
 
 ---
@@ -21,7 +21,7 @@ Commerce Integration Framework 클래식
 >abstract="CIF은 as a Cloud Service과 호환되지 않는 클래식 버전의 Commerce integration framework AEM 사용을 식별합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content 및 Commerce"
 
-CIF CIF은 as a Cloud Service과 호환되지 않는 클래식 버전의 Commerce integration framework AEM 사용을 식별합니다. 각각에 대한 메시지 `CIF` 찾기는 사용을 식별하며 추가 정보를 제공합니다.
+`CIF`  as a Cloud Service과 호환되지 않는 클래식 버전의 Commerce integration framework AEM 사용을 식별합니다. 각각에 대한 메시지 `CIF` 찾기는 사용을 식별하며 추가 정보를 제공합니다.
 
 다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 

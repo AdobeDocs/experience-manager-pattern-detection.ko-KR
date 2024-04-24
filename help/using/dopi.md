@@ -2,9 +2,9 @@
 title: DOPI
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 43%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 43%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="순서가 지정된 색인 - 더 이상 사용되지 않는 기능"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing" text="색인화 - AEM as a Cloud Service"
 
-DOPI는 순서가 지정된 색인 정의의 사용을 식별합니다(`primaryType=oak:QueryIndexDefinition` 및 `type="ordered"`)를 추가할 수 없습니다.
+`DOPI`  순서가 지정된 색인 정의의 사용을 식별합니다(`primaryType=oak:QueryIndexDefinition` 및 `type="ordered"`): AEM 6.1 이후 더 이상 사용되지 않으며 AEM 6.2에서 제거되었습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -45,6 +45,6 @@ DOPI는 순서가 지정된 색인 정의의 사용을 식별합니다(`primaryT
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND 레거시 프로젝트"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI 위반 사례 - GitHub"
 
-* 지원되는 색인 정의가 되도록(또는 지원되는 색인 정의로) 색인 정의를 수정합니다. [Oak 쿼리 및 색인화](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)를 참조하십시오.
+* 지원되는 색인 정의가 되도록(또는 지원되는 색인 정의로) 색인 정의를 편집합니다. [Oak 쿼리 및 색인화](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)를 참조하십시오.
 * [WKND 레거시](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) 프로젝트를 검토한 다음 [DOPI 위반](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi)을 수정하여 AEM as a Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오.
 * 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.

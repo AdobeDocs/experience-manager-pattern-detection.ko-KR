@@ -2,9 +2,9 @@
 title: CAV
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 45%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 45%
 >abstract="CAV 코드는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다. 이 위반은 AEM으로 as a Cloud Service으로 이동한 후 변경해야 할 수 있는 오버레이 및 제한된 콘텐츠에 대한 개요를 제공합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 리소스 병합"
 
-CAV는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다.
+`CAV` 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다.
 
 Sling 요청 처리는 리소스의 콘텐츠 및 해당 콘텐츠를 정의하는 방법 `sling:resourceType` 특히, 속성은 콘텐츠 렌더링에 사용되는 스크립트를 결정하는 데 사용됩니다. 자세한 내용은 [스크립트 찾기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)를 참조하십시오. 또한 Sling은 “오버레이” 및 “오버라이드”를 통해 리소스에 액세스하고 리소스를 병합할 수 있는 기술을 제공합니다. 이러한 기술은 [Sling 리소스 병합](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) 및 [오버레이](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays)의 일부로 기술되어 있습니다.
 

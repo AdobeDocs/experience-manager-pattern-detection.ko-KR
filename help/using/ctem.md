@@ -2,9 +2,9 @@
 title: CTEM
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 68%
 >title="사용자 지정 템플릿"
 >abstract="CTEM은 AEM에 설치된 사용자 지정 구성 요소를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다."
 
-CTEM은 AEM에 설치된 사용자 지정 템플릿을 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
+`CTEM`  AEM에 설치된 사용자 지정 템플릿을 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
 
 템플릿은 의 기본 유형 값으로 식별됩니다. `cq:Template`. 템플릿의 범주를 식별하기 위해 하위 유형이 이 코드와 함께 사용됩니다.
 

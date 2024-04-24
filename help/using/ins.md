@@ -2,10 +2,10 @@
 title: INS
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 83%
+source-wordcount: '107'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 >title="잘못된 네임스페이스"
 >abstract="INS는 AEM 인스턴스에서의 네임스페이스 문제를 식별합니다."
 
-`INS` 잘못된 네임스페이스는 AEM 인스턴스에서의 네임스페이스 문제를 식별합니다.
+`INS`  (잘못된 네임스페이스) AEM 인스턴스에서 네임스페이스 문제를 식별합니다.
 
 다양한 유형의 정보 식별을 위해 다음과 같은 하위 유형이 사용됩니다.
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
-* 콘텐츠를 복제(계층 간)하거나 콘텐츠를 복사(`/crx/packMgr` 또는 콘텐츠 복사를 통해 환경 간)할 수 없습니다.
+* 계층 간 콘텐츠를 복제하거나 (계층 간) 콘텐츠를 복사할 수 없음 `env`, `/crx/packMgr`또는 콘텐츠 사본) 중에서 선택할 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 

@@ -2,10 +2,10 @@
 title: ASO
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 52%
+source-wordcount: '473'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ AEM 시스템 개요
 >abstract="ASO 코드는 AEM 인스턴스에 대한 일반 정보를 식별합니다. 각각의 결과는 마이그레이션 계획 수립 및 리팩터링에 도움이 되는 특정 유형의 시스템 정보 중 하나의 값을 제공합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 릴리스 정보"
 
-ASO는 AEM 인스턴스에 대한 일반 정보를 식별합니다. 각각의 결과는 특정 유형의 시스템 정보 중 하나의 값을 제공합니다.
+`ASO` AEM 인스턴스에 대한 일반 정보를 식별합니다. 각각의 결과는 특정 유형의 시스템 정보 중 하나의 값을 제공합니다.
 
 다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 

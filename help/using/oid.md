@@ -2,10 +2,10 @@
 title: OID
 description: 패턴 감지기 코드 도움말 페이지
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 50%
+source-wordcount: '413'
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ Oak 색인 정의
 >abstract="OID는 Oak 색인 정의와 관련된 문제를 식별합니다. 이는 표준 Oak 색인 정의에 대해 수정된 내용을 식별합니다. 또한 AEM as a Cloud Service와 호환되지 않는 사용자 지정 Oak 색인 정의를 식별합니다. 각 OID 검색 결과에 대한 메시지는 색인을 식별하며 추가 정보를 제공합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="콘텐츠 색인화 지침"
 
-OID는 Oak 색인 정의와 관련된 문제를 식별합니다. 이는 표준 Oak 색인 정의에 대해 수정된 내용을 식별합니다. 또한 AEM as a Cloud Service와 호환되지 않는 사용자 지정 Oak 색인 정의를 식별합니다. 각각에 대한 메시지 `OID` 찾기는 색인을 식별하며 추가 정보를 제공합니다.
+`OID`  Oak 색인 정의와 관련된 문제를 식별합니다. 이는 표준 Oak 색인 정의에 대해 수정된 내용을 식별합니다. 또한 AEM as a Cloud Service와 호환되지 않는 사용자 지정 Oak 색인 정의를 식별합니다. 각각에 대한 메시지 `OID` 찾기는 색인을 식별하며 추가 정보를 제공합니다.
 
 다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
