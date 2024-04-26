@@ -1,11 +1,11 @@
 ---
 title: CIF
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 

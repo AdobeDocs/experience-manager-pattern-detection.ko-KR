@@ -1,11 +1,11 @@
 ---
 title: URS
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 53%
+ht-degree: 61%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 53%
 * `clientlibs.location`: 패스를 통해 `/etc`를 참조하는 클라이언트 라이브러리
 * `file.location`: 설치 이후 수정된 `/etc` 하의 파일
 * `node.location`: 설치 이후 수정된 `/etc` 하의 노드
-* `workflow.location`: `/etc/workflow` 하의 워크플로 모델 또는 런처
+* `workflow.location`: `/etc/workflow` 하의 워크플로 모델 또는 시작 관리자
 * `package.structure`: 변경 가능한 콘텐츠 및 변경 불가능한 콘텐츠가 모두 포함된 패키지
 * `node.size`: 지원되지 않는 크기의 노드
 
@@ -50,7 +50,7 @@ ht-degree: 53%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 프로젝트 구조 지침"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
-* 다음을 참조하십시오 [저장소 재구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) AEM을 as a Cloud Service으로 준비하기 위한 지침을 얻으십시오.
+* AEM as a Cloud Service를 준비하기 위한 가이드라인은 [저장소 재구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring)을 참조하십시오.
 * 참조: [AEM 프로젝트 구조](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 변경 가능한/변경 불가능한 저장소 영역에 대해 자세히 알아보려면
-* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.
+* 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
 * 사용 [저장소 현대화 도구](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) Adobe Experience Manager as a Cloud Service에 대해 정의된 프로젝트 구조와 호환될 수 있도록 콘텐츠와 코드를 개별 패키지로 분리하여 기존 프로젝트 패키지를 재구성했습니다.

@@ -1,11 +1,11 @@
 ---
 title: REP
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 73%
+ht-degree: 77%
 
 ---
 
@@ -52,4 +52,4 @@ AEM as a Cloud Service는 [Sling 콘텐츠 배포](https://sling.apache.org/docu
 * AEM as a Cloud Service [개발 지침](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents) 및 [복제 에이전트](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents)용 릴리스 정보를 참조하십시오.
 * 비즈니스 작업 수행을 위해 복제 에이전트에 전적으로 의존하는 기능을 검토하고, 리팩터링하십시오.
 * [복제](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication)가 어떻게 AEM as a Cloud Service에서 배포의 영향을 받는지 알아보십시오.
-* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.
+* 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

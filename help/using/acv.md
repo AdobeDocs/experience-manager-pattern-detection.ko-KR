@@ -1,11 +1,11 @@
 ---
 title: ACV
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 67%
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ Assets 콘텐츠 유효성 검사기
 >title="Assets 콘텐츠 유효성 검사기"
 >abstract="ACV는 자산 콘텐츠의 누락된 필수 노드를 식별합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="주요 변경 내용 - Experience Manager as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 릴리스 정보"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 릴리스 정보"
 
 `ACV` (Assets Content Validator) 에셋 콘텐츠에서 누락된 필수 노드 및 위반 사항을 식별합니다. 이로 인해 Experience Manager as a Cloud Service의 특정 Assets 기능이 작동하지 않을 수 있습니다.
 
@@ -54,5 +54,5 @@ Assets 콘텐츠 유효성 검사기
 * 원본 렌디션이 누락된 자산의 경우 자산을 다시 업로드하거나 마이그레이션하기 전에 자산을 삭제하십시오.
 * 누락된 하위 자산 원본 렌디션에 대해서는 조치가 필요하지 않습니다.
 * 충돌 노드가 있는 경우 AEM as a Cloud Service으로 마이그레이션하기 전에 해결하거나 삭제해야 합니다.
-* 많은 대용량 PSD 또는 PSB 파일을 처리할 계획인 경우 Adobe 고객 지원 센터에 문의하십시오. Experience Manager은 30000 x 23000 픽셀보다 큰 고해상도 PSB 파일을 처리하지 못할 수 있습니다. 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* 다음으로 문의: [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명 또는 문제 해결을 위해.
+* 많은 대용량 PSD 또는 PSB 파일을 처리할 계획인 경우 Adobe 고객 지원 센터에 문의하십시오. Experience Manager은 30000 x 23000 픽셀보다 큰 고해상도 PSB 파일을 처리하지 못할 수 있습니다. [설명서](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick)를 참조하십시오.
+* 자세한 설명이 필요하거나 문제를 해결하려면 [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

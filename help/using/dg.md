@@ -1,11 +1,11 @@
 ---
 title: DG
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 76%
+ht-degree: 82%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 76%
 >id="aemcloud_bpa_dg_overview"
 >title="개발자 가이드라인"
 >abstract="DG 코드는 선택된 AEM 6.5 및 AEM as a Cloud Service용 개발 지침의 위반을 식별합니다. 다음 모범 사례를 통해 시스템의 유지 가능성 및 성능을 개선할 수 있습니다. 이들 위반 중 일부는 이전 버전의 AEM을 포함하여 다른 애플리케이션 컨텍스트에서는 문제가 되지 않을 수 있지만, AEM as a Cloud Service와 함께 사용할 경우에는 문제를 발생시킬 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 지침 및 모범 사례"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 개발 지침"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 지침 및 모범 사례"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 개발 지침"
 
 
-`DG`  선택한 개발 지침의 위반을 식별합니다. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 및 [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 다음 모범 사례를 통해 시스템의 유지 가능성 및 성능을 개선할 수 있습니다. 이들 위반 중 일부는 이전 버전의 AEM을 포함하여 다른 애플리케이션 컨텍스트에서는 문제가 되지 않을 수 있지만, AEM as a Cloud Service와 함께 사용할 경우에는 문제를 발생시킬 수 있습니다.
+`DG`  선택한 개발 지침의 위반을 식별합니다. [AEM 6.5](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 및 [AEM as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 다음 모범 사례를 통해 시스템의 유지 가능성 및 성능을 개선할 수 있습니다. 이들 위반 중 일부는 이전 버전의 AEM을 포함하여 다른 애플리케이션 컨텍스트에서는 문제가 되지 않을 수 있지만, AEM as a Cloud Service와 함께 사용할 경우에는 문제를 발생시킬 수 있습니다.
 
 다양한 유형의 감지된 위반을 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
@@ -72,7 +72,7 @@ ht-degree: 76%
 
 * `java.io.inputstream`
    * 데이터 스토어에 바이너리를 바로 추가하는 다이렉트 바이너리 업로드 방식을 사용하십시오.
-   * 에셋 사용 사례의 경우 [aem 업로드](https://github.com/adobe/aem-upload). 다른 바이너리 유형의 경우 동일한 패턴을 따라 사용자 정의 업로드 논리를 모델링할 수 있습니다.
+   * 자산 사용 사례의 경우 [AEM 업로드](https://github.com/adobe/aem-upload)를 참조하십시오. 다른 바이너리 유형의 경우 동일한 패턴을 따라 사용자 정의 업로드 논리를 모델링할 수 있습니다.
 
 * `maintenance.task.configuration`
    * AEM as a Cloud Service [유지 관리 작업](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance) 설명서를 검토하십시오.
@@ -83,11 +83,11 @@ ht-degree: 76%
    * 장기 실행 작업은 피해야 합니다.
 
 * `unsupported.asset.api`
-   * 에셋 관리자의 지원되지 않는 API를 사용하는 대신 [aem 업로드](https://github.com/adobe/aem-upload).
+   * 자산 관리자의 지원되지 않는 API를 사용하지 말고 [AEM 업로드](https://github.com/adobe/aem-upload)를 참조하십시오.
 
 * `javax.jcr.observation.EventListener`
    * 이벤트 리스너를 사용하는 대신 처리 보장을 제공하므로 이벤트 처리 메커니즘을 [Sling 작업](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)으로 리팩터링하는 것이 좋습니다.
 
 * `custom.guava.cache`
    * 캐시는 필요한 경우 AEM 외부에서 만들어야 합니다. 외부 캐싱 솔루션을 고려해 볼 수 있습니다.
-* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.
+* 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

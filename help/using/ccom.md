@@ -1,11 +1,11 @@
 ---
 title: CCOM
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 66%
+ht-degree: 73%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 66%
 >id="aemcloud_bpa_ccom_guidance"
 >title="구현 지침"
 >abstract="가장 좋은 방법은 사용자 지정 구성 요소의 수를 최소화하고, 핵심 구성 요소를 사용하고, 핵심 구성 요소와 스타일 시스템을 함께 사용하여 기술적인 문제를 줄이는 것입니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction" text="핵심 구성 요소"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-core-components/using/introduction" text="핵심 구성 요소"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="스타일 시스템"
 
-* [핵심 구성 요소 소개](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction)에서 핵심 구성 요소에 대해 자세히 알아보십시오.
+* [핵심 구성 요소 소개](https://experienceleague.adobe.com/ko/docs/experience-manager-core-components/using/introduction)에서 핵심 구성 요소에 대해 자세히 알아보십시오.
 * [스타일 시스템 사용](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)에서 스타일 시스템에 대해 자세히 알아보십시오.
-* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.
+* 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

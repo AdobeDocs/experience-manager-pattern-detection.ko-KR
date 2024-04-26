@@ -1,11 +1,11 @@
 ---
 title: CDW
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 80%
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 맞춤형 클래식 대화 상자 위젯은 ExtJS에서 [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html)로 변환되어야 합니다.
-* 다음으로 문의: [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명 또는 문제 해결을 위해.
+* 자세한 설명이 필요하거나 문제를 해결하려면 [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

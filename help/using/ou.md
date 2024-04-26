@@ -1,11 +1,11 @@
 ---
 title: OU
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 63%
+ht-degree: 70%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 63%
 >id="aemcloud_bpa_ou_overview"
 >title="오래된 사용"
 >abstract="OU는 Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드 전에 이러한 변경 내용을 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용하지 못하게 될 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 
 `OU`  Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드 전에 이러한 변경 내용을 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용하지 못하게 될 수 있습니다.
 
@@ -41,4 +41,4 @@ ht-degree: 63%
 
 * 단기적 지원: 호환성 패키지를 설치하십시오.
 * 장기적 지원: 고객 코드를 조정하여 최신 버전의 AEM 구성 요소 또는 API를 사용하십시오.
-* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.
+* 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

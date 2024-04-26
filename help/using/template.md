@@ -1,10 +1,10 @@
 ---
 title: 템플릿
-description: 패턴 감지기 코드 도움말 페이지에 대한 템플릿.
+description: 패턴 감지기 코드 도움말 페이지를 위한 템플릿.
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 38%
 
 * 가능한 해결 방법 1
 * 가능한 해결 방법 2
-* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.
+* 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

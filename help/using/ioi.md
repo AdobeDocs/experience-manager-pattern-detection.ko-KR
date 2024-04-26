@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 64%
+ht-degree: 72%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 64%
 
 * 낮은 수준의 액세스 대신 Sling 리소스 API(또는 JCR API)를 사용하십시오.
 * 공개 API 또는 SPI의 일부가 아닌 내부 패키지에 의존하지 않도록 하십시오.
-* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.
+* 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

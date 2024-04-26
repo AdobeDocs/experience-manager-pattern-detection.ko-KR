@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 53%
+ht-degree: 57%
 
 ---
 
@@ -19,7 +19,7 @@ AEM 시스템 개요
 >id="aemcloud_bpa_aso_overview"
 >title="AEM 시스템 개요"
 >abstract="ASO 코드는 AEM 인스턴스에 대한 일반 정보를 식별합니다. 각각의 결과는 마이그레이션 계획 수립 및 리팩터링에 도움이 되는 특정 유형의 시스템 정보 중 하나의 값을 제공합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 릴리스 정보"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 릴리스 정보"
 
 `ASO` AEM 인스턴스에 대한 일반 정보를 식별합니다. 각각의 결과는 특정 유형의 시스템 정보 중 하나의 값을 제공합니다.
 
@@ -63,6 +63,6 @@ AEM 시스템 개요
 * 지원되지 않는 제품 또는 기능을 사용하는 AEM 업그레이드는 권장되지 않으며 지원되지 않을 수 있습니다.
 * 처리되지 않은 에셋을 처리하고 `dam:assetState` 다음에 대한 속성 `jcr:content` 에셋의 노드는 &quot;처리됨&quot;으로 설정되어야 합니다. 또는 AEMaaCS로 마이그레이션하기 전에 마이그레이션 세트에서 이러한 자산을 제거해야 합니다.
 * Vanity URL은 Apache Rewrite로 대체할 수 있습니다.
-* 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) 느린 쿼리 문제 해결을 위해
-* 다음을 참조하십시오. [릴리스 정보](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) AEM의 최신 변경 내용에 대해 자세히 알아보려면 as a Cloud Service으로 이동하십시오.
-* 다음으로 문의: [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 설명이 필요하거나 문제가 해결되었습니다.
+* 느린 쿼리에 대한 문제 해결 방법은 [설명서](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)를 참조하십시오.
+* 다음을 참조하십시오. [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) AEM의 최신 변경 내용에 대해 자세히 알아보려면 as a Cloud Service으로 이동하십시오.
+* 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

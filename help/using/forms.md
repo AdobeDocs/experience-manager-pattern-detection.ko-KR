@@ -1,11 +1,11 @@
 ---
 title: FORM
-description: 패턴 감지기 코드 도움말 페이지
+description: 패턴 감지기 코드 도움말 페이지.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
