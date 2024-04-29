@@ -5,7 +5,7 @@ exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 78%
+ht-degree: 87%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다. 고객은 기존 AEM 현대화 도구를 사용하여 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="편집 가능한 템플릿"
+>abstract="가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다. 고객은 기존 AEM 현대화 도구를 통해 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-65/content/implementing/developing/platform/templates/templates" text="편집 가능한 템플릿"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 현대화 도구"
 
 * 가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다.
@@ -43,10 +43,10 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="도구 및 리소스"
->abstract="AEM 현대화 제품군을 통해 고객은 정적 정의에서 편집 가능한 템플릿으로 페이지 구조를 조작할 수 있습니다. 이는 고객이 제한된 기존 기능에서 강력한 최신 AEM 서비스로 전환하는 것을 돕기 위함입니다. 이들 기능은 구성, 구성 인식 및 확장이 가능합니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="AEM 현대화 제품군을 통해 고객은 정적 정의에서 편집 가능한 템플릿으로 페이지 구조를 조작할 수 있습니다. 이는 고객이 제한된 기존 기능에서 강력한 최신 AEM 서비스로 전환하는 것을 돕기 위함입니다. 이들 기능은 구성, 구성 인식 및 확장이 가능합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="페이지 구조 변환기"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 사용 [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/) 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션하기 위해
-* [템플릿](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)에서 편집 가능한 템플릿에 대해 자세히 알아보십시오.
+* [템플릿](https://experienceleague.adobe.com/en/docs/ko/experience-manager-65/content/implementing/developing/platform/templates/templates)에서 편집 가능한 템플릿에 대해 자세히 알아보십시오.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

@@ -5,7 +5,7 @@ exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="구현 지침"
->abstract="고객은 사용자 지정 코드 및 패키지를 검토하여 콘텐츠가 /libs에 전달되었는지 확인하고 /apps 하의 콘텐츠 위에 오버레이되도록 리팩터링하여 AEM as a Cloud Service와 호환되도록 해야 합니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="고객은 사용자 지정 코드 및 패키지를 검토하여 콘텐츠가 /libs에 전달되었는지 확인하고 /apps 하의 콘텐츠 위에 오버레이되도록 리팩터링하여 AEM as a Cloud Service와 호환되도록 해야 합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="오버레이"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

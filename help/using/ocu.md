@@ -5,7 +5,7 @@ exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 71%
+ht-degree: 82%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_overview"
 >title="오래된 코드 사용"
->abstract="OCU는 Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드 전에 이러한 변경 내용을 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용하지 못하게 될 수 있습니다."
+>abstract="OCU는 Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용하지 못하게 될 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 
-`OCU`  Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드 전에 이러한 변경 내용을 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용하지 못하게 될 수 있습니다.
+`OCU`  Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용하지 못하게 될 수 있습니다.
 
 이전 버전이 기본적으로 설치되어 있지 않으므로, 고객 애플리케이션이 제대로 작동하지 않을 수 있습니다.
 
@@ -35,7 +35,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 고객 노드를 검토 및 조정하여 최신 버전의 AEM 구성 요소 또는 API를 사용하는 것입니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="가장 좋은 방법은 고객 노드를 검토 및 조정하여 최신 버전의 AEM 구성 요소 또는 API를 사용하는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

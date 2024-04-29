@@ -5,7 +5,7 @@ exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Sling 요청 처리는 리소스의 콘텐츠(특히 `sling:resourceType` 속성
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="구현 지침"
->abstract="CAS를 통해 식별된, 서로 다른 콘텐츠 영역 간 위반이 존재하는 패턴을 검토해야 합니다. 최종 및 내부 콘텐츠 분류 영역을 사용하지 마십시오. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="CAS를 통해 식별된, 서로 다른 콘텐츠 영역 간 위반이 존재하는 패턴을 검토해야 합니다. 최종 및 내부 콘텐츠 분류 영역을 사용하지 마십시오. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="지속 가능한 업그레이드"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

@@ -5,7 +5,7 @@ exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 현재 구성을 검토하고 언급된 구성에 대한 변경 내용을 이전으로 되돌려 향후 발생할 업그레이드 문제를 방지하는 것입니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="가장 좋은 방법은 현재 구성을 검토하고 언급된 구성에 대한 변경 내용을 이전으로 되돌려 향후 발생할 업그레이드 문제를 방지하는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 위에서 언급한 4가지의 구성을 변경하거나 제거하지 마십시오.

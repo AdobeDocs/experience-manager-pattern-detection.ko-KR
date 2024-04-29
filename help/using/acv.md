@@ -5,7 +5,7 @@ exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ Assets 콘텐츠 유효성 검사기
 >id="aemcloud_bpa_acv_overview"
 >title="Assets 콘텐츠 유효성 검사기"
 >abstract="ACV는 자산 콘텐츠의 누락된 필수 노드를 식별합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="주요 변경 내용 - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-cloud-service/content/assets/overview" text="주요 변경 내용 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 릴리스 정보"
 
 `ACV` (Assets Content Validator) 에셋 콘텐츠에서 누락된 필수 노드 및 위반 사항을 식별합니다. 이로 인해 Experience Manager as a Cloud Service의 특정 Assets 기능이 작동하지 않을 수 있습니다.
@@ -47,7 +47,7 @@ Assets 콘텐츠 유효성 검사기
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="구현 지침"
->abstract="Adobe은 콘텐츠 구조를 검토하여 상속된 속성에 의존하는 워크플로가 끊어지는 것을 방지할 것을 권장합니다. 도움이 필요한 경우 고객 지원 센터에 문의하십시오."
+>abstract="Adobe는 콘텐츠 구조를 검토하여 상속된 속성에 의존하는 워크플로가 끊어지는 것을 방지할 것을 권장합니다. 도움이 필요한 경우 고객 지원 센터에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 누락된 하위 노드가 있는 경우 폴더를 분석하십시오. 폴더 수가 관리 가능한 경우 수동으로 노드를 생성하고, 그렇지 않은 경우 스크립트를 사용하십시오.

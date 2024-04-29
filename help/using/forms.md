@@ -5,7 +5,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="FORMS 코드는 Adobe Experience Manager Forms에서 Adobe Experience Manager Forms as a Cloud Service로의 마이그레이션과 관련된 잠재적 문제를 식별합니다. Cloud Service으로 마이그레이션하기 전에 발생할 수 있는 영향 및 위험을 검토하고 이러한 문제를 해결하십시오."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="가능한 영향 및 위험"
+>abstract="FORMS 코드는 Adobe Experience Manager Forms에서 Adobe Experience Manager Forms as a Cloud Service로의 마이그레이션과 관련된 잠재적 문제를 식별합니다. 관련된 가능한 영향 및 위험을 검토하여 Cloud Service로 마이그레이션하기 전에 이러한 문제를 해결하십시오."
+>additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="가능한 영향 및 위험"
 
 `FORMS`  에서 마이그레이션과 관련된 잠재적 문제 식별 [!DNL Adobe Experience Manager Forms] 끝 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. [!DNL Cloud Service]로 마이그레이션 하기 전에 이러한 문제를 해결하십시오.
 
@@ -67,7 +67,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="구현 지침"
->abstract="FORMS 코드를 통해 노출된 정보에서 일부 기능 및 API를 Cloud Service와 호환되도록 하는 데 필요한 대체 기능 및 기타 작업에 대한 지침을 얻을 수 있습니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="FORMS 코드를 통해 노출된 정보에서 일부 기능 및 API를 Cloud Service와 호환되도록 하는 데 필요한 대체 기능 및 기타 작업에 대한 지침을 얻을 수 있습니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 마이그레이션 유틸리티를 사용하여 환경의 모든 규칙 스크립트를 재사용 가능한 기능으로 변환하십시오. 재사용 가능한 기능을 시각적 규칙 편집기와 함께 사용하여 규칙 스크립트를 통해 얻은 결과를 유지할 수 있습니다. (CODE_EDITOR)

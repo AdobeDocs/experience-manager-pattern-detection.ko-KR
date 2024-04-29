@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 57%
+ht-degree: 67%
 
 ---
 
@@ -57,7 +57,7 @@ AEM 시스템 개요
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="구현 지침"
->abstract="ASO 코드를 통해 노출된 정보는 버전, 제품 추가 기능 및 시스템 수준 정보를 포함하여 AEM 환경에 대한 일반 정보를 제공합니다. AEM에서 지원되지 않는 제품 또는 기능에 대해 as a Cloud Service으로 검토하십시오. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="ASO 코드를 통해 노출되는 정보는 버전, 제품 추가 기능 및 시스템 수준 정보 등 AEM 환경에 대한 일반 정보를 제공합니다. AEM as a Cloud Service에서 지원되지 않는 제품이나 기능이 있는지 검토하십시오. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 지원되지 않는 제품 또는 기능을 사용하는 AEM 업그레이드는 권장되지 않으며 지원되지 않을 수 있습니다.

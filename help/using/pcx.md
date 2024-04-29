@@ -5,7 +5,7 @@ exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 콘텐츠 구조를 검토하여 궁극적으로 페이지 렌더링 성능을 향상시키는 데 도움이 되도록 페이지 복잡성을 줄이는 것입니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="가장 좋은 방법은 콘텐츠 구조를 검토하여 궁극적으로 페이지 렌더링 성능을 향상시키는 데 도움이 되도록 페이지 복잡성을 줄이는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 다음 작업을 수행하여 페이지 내의 총 노드 수를 줄이십시오.

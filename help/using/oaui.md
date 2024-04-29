@@ -5,7 +5,7 @@ exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ OAuth 사용자 인스턴스
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="구현 지침"
->abstract="OAuth로 구성된 외부 사용자는 AEM as a Cloud Service와 호환되도록 재구성되기 전까지 작성자/게시 인스턴스에 로그인할 수 없습니다. AEM as a Cloud Service에서는 작성자, 관리자 및 개발자 사용자에 대해서만 IMS 인증 지원 서비스를 제공하며 게시 환경에 대한 SAML 기반 통합 기능을 제공합니다. 도움 또는 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="OAuth로 구성된 외부 사용자는 AEM as a Cloud Service와 호환되도록 재구성되기 전까지 작성자/게시 인스턴스에 로그인할 수 없습니다. AEM as a Cloud Service에서는 작성자, 관리자 및 개발자 사용자에 대해서만 IMS 인증 지원 서비스를 제공하며 게시 환경에 대한 SAML 기반 통합 기능을 제공합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS 지원 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 통합 - 게시"
 
