@@ -19,7 +19,7 @@ Assets 콘텐츠 유효성 검사기
 >id="aemcloud_bpa_acv_overview"
 >title="Assets 콘텐츠 유효성 검사기"
 >abstract="ACV는 자산 콘텐츠의 누락된 필수 노드를 식별합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-cloud-service/content/assets/overview" text="주요 변경 내용 - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview" text="주요 변경 내용 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 릴리스 정보"
 
 `ACV` (Assets Content Validator) 에셋 콘텐츠에서 누락된 필수 노드 및 위반 사항을 식별합니다. 이로 인해 Experience Manager as a Cloud Service의 특정 Assets 기능이 작동하지 않을 수 있습니다.

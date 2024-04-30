@@ -19,7 +19,7 @@ ht-degree: 75%
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
 >abstract="FORMS 코드는 Adobe Experience Manager Forms에서 Adobe Experience Manager Forms as a Cloud Service로의 마이그레이션과 관련된 잠재적 문제를 식별합니다. 관련된 가능한 영향 및 위험을 검토하여 Cloud Service로 마이그레이션하기 전에 이러한 문제를 해결하십시오."
->additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="가능한 영향 및 위험"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="가능한 영향 및 위험"
 
 `FORMS`  에서 마이그레이션과 관련된 잠재적 문제 식별 [!DNL Adobe Experience Manager Forms] 끝 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. [!DNL Cloud Service]로 마이그레이션 하기 전에 이러한 문제를 해결하십시오.
 

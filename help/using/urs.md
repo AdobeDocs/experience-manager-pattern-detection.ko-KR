@@ -17,7 +17,7 @@ ht-degree: 74%
 >id="aemcloud_bpa_urs_overview"
 >title="지원되지 않는 저장소 구조"
 >abstract="URS는 지원되지 않는 저장소 구조 및 노드 특성에 대한 사례를 식별합니다. 여기에는 AEM 제품 코드와 고객 코드 간의 충돌을 방지하기 위한 정보, /etc에서 저장소의 다른 폴더로 재구성되는 콘텐츠 등이 표시됩니다."
->additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="저장소 재구성"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="저장소 재구성"
 
 ## 배경 {#background}
 
@@ -47,10 +47,10 @@ ht-degree: 74%
 >id="aemcloud_bpa_urs_guidance"
 >title="구현 지침"
 >abstract="가장 좋은 방법은 코드 프로젝트를 검토하는 것입니다. AEM 프로젝트 구조 지침을 준수하도록 하고 이전/지원되지 않는 저장소 패스에 의존하여 AEM as a Cloud Service에서 원하지 않은 비헤이비어를 야기할 수 있는 코드를 사용하지 않는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
->additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 프로젝트 구조 지침"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 프로젝트 구조 지침"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
-* AEM as a Cloud Service를 준비하기 위한 가이드라인은 [저장소 재구성](https://experienceleague.adobe.com/en/docs/ko/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring)을 참조하십시오.
-* 참조: [AEM 프로젝트 구조](https://experienceleague.adobe.com/en/docs/ko/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 변경 가능한/변경 불가능한 저장소 영역에 대해 자세히 알아보려면
+* AEM as a Cloud Service를 준비하기 위한 가이드라인은 [저장소 재구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring)을 참조하십시오.
+* 참조: [AEM 프로젝트 구조](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 변경 가능한/변경 불가능한 저장소 영역에 대해 자세히 알아보려면
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
 * 사용 [저장소 현대화 도구](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) Adobe Experience Manager as a Cloud Service에 대해 정의된 프로젝트 구조와 호환될 수 있도록 콘텐츠와 코드를 개별 패키지로 분리하여 기존 프로젝트 패키지를 재구성했습니다.

@@ -35,7 +35,7 @@ ht-degree: 88%
 >id="aemcloud_bpa_nbcc_guidance"
 >title="구현 지침"
 >abstract="가장 좋은 방법은 사용자 정의 코드를 검토한 다음, 역으로 호환되는 Sling 구성 요소만 오버레이 또는 참조하는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
->additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="오버레이"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="오버레이"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 역으로 호환되는 Sling 구성 요소만 오버레이하거나 참조하십시오.

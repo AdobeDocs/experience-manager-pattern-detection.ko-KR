@@ -68,14 +68,14 @@ ht-degree: 89%
 >title="구현 지침"
 >abstract="Sling Commons 스케줄러 사용에 대한 구현을 검토하십시오. Sling 작업으로 재구성하고, 시스템 유지 관리 작업을 재구성하고, 이진 데이터의 스트리밍을 검토하고, AEM as a Cloud Service를 준수하도록 코드를 리팩터링합니다."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling 작업"
->additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service에서의 유지 관리 작업"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service에서의 유지 관리 작업"
 
 * `java.io.inputstream`
    * 데이터 스토어에 바이너리를 바로 추가하는 다이렉트 바이너리 업로드 방식을 사용하십시오.
    * 자산 사용 사례의 경우 [AEM 업로드](https://github.com/adobe/aem-upload)를 참조하십시오. 다른 바이너리 유형의 경우 동일한 패턴을 따라 사용자 정의 업로드 논리를 모델링할 수 있습니다.
 
 * `maintenance.task.configuration`
-   * AEM as a Cloud Service [유지 관리 작업](https://experienceleague.adobe.com/en/docs/ko/experience-manager-cloud-service/content/operations/maintenance) 설명서를 검토하십시오.
+   * AEM as a Cloud Service [유지 관리 작업](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/maintenance) 설명서를 검토하십시오.
    * [유지 관리 작업 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)은 소스 제어에 배치되어야 합니다.
 
 * `sling.commons.scheduler`

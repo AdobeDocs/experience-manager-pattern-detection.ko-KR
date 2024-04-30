@@ -33,7 +33,7 @@ ht-degree: 87%
 >id="aemcloud_bpa_ctem_guidance"
 >title="구현 지침"
 >abstract="가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다. 고객은 기존 AEM 현대화 도구를 통해 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-65/content/implementing/developing/platform/templates/templates" text="편집 가능한 템플릿"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="편집 가능한 템플릿"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 현대화 도구"
 
 * 가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다.
@@ -48,5 +48,5 @@ ht-degree: 87%
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 사용 [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/) 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션하기 위해
-* [템플릿](https://experienceleague.adobe.com/en/docs/ko/experience-manager-65/content/implementing/developing/platform/templates/templates)에서 편집 가능한 템플릿에 대해 자세히 알아보십시오.
+* [템플릿](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)에서 편집 가능한 템플릿에 대해 자세히 알아보십시오.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

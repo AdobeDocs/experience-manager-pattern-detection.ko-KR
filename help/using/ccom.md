@@ -40,8 +40,8 @@ ht-degree: 84%
 >title="구현 지침"
 >abstract="가장 좋은 방법은 사용자 정의 구성 요소의 수를 최소화하고, 핵심 구성 요소를 사용하고, 핵심 구성 요소와 스타일 시스템을 함께 사용하여 기술적인 부담을 줄이는 것입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-core-components/using/introduction" text="핵심 구성 요소"
->additional-url="https://experienceleague.adobe.com/en/docs/ko/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="스타일 시스템"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="스타일 시스템"
 
 * [핵심 구성 요소 소개](https://experienceleague.adobe.com/ko/docs/experience-manager-core-components/using/introduction)에서 핵심 구성 요소에 대해 자세히 알아보십시오.
-* [스타일 시스템 사용](https://experienceleague.adobe.com/en/docs/ko/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)에서 스타일 시스템에 대해 자세히 알아보십시오.
+* [스타일 시스템 사용](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)에서 스타일 시스템에 대해 자세히 알아보십시오.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
