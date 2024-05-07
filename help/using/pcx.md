@@ -3,9 +3,9 @@ title: PCX
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 릴리스 정보"
 
-`PCX`  구조에 많은 노드가 포함된 페이지를 식별합니다.
+`PCX`는 구조에 다수의 노드가 포함된 페이지를 식별합니다.
 
 다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 

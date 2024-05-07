@@ -3,9 +3,9 @@ title: OAUI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ OAuth 사용자 인스턴스
 >abstract="OAUI 코드는 최소 한 명 이상의 올바른 마이그레이션이 필요한 OAuth 관련 구성된 사용자가 있는 패턴을 식별합니다. `rep:AuthorizableId` 노드의 바로 아래에 `oauth`라는 이름의 하위 노드가 `/home/user-path/user-node/oauth`의 형식으로 존재하는 경우 사용자에 대해 OAuth가 구성됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 릴리스 정보"
 
-`OAUI`  최소 한 명 이상의 올바른 마이그레이션이 필요한 OAuth 관련 구성된 사용자가 있는 패턴을 식별합니다.
+`OAUI`는 최소 한 명 이상의 올바른 마이그레이션이 필요한 OAuth 관련 구성된 사용자가 있는 패턴을 식별합니다.
 
 `rep:AuthorizableId` 노드의 바로 아래에 `oauth`라는 이름의 하위 노드가 `/home/user-path/user-node/oauth`의 형식으로 존재하는 경우 사용자에 대해 OAuth가 구성됩니다.
 

@@ -3,9 +3,9 @@ title: REP
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="주요 변경 내용 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="개발 지침"
 
-`REP`  활성화된 복제 에이전트를 식별합니다. 이들 에이전트는 AEM as a Cloud Service로 업그레이드할 때 해결해야 할 문제의 발생 가능성을 감지하기 위해 보고됩니다.
+`REP`는 활성화된 복제 에이전트를 식별합니다. 이들 에이전트는 AEM as a Cloud Service로 업그레이드할 때 해결해야 할 문제의 발생 가능성을 감지하기 위해 보고됩니다.
 
 다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
@@ -36,9 +36,9 @@ AEM as a Cloud Service는 [Sling 콘텐츠 배포](https://sling.apache.org/docu
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
 * AEM as a Cloud Service와 함께 복제 구성이 변경되었습니다. 모든 현재 복제 에이전트를 검토하여 표준 기능으로 대체된 기능은 무엇인지, 코드로 이동해야 하는 구성은 무엇인지, 지원되지 않는 기능은 무엇인지 확인해야 합니다.
-* AEM as a Cloud Service로 업그레이드 시 사용자 지정 코드 또는 워크플로에서의 복제 에이전트 사용을 검토해야 합니다.
+* AEM as a Cloud Service로 업그레이드 시 사용자 정의 코드 또는 워크플로에서의 복제 에이전트 사용을 검토해야 합니다.
 * 복제 되돌리기 기능은 AEM as a Cloud Service에서 지원되지 않습니다.
-* 별도의 Dispatcher 플러시 에이전트를 구성할 필요가 없습니다. 이는 AEM as a Cloud Service 환경에 자동으로 구성됩니다.
+* 개별 Dispatcher 플러시 에이전트를 구성하지 않아도 됩니다. 이는 AEM as a Cloud Service 환경에 자동으로 구성됩니다.
 
 ## 가능한 해결 방법 {#solutions}
 

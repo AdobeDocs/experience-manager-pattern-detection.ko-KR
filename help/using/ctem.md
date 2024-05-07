@@ -3,26 +3,26 @@ title: CTEM
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # CTEM {#ctem}
 
-사용자 지정 템플릿
+사용자 정의 템플릿
 
 ## 배경 {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
->title="사용자 지정 템플릿"
->abstract="CTEM은 AEM에 설치된 사용자 지정 구성 요소를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다."
+>title="사용자 정의 템플릿"
+>abstract="CTEM은 AEM에 설치된 사용자 정의 구성 요소를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다."
 
-`CTEM`  AEM에 설치된 사용자 지정 템플릿을 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
+`CTEM`은 AEM에 설치된 사용자 정의 템플릿을 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
 
-템플릿은 의 기본 유형 값으로 식별됩니다. `cq:Template`. 템플릿의 범주를 식별하기 위해 하위 유형이 이 코드와 함께 사용됩니다.
+템플릿은 `cq:Template`의 기본 유형 값을 통해 식별됩니다. 템플릿의 범주를 식별하기 위해 하위 유형이 이 코드와 함께 사용됩니다.
 
 * `custom.editable.template`: “/apps”로 시작하지 않는 템플릿 패스
 * `custom.static.template`: “/apps”로 시작하는 템플릿 패스
@@ -47,6 +47,6 @@ ht-degree: 87%
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="페이지 구조 변환기"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
-* 사용 [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/) 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션하기 위해
+* [AEM 현대화 도구](https://opensource.adobe.com/aem-modernize-tools/)를 사용하여 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다.
 * [템플릿](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)에서 편집 가능한 템플릿에 대해 자세히 알아보십시오.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

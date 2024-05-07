@@ -3,9 +3,9 @@ title: URC
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="지원되는 실행 모드"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="실행 모드"
 
-`URC`  AEM as a Cloud Service에서 지원되지 않는 실행 모드 이름을 기반으로 하는 구성의 사용을 식별합니다.
+`URC`는 AEM as a Cloud Service에서 지원되지 않는 실행 모드 이름을 기반으로 하는 구성의 사용을 식별합니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 

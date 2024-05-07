@@ -3,9 +3,9 @@ title: NCC
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="릴리스 정보 - AEM as a Cloud Service"
 
-`NCC`  일부 JCR 노드 또는 번들이 호환되지 않는 방식으로 변경되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다.
+`NCC`는 일부 JCR 노드 또는 번들이 호환되지 않는 방식으로 변경되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 

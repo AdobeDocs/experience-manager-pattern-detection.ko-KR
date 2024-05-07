@@ -3,9 +3,9 @@ title: DG
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 개발 지침"
 
 
-`DG`  선택한 개발 지침의 위반을 식별합니다. [AEM 6.5](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 및 [AEM as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 다음 모범 사례를 통해 시스템의 유지 가능성 및 성능을 개선할 수 있습니다. 이들 위반 중 일부는 이전 버전의 AEM을 포함하여 다른 애플리케이션 컨텍스트에서는 문제가 되지 않을 수 있지만, AEM as a Cloud Service와 함께 사용할 경우에는 문제를 발생시킬 수 있습니다.
+`DG`는 선택된 [AEM 6.5](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 및 [AEM as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)용 개발 지침의 위반을 식별합니다. 다음 모범 사례를 통해 시스템의 유지 가능성 및 성능을 개선할 수 있습니다. 이들 위반 중 일부는 이전 버전의 AEM을 포함하여 다른 애플리케이션 컨텍스트에서는 문제가 되지 않을 수 있지만, AEM as a Cloud Service와 함께 사용할 경우에는 문제를 발생시킬 수 있습니다.
 
 다양한 유형의 감지된 위반을 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
@@ -45,7 +45,7 @@ ht-degree: 89%
 
 * `sling.commons.scheduler`
    * [Sling Commons 스케줄러](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html)를 사용하는 배경 작업에 종속된 애플리케이션은 AEM as a Cloud Service에서의 실행이 보장되지 않으므로 예상대로 작동하지 않을 수 있습니다.
-   * 지침 [백그라운드 작업 및 장기 실행 작업](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) 예약된 작업으로 코드 실행은 해당 코드에서 실행 중인 인스턴스가 언제든지 중단될 수 있다고 가정해야 한다고 제안합니다. 따라서 해당 코드는 탄력적이고 복원 가능한 상태여야 합니다.
+   * [배경 작업 및 장기 실행 작업](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)을 위한 지침은 예정된 작업으로 실행된 코드는 해당 코드에서 실행 중인 인스턴스가 언제든지 중단될 가능성이 있음을 가정해야 한다고 제안합니다. 따라서 해당 코드는 탄력적이고 복원 가능한 상태여야 합니다.
 
 * `unsupported.asset.api`
    * 자산 관리자의 다음 API는 AEM as a Cloud Service에서 지원되지 않는 것으로 표시됩니다.
@@ -76,11 +76,11 @@ ht-degree: 89%
 
 * `maintenance.task.configuration`
    * AEM as a Cloud Service [유지 관리 작업](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/maintenance) 설명서를 검토하십시오.
-   * [유지 관리 작업 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)은 소스 제어에 배치되어야 합니다.
+   * [유지 관리 작업 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)은 소스 제어에 배치되어야 합니다.
 
 * `sling.commons.scheduler`
    * [Sling Commons 스케줄러](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) 사용을 최소 한 번 이상의 실행이 보장된 [Sling 작업](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)으로 대체하십시오.
-   * 장기 실행 작업은 피해야 합니다.
+   * 장기 실행 작업을 피하십시오.
 
 * `unsupported.asset.api`
    * 자산 관리자의 지원되지 않는 API를 사용하지 말고 [AEM 업로드](https://github.com/adobe/aem-upload)를 참조하십시오.
@@ -89,5 +89,5 @@ ht-degree: 89%
    * 이벤트 리스너를 사용하는 대신 처리 보장을 제공하므로 이벤트 처리 메커니즘을 [Sling 작업](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)으로 리팩터링하는 것이 좋습니다.
 
 * `custom.guava.cache`
-   * 캐시는 필요한 경우 AEM 외부에서 만들어야 합니다. 외부 캐싱 솔루션을 고려해 볼 수 있습니다.
+   * 필요한 경우, 캐시는 AEM 외부에서 생성되어야 합니다. 외부 캐싱 솔루션을 고려해 볼 수 있습니다.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

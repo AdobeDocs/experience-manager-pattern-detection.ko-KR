@@ -3,9 +3,9 @@ title: UMI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 릴리스 정보"
 
-`UMI`  은 업그레이드 실패 또는 기능 축소와 같이 업그레이드 시 문제를 발생시키는 특정 OSGi 구성에 대한 변경 내용을 식별합니다.
+`UMI`는 업그레이드 실패 또는 기능 축소와 같이 업그레이드 시 문제를 발생시키는 특정 OSGi 구성에 대한 변경 내용을 식별합니다.
 
 다음 구성이 수정된 것으로 확인되었습니다.
 

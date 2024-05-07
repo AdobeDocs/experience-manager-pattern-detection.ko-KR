@@ -3,7 +3,7 @@ title: OU
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
 

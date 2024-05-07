@@ -3,9 +3,9 @@ title: ECU
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 ## 배경 {#background}
 
-`ECU`  서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다.
+`ECU`는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다.
 
 Sling 요청 처리는 리소스의 콘텐츠(특히 `sling:resourceType` 속성)를 사용하여 콘텐츠 렌더링에 사용할 스크립트를 결정하는 방법을 정의합니다. 자세한 내용은 [스크립트 찾기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)를 참조하십시오. 또한 Sling은 “오버레이” 및 “오버라이드”를 통해 리소스에 액세스하고 리소스를 병합할 수 있는 기술을 제공합니다. 이러한 기술은 [Sling 리소스 병합](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) 및 [오버레이](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/overlays)의 일부로 기술되어 있습니다.
 
