@@ -2,10 +2,10 @@
 title: DM
 description: 패턴 감지기 코드가 AEM Assets - Dynamic Media의 사용을 식별하는 방법에 대해 알아봅니다.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ Dynamic Media
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
 >abstract="DM 코드는 현재 구현에서의 AEM Assets Dynamic Media 사용을 식별합니다. Dynamic Media 모드는 실행 모드에 의해 감지됩니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 지침 및 모범 사례"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 지침 및 우수 사례"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 개발 지침"
 
 `DM`(Dynamic Media)은 AEM Assets Dynamic Media 사용을 식별합니다. Dynamic Media 모드는 실행 모드에 의해 감지됩니다.
@@ -40,7 +40,7 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="구현 지침"
->abstract="AEM as a Cloud Service는 dynamicmedia_scene7 실행 모드만 지원합니다. 현재 설정을 검토한 다음 도움 및 설명이 필요한 경우 Adobe 지원 센터에 문의하십시오."
+>abstract="AEM as a Cloud Service는 dynamicmedia_scene7 실행 모드만 지원합니다. 현재 설정을 검토하고 Adobe 지원 팀에 연락하여 도움 및 설명을 요청하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Dynamic Media 설정"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

@@ -2,10 +2,10 @@
 title: WRK
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="도구 및 리소스"
->abstract="사용자 정의 자산 워크플로 모델 또는 시작 관리자가 식별되면 자산 워크플로 마이그레이션 도구 실행을 검토 및 계획하십시오. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="사용자 지정 에셋 워크플로 모델 또는 런처가 식별되면 에셋 워크플로 마이그레이션 도구 실행을 검토 및 계획하십시오. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="자산 워크플로 마이그레이션 도구"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
