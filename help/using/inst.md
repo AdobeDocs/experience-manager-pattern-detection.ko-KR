@@ -2,10 +2,10 @@
 title: INST
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 99%
+source-wordcount: '451'
+ht-degree: 78%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="설치된 아티팩트"
->abstract="INST는 고객이 AEM에 설치한 맞춤형/서드파티 패키지 및 번들을 식별합니다. 이들을 보고하면 일반적인 업그레이드 범위 내에서 시스템 상태를 특성화하는 데 도움이 됩니다. 모든 서드파티 패키지는 AEM as a Cloud Service 개발 및 패키징 지침을 준수해야 합니다."
+>abstract="INST는 고객이 AEM에 설치한 맞춤형/서드파티 패키지 및 번들을 식별합니다. 이러한 패키지 및 번들은 시스템 상태와 일반적인 업그레이드 범위를 특성화하는 데 도움이 되도록 보고됩니다. 모든 서드파티 패키지는 AEM as a Cloud Service 개발 및 패키징 지침을 준수해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="개발 지침 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="패키징 지침 - AEM as a Cloud Service"
 
-`INST`는 고객이 AEM에 설치한 맞춤형/서드파티 패키지 및 번들을 식별합니다. 이들을 보고하면 일반적인 업그레이드 범위 내에서 시스템 상태를 특성화하는 데 도움이 됩니다.
+`INST`  고객이 AEM에 설치한 맞춤형/서드파티 패키지 및 번들을 식별합니다. 이러한 패키지 및 번들은 시스템 상태와 일반적인 업그레이드 범위를 특성화하는 데 도움이 되도록 보고됩니다.
 
 여러 버전의 패키지를 설치한 경우 최신 버전만 보고됩니다.
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="도구 및 리소스"
->abstract="WKND 레거시 프로젝트를 검토하여 INST 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. 또한 GitHub에서 INST 위반 사례를 검토하여 이 문제를 해결하고 AEM as a Cloud Service에 제대로 배포하는 방법에 대해 알아보십시오."
+>abstract="WKND 레거시 프로젝트를 검토하여 INST 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. AEM 또한 GitHub의 INST 위반 사례를 검토하여 이 문제를 as a Cloud Service으로 수정하고 배포할 수 있는 방법을 이해하십시오."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND 레거시 프로젝트"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 위반 사례 - GitHub"
 

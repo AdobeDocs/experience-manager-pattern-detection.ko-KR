@@ -2,10 +2,10 @@
 title: DOPI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+source-wordcount: '254'
+ht-degree: 68%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="더 이상 사용되지 않는 순서가 지정된 속성 색인"
->abstract="DOPI 코드는 6.1부터 더 이상 사용되지 않으며 6.2에서 제거된, 순서가 지정된 색인 정의(`primaryType=oak:QueryIndexDefinition` 및 type=“ordered”)의 사용을 식별합니다."
+>abstract="DOPI 코드는 순서가 지정된 속성 색인 정의의 사용을 식별합니다(`primaryType=oak:QueryIndexDefinition` 및 `type="ordered"`). 이 정의는 AEM 6.1에서 더 이상 사용되지 않으며 AEM 6.2에서 제거되었습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="순서가 지정된 색인 - 더 이상 사용되지 않는 기능"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/indexing" text="색인화 - AEM as a Cloud Service"
 
-`DOPI`는 AEM 6.1부터 더 이상 사용되지 않으며 AEM 6.2에서 제거된, 순서가 지정된 색인 정의(`primaryType=oak:QueryIndexDefinition` 및 `type="ordered"`)의 사용을 식별합니다.
+`DOPI`  순서가 지정된 속성 색인 정의의 사용을 식별합니다(`primaryType=oak:QueryIndexDefinition` 및 `type="ordered"`). 해당 정의는 AEM 6.1에서 더 이상 사용되지 않으며 AEM 6.2에서 제거되었습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="도구 및 리소스"
->abstract="WKND 레거시 프로젝트를 검토하여 DOPI 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. 또한 GitHub에서 DOPI 위반 사례를 검토하여 인덱스 변환기 도구를 통해 기존의 순서가 지정된 색인을 AEM as a Cloud Service에서 지원되는 Lucene 기반 색인으로 변환하는 방법에 대해 알아보십시오."
+>abstract="WKND 레거시 프로젝트를 검토하여 DOPI 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. 또한 GitHub에서 DOPI 위반 사례를 검토하십시오. 기존의 순서가 지정된 색인을 AEM에서 as a Cloud Service으로 지원되는 Lucene 기반 색인으로 변환하는 방법을 이해하는 데 도움이 됩니다."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND 레거시 프로젝트"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI 위반 사례 - GitHub"
 

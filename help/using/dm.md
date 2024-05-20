@@ -2,10 +2,10 @@
 title: DM
 description: 패턴 감지기 코드가 AEM Assets - Dynamic Media의 사용을 식별하는 방법에 대해 알아봅니다.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '173'
+ht-degree: 78%
 
 ---
 
@@ -18,11 +18,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DM 코드는 현재 구현에서의 AEM Assets Dynamic Media 사용을 식별합니다. Dynamic Media 모드는 실행 모드에 의해 감지됩니다."
+>abstract="DM 코드는 현재 구현에서의 AEM Assets Dynamic Media 사용을 식별합니다. 실행 모드는 Dynamic Media 모드를 감지합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 지침 및 우수 사례"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 개발 지침"
 
-`DM`(Dynamic Media)은 AEM Assets Dynamic Media 사용을 식별합니다. Dynamic Media 모드는 실행 모드에 의해 감지됩니다.
+`DM`(Dynamic Media)은 AEM Assets Dynamic Media 사용을 식별합니다. 실행 모드는 Dynamic Media 모드를 감지합니다.
 
 하위 유형이 이 코드와 함께 사용됩니다.
 
