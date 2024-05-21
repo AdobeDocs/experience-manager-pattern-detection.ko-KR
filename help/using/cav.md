@@ -2,10 +2,10 @@
 title: CAV
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '317'
-ht-degree: 100%
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 74%
 
 ---
 
@@ -18,14 +18,21 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="콘텐츠 영역 위반"
->abstract="CAV 코드는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다. 이러한 위반은 AEM as a Cloud Service로 이동한 후 변경할 필요가 있는 오버레이 및 제한된 콘텐츠에 대한 개요를 제공합니다."
+>abstract="CAV 코드는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다. 이 위반은 AEM으로 as a Cloud Service으로 이동한 후 변경해야 할 수 있는 오버레이 및 제한된 콘텐츠에 대한 개요를 제공합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 리소스 병합"
 
 `CAV`는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다.
 
-Sling 요청 처리는 리소스의 콘텐츠(특히 `sling:resourceType` 속성)를 사용하여 콘텐츠 렌더링에 사용할 스크립트를 결정하는 방법을 정의합니다. 자세한 내용은 [스크립트 찾기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)를 참조하십시오. 또한 Sling은 “오버레이” 및 “오버라이드”를 통해 리소스에 액세스하고 리소스를 병합할 수 있는 기술을 제공합니다. 이러한 기술은 [Sling 리소스 병합](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) 및 [오버레이](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/overlays)의 일부로 기술되어 있습니다.
+Sling 요청 처리는 리소스의 콘텐츠(특히 `sling:resourceType` 속성)를 사용하여 콘텐츠 렌더링에 사용할 스크립트를 결정하는 방법을 정의합니다. 자세한 내용은 [스크립트 찾기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)를 참조하십시오. 또한 Sling은 오버레이 및 재정의를 통해 리소스에 액세스하고 리소스를 병합하는 기술을 제공합니다. 이러한 기술은 의 일부로 설명되어 있습니다. [Sling 리소스 병합](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) 및 [오버레이](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
-고객이 `/libs`의 영역을 보다 안전하고 쉽게 이해할 수 있도록 `/libs`의 콘텐츠를 “mixin” 속성인 Public, Abstract, Final 및 Internal로 분류했습니다. 각각의 분류는 콘텐츠가 사용되거나, 상속되거나, 오버레이되는 방법에 대한 규칙을 나타냅니다. 자세한 설명은 [지속 가능한 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)를 참조하십시오.
+고객이 의 영역을 보다 안전하고 쉽게 이해할 수 있도록 지원 `/libs` 는 콘텐츠를 사용하고 오버레이하기에 안전합니다. `/libs` 은 &quot;mixin&quot; 속성으로 분류됩니다.
+
+* 공개
+* 요약
+* Final
+* 내부
+
+각각의 분류는 콘텐츠가 사용되거나, 상속되거나, 오버레이되는 방법에 대한 규칙을 나타냅니다. 자세한 설명은 [지속 가능한 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)를 참조하십시오.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
