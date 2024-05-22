@@ -2,10 +2,10 @@
 title: NCC
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 76%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="릴리스 정보 - AEM as a Cloud Service"
 
-`NCC`는 일부 JCR 노드 또는 번들이 호환되지 않는 방식으로 변경되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다.
+`NCC`  일부 JCR 노드 또는 번들이 호환되지 않는 방식으로 변경되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -39,5 +39,5 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 호환되는 Sling 구성 요소만 오버레이하거나 참조하십시오.
-* AEM 업그레이드 이후 `/libs` 또는 번들 내의 리소스를 사용하는 것이 좋습니다.
+* 에서 가져온 리소스를 조정하는 것이 좋습니다. `/libs` 또는 AEM 업그레이드 후 번들입니다.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
