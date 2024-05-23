@@ -5,7 +5,7 @@ exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_overview"
 >title="/libs 맞춤형 패키지 덮어쓰기"
->abstract="LOCP는 콘텐츠를에 제공하는 맞춤형 패키지 감지를 식별합니다 `/libs`: 앤티 패턴입니다(ACL이 있는 경우 제외)."
+>abstract="LOCP는 콘텐츠에 앤티 패턴인 `/libs`를 제공하는 맞춤형 패키지 감지를 식별합니다(ACL가 있는 경우 제외)."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="지속 가능한 업그레이드"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 리소스 병합"
 
@@ -34,7 +34,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="구현 지침"
->abstract="고객은 사용자 지정 코드 및 패키지를 검토하여 콘텐츠가 로 전달되었는지 확인해야 합니다. `/libs`. 필요한 경우 /apps 아래의 컨텐츠를 오버레이하도록 리팩터링하고 AEM as a Cloud Service과 호환되도록 하십시오. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="고객은 사용자 정의 코드 및 패키지를 검토하여 콘텐츠가 `/libs`로 전달되는지 확인해야 합니다. 필요한 경우, /apps 아래의 콘텐츠 오버레이를 사용하고, AEM as a Cloud Service와 호환되도록 리팩터링하십시오. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="오버레이"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

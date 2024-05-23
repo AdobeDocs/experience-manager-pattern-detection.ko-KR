@@ -5,7 +5,7 @@ exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 애플리케이션에서 사용되는 모든 실행 모드가 지원되는지 검토하는 것입니다. 그리고 실행 모드 해결 방법 지침을 따르는지 확인합니다"
+>abstract="모범 사례는 애플리케이션에 사용되는 모든 실행 모드가 지원되는지 검토하는 것입니다. 실행 모드 해결 지침을 따르는지도 확인하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="실행 모드 해결 방법 지침"
 
 * AEM as a Cloud Service의 다양한 실행 모드에 대해 사용할 수 있는 이름 세트는 제한되어 있습니다.
@@ -40,7 +40,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="도구 및 리소스"
->abstract="WKND 레거시 프로젝트를 검토하여 URC 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. 또한 GitHub에서 URC 위반 사례를 검토하여 사용자 지정 실행 모드 기반 OSGi 구성을 AEM as a Cloud Service으로 호환되도록 업데이트하는 방법에 대해 알아보십시오."
+>abstract="WKND 레거시 프로젝트를 검토하여 URC 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. 또한, GitHub에서 URC 위반 사례를 검토하여 사용자 정의 실행 모드 기반 OSGi 구성을 AEM as a Cloud Service와 호환되도록 업데이트하는 방법에 대해 알아보십시오."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND 레거시 프로젝트"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 위반 사례 - GitHub"
 

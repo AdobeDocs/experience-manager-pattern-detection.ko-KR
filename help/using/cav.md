@@ -5,7 +5,7 @@ exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 74%
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="콘텐츠 영역 위반"
->abstract="CAV 코드는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다. 이 위반은 AEM으로 as a Cloud Service으로 이동한 후 변경해야 할 수 있는 오버레이 및 제한된 콘텐츠에 대한 개요를 제공합니다."
+>abstract="CAV 코드는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다. 이러한 위반은 AEM as a Cloud Service로 이동한 후 변경할 필요가 있는 오버레이와 제한된 콘텐츠에 대한 개요를 제공합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 리소스 병합"
 
 `CAV`는 서로 다른 콘텐츠 영역이 콘텐츠 분류 규칙을 위반하는 방식으로 사용되는 패턴을 식별합니다.

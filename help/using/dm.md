@@ -5,7 +5,7 @@ exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="구현 지침"
->abstract="AEM as a Cloud Service는 dynamicmedia_scene7 실행 모드만 지원합니다. 현재 설정을 검토하고 Adobe 지원 팀에 연락하여 도움 및 설명을 요청하십시오."
+>abstract="AEM as a Cloud Service는 dynamicmedia_scene7 실행 모드만 지원합니다. 현재 설정을 검토한 다음에 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Dynamic Media 설정"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

@@ -5,7 +5,7 @@ exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Oak 색인 정의
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="도구 및 리소스"
->abstract="WKND 레거시 프로젝트를 검토하여 프로젝트에서 OID 위반을 해결하는 방법에 대해 알아보십시오. 또한 GitHub에서 OID 위반 사례를 검토하십시오. 인덱스 변환기 도구를 사용하여 레거시 인덱스를 변환하고 AEM과 as a Cloud Service으로 호환되도록 하는 방법을 이해하는 데 도움이 될 수 있습니다."
+>abstract="WKND 레거시 프로젝트를 검토하여 프로젝트에서 OID 위반을 해결하는 방법에 대해 알아보십시오. 또한 GitHub에서 OID 위반 사례를 검토하십시오. 인덱스 변환기 도구를 통해 기존 색인을 변환하고 AEM as a Cloud Service와 호환되도록 하는 방법을 이해하는 데 도움이 됩니다."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND 레거시 프로젝트"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="OID 위반 사례 - GitHub"
 

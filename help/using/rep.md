@@ -5,7 +5,7 @@ exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 57%
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="복제 에이전트"
->abstract="REP는 활성화된 복제 에이전트를 식별합니다. 이러한 에이전트는 AEM as a Cloud Service으로 업그레이드할 때 해결해야 할 문제의 발생 가능성을 감지하기 위해 보고됩니다. AEM as a Cloud Service는 Sling 콘텐츠 배포를 사용하여 작성자 환경에서 게시 환경으로 콘텐츠를 배포합니다. 이 배포는 AEM 런타임 이외의 시간에 Adobe Developer에서 Adobe I/O Runtime의 파이프라인 서비스를 사용하여 수행됩니다. 이 워크플로우는 프로비저닝된 AEM as a Cloud Service 환경에서 자동으로 구성됩니다."
+>abstract="REP는 활성화된 복제 에이전트를 식별합니다. 이 에이전트는 AEM as a Cloud Service로 업그레이드할 때 해결해야 할 문제의 발생 가능성을 감지하기 위해 보고됩니다. AEM as a Cloud Service는 Sling 콘텐츠 배포를 사용하여 작성자 환경에서 게시 환경으로 콘텐츠를 배포합니다. 이 배포는 Adobe Developer에서 Adobe I/O Runtime의 파이프라인 서비스를 사용하여 AEM 런타임 외부에서 수행됩니다. 이 워크플로는 프로비저닝된 AEM as a Cloud Service 환경에 자동으로 구성됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="주요 변경 내용 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="개발 지침"
 
@@ -31,7 +31,7 @@ ht-degree: 57%
 * `standard.replication.agent.modification`: 활성화되고 수정되는 표준 복제 에이전트를 식별합니다.
 * `custom.replication.agent.detection`: 활성화된 사용자 정의 복제 에이전트를 식별합니다.
 
-AEM as a Cloud Service는 [Sling 콘텐츠 배포](https://sling.apache.org/documentation/bundles/content-distribution.html)를 사용하여 작성자 환경에서 게시 환경으로 콘텐츠를 배포합니다. 이 배포는 AEM 런타임 이외의 시간에 Adobe Developer에서 Adobe I/O Runtime의 파이프라인 서비스를 사용하여 수행됩니다. 이 워크플로우는 프로비저닝된 AEM as a Cloud Service 환경에서 자동으로 구성됩니다.
+AEM as a Cloud Service는 [Sling 콘텐츠 배포](https://sling.apache.org/documentation/bundles/content-distribution.html)를 사용하여 작성자 환경에서 게시 환경으로 콘텐츠를 배포합니다. 이 배포는 Adobe Developer에서 Adobe I/O Runtime의 파이프라인 서비스를 사용하여 AEM 런타임 외부에서 수행됩니다. 이 워크플로는 프로비저닝된 AEM as a Cloud Service 환경에 자동으로 구성됩니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 

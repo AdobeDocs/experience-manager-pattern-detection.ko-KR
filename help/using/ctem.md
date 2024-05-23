@@ -5,7 +5,7 @@ exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,23 +20,23 @@ ht-degree: 71%
 >title="사용자 정의 템플릿"
 >abstract="CTEM은 AEM에 설치된 사용자 지정 구성 요소를 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다."
 
-`CTEM`  AEM에 설치된 사용자 지정 템플릿을 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
+`CTEM`은 AEM에 설치된 사용자 지정 템플릿을 식별합니다. 이 정보는 모범 사례 평가 목적으로 제공됩니다.
 
-템플릿의 기본 유형 값은 다음과 같습니다. `cq:Template`: 식별에 도움이 됩니다. 템플릿의 범주를 식별하기 위해 하위 유형이 이 코드와 함께 사용됩니다.
+템플릿에는 식별일 지원하는 `cq:Template`의 기본 유형 값이 있습니다. 템플릿의 범주를 식별하기 위해 하위 유형이 이 코드와 함께 사용됩니다.
 
-* `custom.editable.template`: 템플릿 경로가 다음으로 시작하지 않음 `/apps`.
-* `custom.static.template`: 다음으로 시작하는 템플릿 경로 `/apps`.
+* `custom.editable.template`: `/apps`로 시작하지 않는 템플릿 패스.
+* `custom.static.template`: `/apps`로 시작하는 템플릿 패스.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 이동하는 것입니다. 고객은 기존 AEM 현대화 도구를 통해 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
+>abstract="가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다. 고객은 기존 AEM 현대화 도구를 통해 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="편집 가능한 템플릿"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 현대화 도구"
 
-* 가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 이동하는 것입니다.
+* 가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다.
 
 ## 가능한 해결 방법 {#solutions}
 
