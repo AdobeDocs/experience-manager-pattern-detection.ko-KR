@@ -2,10 +2,10 @@
 title: URS
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 66%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="지원되지 않는 저장소 구조"
->abstract="URS는 지원되지 않는 저장소 구조 및 노드 특성에 대한 사례를 식별합니다. 여기에는 AEM 제품 코드와 고객 코드 간의 충돌을 방지하기 위한 정보, /etc에서 저장소의 다른 폴더로 재구성되는 콘텐츠 등이 표시됩니다."
+>abstract="URS는 URS(지원되지 않는 저장소 구조) 및 노드 특성에 대한 사례를 식별합니다. 이렇게 하면 AEM 제품 코드와 고객 코드 간의 충돌을 방지하기 위한 정보가 표시되며, 콘텐츠는 재구성됩니다 `/etc` 저장소에서 다른 폴더 등으로 마이그레이션합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="저장소 재구성"
 
 ## 배경 {#background}
 
-`URS`는 지원되지 않는 저장소 구조 및 노드 특성에 대한 사례를 식별합니다. AEM 6.4부터 저장소 콘텐츠 재구성을 위한 지침이 제공되고 있습니다. AEM 제품 코드 및 고객 코드에 대한 계층을 명확하게 기술하고 상호 간의 충돌을 방지함으로써, 콘텐츠는 다음과 같은 높은 수준의 규칙을 준수하며 `/etc`에서 저장소의 다른 폴더로 재구성되고 있습니다.
+`URS`  URS(지원되지 않는 저장소 구조) 및 노드 특성에 대한 사례를 식별합니다. AEM 6.4부터 저장소 콘텐츠 재구성을 위한 지침이 제공되고 있습니다. AEM 제품 코드 및 고객 코드에 대한 계층을 명확하게 기술하고 상호 간의 충돌을 방지함으로써, 콘텐츠를에서 재구성하고 있습니다 `/etc` 저장소의 다른 폴더로 이를 위해서는 다음과 같은 높은 수준의 규칙을 준수해야 합니다.
 
-* AEM 제품 코드는 항상 `/libs`에 배치되며 이는 사용자 정의 코드로 덮어쓸 수 없습니다.
+* AEM 제품 코드는 항상 다음에 배치됩니다. `/libs` 해당 사용자 지정 코드는 덮어쓸 수 없습니다.
 * 사용자 정의 코드는 `/apps`, `/content` 및 `/conf`에 배치해야 합니다.
 * AEM as a Cloud Service에 대해 이들 지침을 따르는 것이 좋습니다.
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 코드 프로젝트를 검토하는 것입니다. AEM 프로젝트 구조 지침을 준수하도록 하고 이전/지원되지 않는 저장소 패스에 의존하여 AEM as a Cloud Service에서 원하지 않은 비헤이비어를 야기할 수 있는 코드를 사용하지 않는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="가장 좋은 방법은 코드 프로젝트를 검토하는 것입니다. AEM AEM 프로젝트 구조 지침을 준수하는지 확인하고 이전 또는 지원되지 않는 저장소 경로에 의존하는 코드를 사용하여 as a Cloud Service에서 원하지 않는 비헤이비어를 야기할 수 있는 문제를 방지합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 프로젝트 구조 지침"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
