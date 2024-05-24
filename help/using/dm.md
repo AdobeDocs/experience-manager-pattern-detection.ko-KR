@@ -19,7 +19,7 @@ Dynamic Media
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
 >abstract="DM 코드는 현재 구현에서의 AEM Assets Dynamic Media 사용을 식별합니다. 실행 모드는 Dynamic Media 모드를 감지합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 지침 및 우수 사례"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 가이드라인 및 모범 사례"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 개발 지침"
 
 `DM`(Dynamic Media)은 AEM Assets Dynamic Media 사용을 식별합니다. 실행 모드는 Dynamic Media 모드를 감지합니다.

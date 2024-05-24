@@ -5,7 +5,7 @@ exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 >id="aemcloud_bpa_dg_overview"
 >title="개발자 가이드라인"
 >abstract="DG 코드는 선택된 AEM 6.5 및 AEM as a Cloud Service용 개발 지침의 위반을 식별합니다. 다음 모범 사례를 통해 시스템의 유지 가능성 및 성능을 개선할 수 있습니다. 이들 위반 중 일부는 이전 버전의 AEM을 포함하여 다른 애플리케이션 컨텍스트에서는 문제가 되지 않을 수 있지만, AEM as a Cloud Service와 함께 사용할 경우에는 문제를 발생시킬 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 지침 및 우수 사례"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 개발 - 가이드라인 및 모범 사례"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 개발 지침"
 
 
