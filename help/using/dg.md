@@ -3,9 +3,9 @@ title: DG
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 91%
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
 * `java.io.inputstream`
-   * `java.io.InputStream`이 있는 바이너리 데이터를 스트리밍하면 성능에 영향을 줄 만큼의 메모리 리소스를 사용합니다. 이 문제는 AEM에서 as a Cloud Service으로 사용되는 컨테이너에서 사용할 수 있는 메모리가 제한적이기 때문입니다.
+   * `java.io.InputStream`이 있는 바이너리 데이터를 스트리밍하면 성능에 영향을 줄 만큼의 메모리 리소스를 사용합니다. 이는 AEM as a Cloud Service에서 사용되는 컨테이너에서 사용할 수 있는 메모리가 제한적이기 때문에 문제가 됩니다.
 
 * `maintenance.task.configuration`
    * 이전에는 명시적 구성이 필요했던 일부 유지 관리 작업은 이제 AEM as a Cloud Service에서 자동으로 구성 및 관리됩니다.
@@ -48,14 +48,14 @@ ht-degree: 91%
    * [배경 작업 및 장기 실행 작업](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)을 위한 지침은 예정된 작업으로 실행된 코드는 해당 코드에서 실행 중인 인스턴스가 언제든지 중단될 가능성이 있음을 가정해야 한다고 제안합니다. 따라서 해당 코드는 탄력적이고 복원 가능한 상태여야 합니다.
 
 * `unsupported.asset.api`
-   * AssetManager의 다음 API는 AEM as a Cloud Service에서 지원되지 않는 것으로 표시됩니다.
+   * 자산 관리자의 다음 API는 AEM as a Cloud Service에서 지원되지 않는 것으로 표시됩니다.
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * 실행을 보장할 수 없기 때문에 이벤트 리스너에 종속된 응용 프로그램이 예상대로 작동하지 않을 수 있습니다.
+   * 실행을 보장할 수 없기 때문에 이벤트 리스너에 의존하는 애플리케이션이 예상대로 작동하지 않을 수 있습니다.
 
 * `custom.guava.cache`
    * Guava 캐시를 사용하면 AEM에서 성능 문제가 발생할 수 있습니다.

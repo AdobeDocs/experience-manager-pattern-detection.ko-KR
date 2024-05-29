@@ -3,9 +3,9 @@ title: INST
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="개발 지침 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="패키징 지침 - AEM as a Cloud Service"
 
-`INST`  고객이 AEM에 설치한 맞춤형/서드파티 패키지 및 번들을 식별합니다. 이러한 패키지 및 번들은 시스템 상태와 일반적인 업그레이드 범위를 특성화하는 데 도움이 되도록 보고됩니다.
+`INST`는 고객이 AEM에 설치한 맞춤형 및 서드파티 패키지 및 번들을 식별합니다. 해당 패키지 및 번들을 보고하면 일반적인 업그레이드 범위 내에서 시스템 상태를 특성화하는 데 도움이 됩니다.
 
 여러 버전의 패키지를 설치한 경우 최신 버전만 보고됩니다.
 

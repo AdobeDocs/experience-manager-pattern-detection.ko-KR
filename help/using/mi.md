@@ -3,9 +3,9 @@ title: MI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 85%
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * 값 -1은 사용 가능한 프로세서 수로 대체됩니다. 따라서 AEM 인스턴스에 성능 문제가 발생할 수 있습니다.
+   * 값 -1은 사용 가능한 프로세서 수로 대체됩니다. 이로 인해 AEM 인스턴스에서 성능 문제가 발생할 수 있습니다.
 * `missing.maintenance.configuration`
    * 유지 관리 작업 구성이 누락되면 성능이 저하되거나 인스턴스가 손상될 수 있습니다.
 

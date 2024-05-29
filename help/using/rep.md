@@ -3,9 +3,9 @@ title: REP
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 79%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="주요 변경 내용 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="개발 지침"
 
-`REP`는 활성화된 복제 에이전트를 식별합니다. 이러한 에이전트는 AEM as a Cloud Service으로 업그레이드할 때 해결해야 할 문제의 발생 가능성을 감지하기 위해 보고됩니다.
+`REP`는 활성화된 복제 에이전트를 식별합니다. 이 에이전트는 AEM as a Cloud Service로 업그레이드할 때 해결해야 할 문제의 발생 가능성을 감지하기 위해 보고됩니다.
 
 다양한 유형의 정보를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
@@ -35,13 +35,13 @@ AEM as a Cloud Service는 [Sling 콘텐츠 배포](https://sling.apache.org/docu
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
-* AEM as a Cloud Service와 함께 복제 구성이 변경되었습니다. 모든 현재 복제 에이전트를 검토해야 합니다. 검토는 다음을 확인하는 데 도움이 됩니다.
-   * 표준 기능으로 대체할 수 있는 기능
-   * 코드로 이동해야 하는 구성
-   * 및 는 지원되지 않습니다.
+* AEM as a Cloud Service와 함께 복제 구성이 변경되었습니다. 모든 현재 복제 에이전트를 검토해야 합니다. 검토를 통해 다음 사항을 확인할 수 있습니다.
+   * 표준 기능으로 대체된 기능은 무엇인지,
+   * 코드로 이동해야 하는 구성은 무엇인지,
+   * 지원되지 않는 기능은 무엇인지.
 * AEM as a Cloud Service로 업그레이드 시 사용자 정의 코드 또는 워크플로에서의 복제 에이전트 사용을 검토해야 합니다.
 * 복제 되돌리기 기능은 AEM as a Cloud Service에서 지원되지 않습니다.
-* 개별 Dispatcher 플러시 에이전트를 구성하지 않아도 됩니다. 대신 AEM as a Cloud Service 환경에서 자동으로 구성됩니다.
+* 개별 Dispatcher 플러시 에이전트를 구성하지 않아도 됩니다. 대신 이는 AEM as a Cloud Service 환경에 자동으로 구성됩니다.
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -54,5 +54,5 @@ AEM as a Cloud Service는 [Sling 콘텐츠 배포](https://sling.apache.org/docu
 
 * AEM as a Cloud Service [개발 지침](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents) 및 [복제 에이전트](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents)용 릴리스 정보를 참조하십시오.
 * 비즈니스 작업 수행을 위해 복제 에이전트에 전적으로 의존하는 기능을 검토하고, 리팩터링하십시오.
-* 방법 보기 [복제](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication) 은 AEM의 배포를 통해 as a Cloud Service으로 영향을 받습니다.
+* [복제](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication)가 어떻게 AEM as a Cloud Service에서 배포의 영향을 받는지 알아보십시오.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

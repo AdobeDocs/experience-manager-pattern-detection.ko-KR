@@ -2,9 +2,9 @@
 title: 템플릿
 description: 패턴 감지기 코드 도움말 페이지를 위한 템플릿.
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
-그에 대해 아무 조치도 취하지 않을 경우 발생할 수 있는 잠재적인 영향 및 위험에 대한 설명을 입력합니다.
+이 문제에 대해 어떠한 조치도 취하지 않았을 경우 발생할 수 있는 잠재적인 영향과 위험에 대한 설명을 입력합니다.
 질문에 답변합니다. “이를 해결해야 하는 이유는 무엇입니까?”
 
 * 영향 및 위험 1

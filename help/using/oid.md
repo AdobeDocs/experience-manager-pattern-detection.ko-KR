@@ -3,9 +3,9 @@ title: OID
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,4 +55,4 @@ Oak 색인 정의
 * 맞춤화된 AEM 표준 색인 및 새로운 사용자 정의 Oak 색인 정의는 AEM as a Cloud Service용 [콘텐츠 색인화 지침](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition)을 따라야 합니다.
 * [WKND 레거시](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) 프로젝트를 검토한 다음 [OID 위반](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid)을 수정하여 AEM as a Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
-* 사용 [인덱스 변환기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) 기존 사용자 지정 Oak 색인 정의를 AEMas a Cloud Service 와 호환되는 사용자 지정 Oak 색인 정의로 마이그레이션하려는 경우.
+* [인덱스 변환기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools)를 사용하여 기존의 맞춤형 Oak 색인 정의를 호환되는 AEM as a Cloud Service로 마이그레이션하십시오.

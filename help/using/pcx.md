@@ -3,9 +3,9 @@ title: PCX
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 페이지 복잡성을 줄이기 위해 콘텐츠 구조를 검토하는 것입니다. 결과적으로 페이지 렌더링 성능을 개선하는 데 도움이 될 수 있습니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="가장 좋은 방법은 콘텐츠 구조를 검토하여 페이지 복잡성을 줄이는 것입니다. 궁극적으로 페이지 렌더링 성능을 향상시키는 데 도움이 될 수 있습니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 다음 작업을 수행하여 페이지 내의 총 노드 수를 줄이십시오.

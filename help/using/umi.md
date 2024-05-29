@@ -3,9 +3,9 @@ title: UMI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 87%
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config` : 다음 여부를 식별합니다. `org.apache.sling.commons.log.file` 사용자 지정 로거의 속성이 `logs/error.log` 파일.
+* `org.apache.sling.commons.log.LogManager.factory.config`: 사용자 정의 로거의 `org.apache.sling.commons.log.file` 속성이 `logs/error.log` 파일 이외의 항목을 가리키는지 식별합니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
-* 구성을 변경하거나 제거하면 다음 문제가 발생할 수 있습니다.
+* 구성을 변경 또는 제거하면 다음과 같은 문제가 발생할 수 있습니다.
    * 업그레이드가 멈출 수 있습니다(예: `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName`이 누락되었지만 `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`에 존재함).
    * 업그레이드 이후 인증 문제가 발생할 수 있습니다(`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * 특정 기능이 예상대로 작동하지 않을 수 있습니다. 예를 들어 `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`를 변경하면 일부 JSP 파일이 컴파일되지 않아 궁극적으로 기능 손실이 발생할 수 있습니다.
-   * Externalizer 구성의 값 `com.day.cq.commons.impl.ExternalizerImpl` AEM as a Cloud Service으로 cloud manager 환경 변수를 사용하여 설정됩니다.
+   * 외부화 구성 `com.day.cq.commons.impl.ExternalizerImpl`의 값이 AEM as a Cloud Service의 클라우드 관리자 환경 변수를 사용하여 설정되었습니다.
    * AEM as a Cloud Service가 사용자 정의 로그 파일을 지원하지 않습니다. 사용자 정의 로그에 기록된 로그를 AEM as a Cloud Service에서 액세스할 수 없습니다.
 
 ## 가능한 해결 방법 {#solutions}

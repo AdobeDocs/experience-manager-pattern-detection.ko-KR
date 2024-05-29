@@ -3,9 +3,9 @@ title: DOPI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="순서가 지정된 색인 - 더 이상 사용되지 않는 기능"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/operations/indexing" text="색인화 - AEM as a Cloud Service"
 
-`DOPI`  순서가 지정된 속성 색인 정의의 사용을 식별합니다(`primaryType=oak:QueryIndexDefinition` 및 `type="ordered"`). 해당 정의는 AEM 6.1에서 더 이상 사용되지 않으며 AEM 6.2에서 제거되었습니다.
+`DOPI` 코드는 순서가 지정된 속성 색인 정의(`primaryType=oak:QueryIndexDefinition` 및 `type="ordered"`)의 사용을 식별합니다. 이 정의는 AEM 6.1에서 더 이상 사용되지 않으며, AEM 6.2에서 제거되었습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
