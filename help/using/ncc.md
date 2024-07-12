@@ -3,7 +3,7 @@ title: NCC
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 

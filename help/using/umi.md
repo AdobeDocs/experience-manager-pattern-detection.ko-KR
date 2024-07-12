@@ -3,7 +3,7 @@ title: UMI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 

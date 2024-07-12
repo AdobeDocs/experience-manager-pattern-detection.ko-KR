@@ -3,7 +3,7 @@ title: ASO
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 

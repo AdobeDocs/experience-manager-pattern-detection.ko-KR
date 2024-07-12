@@ -2,7 +2,7 @@
 title: 템플릿
 description: 패턴 감지기 코드 도움말 페이지를 위한 템플릿.
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 
