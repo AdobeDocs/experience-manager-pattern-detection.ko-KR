@@ -2,10 +2,10 @@
 title: INST
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
 * 서드파티 패키지에 의존하는 애플리케이션은 AEM as a Cloud Service와 호환되도록 올바르게 배포되지 않으면 예상대로 작동하지 않을 수 있습니다.
 * AEM as a Cloud service에 최적화하지 않은 서드파티 공급업체 패키지를 사용하면 원하지 않은 비헤이비어가 발생할 수 있습니다.
 
+또한 다음과 같은 특정 하위 유형에 주의하십시오.
+
+* `guava.bundle` - Guava는 AEM 6.5 LTS에서 기본적으로 지원되지 않으며 업그레이드 후에는 번들을 사용할 수 없습니다.
+
 ## 가능한 해결 방법 {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ ht-degree: 100%
 * 모든 서드파티 패키지는 AEM as a Cloud Service [개발](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) 및 [패키징](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) 지침을 준수해야 합니다.
 * [WKND 레거시](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) 프로젝트를 검토한 다음 [INST 위반](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)을 수정하여 AEM as a Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+* `guava.bundle` 하위 유형의 경우 Guava를 설치하거나 사용자 지정 코드에 Guava가 사용되는 경우 사용을 제거하십시오.

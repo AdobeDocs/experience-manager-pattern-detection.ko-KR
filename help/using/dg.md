@@ -2,10 +2,10 @@
 title: DG
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '737'
+ht-degree: 80%
 
 ---
 
@@ -33,6 +33,10 @@ ht-degree: 100%
 * `unsupported.asset.api`: 애플리케이션 코드에서 지원되지 않는 자산 관리자 API 사용
 * `javax.jcr.observation.EventListener`: 애플리케이션 코드에서 이벤트 리스너 사용
 * `custom.guava.cache`: 애플리케이션 코드에서 Guava 캐시 사용
+* `java.api`: 일부 Java API가 Java 11에서 Java 17로 제거되었습니다.
+* `configuration.admin`: 구성에 액세스하는 사용자 지정 코드에 플래그가 지정됩니다.
+* `guava.api`: Guava는 AEM 6.5 LTS에서 바로 사용할 수 없습니다.
+* `com.day.cq.dam.scene7.api.model`: `package com.day.cq.dam.scene7.api.model`에 대한 주요 버전이 변경되었습니다.
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
@@ -59,6 +63,18 @@ ht-degree: 100%
 
 * `custom.guava.cache`
    * Guava 캐시를 사용하면 AEM에서 성능 문제가 발생할 수 있습니다.
+
+* `java.api`
+   * JRE17의 AEM 6.5 LTS를 사용하면 이러한 제거된 Java API를 사용할 수 없으며 사용이 실패합니다.
+
+* `configuration.admin`
+   * 사용 현황을 보고 소셜과 같이 지원되지 않는 구성을 사용하지 않는지 확인해야 합니다.
+
+* `guava.api`
+   * AEM 6.5 LTS에서 Guava가 지원되지 않으므로 사용자 지정 코드에서 Guava를 사용하고 있지 않습니다.
+
+* `com.day.cq.dam.scene7.api.model`
+   * 주요 버전 변경으로 인해 사용자 지정 번들의 가져온 패키지 `com.day.cq.dam.scene7.api.model`이(가) 확인되지 않습니다.
 
 
 ## 가능한 해결 방법 {#solutions}
@@ -91,3 +107,12 @@ ht-degree: 100%
 * `custom.guava.cache`
    * 필요한 경우, 캐시는 AEM 외부에서 생성되어야 합니다. 외부 캐싱 솔루션을 고려해 볼 수 있습니다.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+
+* `configuration.admin`
+   * Social과 같이 지원되지 않는 기능의 구성 사용을 제거합니다.
+
+* `guava.api`
+   * Guava를 설치하거나 사용자 지정 코드에 Guava가 사용된 경우 사용을 제거하십시오.
+
+* `com.day.cq.dam.scene7.api.model`
+   * 가져온 패키지 `com.day.cq.dam.scene7.api.model`의 버전 범위를 **3.0.4**(으)로 업데이트합니다.

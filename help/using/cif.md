@@ -2,10 +2,10 @@
 title: CIF
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 76%
 
 ---
 
@@ -50,3 +50,16 @@ Commerce Integration Framework 클래식
 * Adobe는 CIF 배포 프로젝트를 지원하기 위해 [AEM CIF 핵심 구성 요소](https://github.com/adobe/aem-core-cif-components)를 제공합니다.
 * [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)을 사용하여 AEM 6.5에서도 CIF 추가 기능을 사용할 수 있습니다. 이는 Experience Manager as a Cloud Service와 호환되며 Experience Manager as a Cloud Service용 CIF 추가 기능과 동일한 기능을 제공하므로 따로 조정하지 않아도 됩니다.
 * 클래식 CIF와 그 종속성은 더 이상 사용할 수 없습니다. com.adobe.cq.commerce.api Java™ API를 사용하며 이 CIF 버전에 의존하는 코드는 CIF 추가 기능 및 그 원리에 맞춰 조정해야 합니다.
+
+또한 아래에서 다양한 하위 유형에 대해 가능한 솔루션을 찾으십시오.
+
+* `commerce.bundles.detected` - 업그레이드 중에 이 번들이 제거됩니다.
+* `commerce.packages.detected` - 업그레이드 중에 이 패키지가 삭제됩니다.
+* `commerce.packages.dependency` - 사용자 지정 패키지에서 Commerce에 대한 종속성을 제거합니다.
+* `commerce.nodes.detected` - CQ Commerce 노드를 만들지 않도록 사용자 지정 코드를 업데이트합니다.
+* `commerce.configs.detected` - 사용자 지정 코드에서 CQ Commerce 구성 속성을 사용하지 않음
+* `commerce.users.detected` - 사용자 지정 코드에서 CQ Commerce 서비스 사용자를 사용하지 않음
+* `commerce.overlays.detected` - CQ Commerce 오버레이 사용 제거
+* `commerce.paths.detected` - 상거래 경로가 AEM에서 사용되고 있지 않은지 확인한 후 제거하십시오.
+* `commerce.resource.type.detected` - 상거래 리소스 유형 사용 제거
+* `commerce.usage` - 사용자 지정 코드에서 CQ Commerce API를 제거합니다.
