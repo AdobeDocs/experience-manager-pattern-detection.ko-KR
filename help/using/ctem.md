@@ -4,7 +4,7 @@ description: 패턴 감지기 코드 도움말 페이지.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
