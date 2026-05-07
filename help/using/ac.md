@@ -1,7 +1,8 @@
 ---
 title: 교류
 description: 패턴 감지기 코드 도움말 페이지.
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 4c6ac075-5ba6-4511-97c6-a9b496d4677a
+source-git-commit: 9c2f5452ff694e11a49c7b38efa61acc65924dd6
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 7%
@@ -25,3 +26,4 @@ AC는 AEM 6.5 LTS와 호환되지 않는 Assets 번들 사용을 식별합니다
 * `asset.overlays.detected` - Assets 등급 및 카탈로그 구성 요소에서 만들어진 오버레이는 제거해야 합니다.
 * `asset.resource.type.detected` - 사용자 지정 코드에서 Assets 등급 구성 요소 resourcetype 사용을 제거합니다.
 * `asset.paths.detected` - AEM에서 사용되고 있지 않은지 확인한 후 이러한 경로 아래에 있는 고객 콘텐츠를 이동하고 이러한 경로를 제거합니다.
+
