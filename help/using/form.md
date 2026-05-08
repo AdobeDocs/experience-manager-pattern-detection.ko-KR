@@ -4,8 +4,8 @@ description: 패턴 감지기 코드 도움말 페이지.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1231'
+ht-degree: 96%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 * 대화형 커뮤니케이션 기능의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. 해당 기능을 사용할 수 없는 경우 대화형 커뮤니케이션, 문자 및 관련 사전을 Cloud Service 환경으로 마이그레이션할 수 없습니다. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* 메타데이터 아코디언에 대한 대체 기능은 존재하지 않습니다. Cloud Service로 마이그레이션하기 전에 귀하의 양식에서 메타데이터 아코디언을 제거하십시오.(METADATA_ACCORDION_FORM_CONTAINER)
+* 메타데이터 아코디언에 대한 대체 기능은 존재하지 않습니다. Cloud Service으로 마이그레이션하기 전에 양식에서 메타데이터/아코디언/양식/컨테이너
 
 * Adobe Experience Manager에서 제공하는 CAPTCHA 서비스 대신 Google reCAPTCHA를 사용하십시오. (FORMS_CAPTCHA)
 
@@ -96,6 +96,6 @@ ht-degree: 100%
 
 * 적응형 양식은 반응형 디자인을 제공합니다. 이러한 양식은 기본 디바이스에 따라 모양, 디자인 및 인터랙티브 요소를 변경합니다. 모바일 디바이스에서 적응형 양식을 계속 사용할 수 있습니다. [!DNL AEM Forms] 앱의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. (AEM_FORMS_APP)
 
-* XFA 기반 적응형 양식에 대한 지원은 즉시 사용할 수 없습니다. XFA 기반 적응형 양식을 사용하려는 경우 Adobe 지원 팀에 문의하여 사용 사례 및 특정 요구 사항에 대해 자세히 알아보십시오.(XFA_BASED_FORM, XDP_BASED_FORM)
+* XFA 기반 적응형 양식에 대한 지원은 즉시 사용할 수 없습니다. XFA 기반 적응형 Forms을 사용하려면 사용 사례 및 특정 요구 사항에 대한 자세한 내용을 Adobe 지원 센터에 문의하십시오. (XFA_BASED_FORM, XDP_BASED_FORM)
 
 자세한 내용을 확인하거나 문제를 해결하려면 [Adobe 지원](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

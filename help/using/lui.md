@@ -4,8 +4,8 @@ description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 89%
 
 ---
 
@@ -26,19 +26,20 @@ ht-degree: 100%
 업그레이드해야 하는 다양한 유형의 사용자 인터페이스 요소를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
 * `legacy.dialog.classic`: ExtJS 기반의 클래식 UI 대화 상자를 식별하며, 코랄로 변경해야 합니다.
-   * 이 하위 유형은 대화 상자 이름이 `dialog` 또는 `design_dialog`이며 `jcr:primaryType` 속성 값
-또는 `xtype` 속성 값이 `cq:Dialog`인 경우 감지됩니다.
+   * 이 하위 유형은 대화 상자 이름이 `dialog` 또는 `design_dialog`인 경우와
+`jcr:primaryType` 속성 값 또는 `xtype` 속성 값은 `cq:Dialog`입니다.
 * `legacy.dialog.coral2`: `Coral 3`를 사용하려면 `Coral 2` 대화 상자를 업데이트해야 합니다.
    * 이 하위 유형은 대화 상자와 해당 하위 콘텐츠 노드 이름이
       * `cq:dialog/content`,
       * `cq:design_dialog/content`,
       * `cq:dialog.coral2/content`,
-      * 또는 `cq:design_dialog.coral2/content`이며
-`sling:resourceType` 속성 값에 `granite/ui/components/coral/foundation`이 포함된 경우 감지됩니다.
+      * 또는 `cq:design_dialog.coral2/content`
+및 `sling:resourceType` 속성 값에 `granite/ui/components/coral/foundation`이(가) 포함되어 있지 않습니다.
 * `legacy.custom.component`: `foundation/components`로부터 상속받는 구성 요소를 식별하며, 핵심 구성 요소를 사용하도록 업데이트해야 합니다.
    * 이 하위 유형은 `jcr:primaryType` 속성 값이 `cq:Component`이며
      `sling:resourceSuperType` 속성 값에 &#39;foundation/components&#39;가 포함되어 있는 경우 감지됩니다. 또는
-     슈퍼타입 구성 요소 체인의 `sling:resourceSuperType` 속성 값에 &#39;foundation/components&#39;가 포함되어 있는 경우 감지됩니다.
+     슈퍼타입 구성 요소 체인의 `sling:resourceSuperType` 속성 값에 다음이 포함되어 있습니다.
+&quot;foundation/components.&quot;
 * `legacy.static.template`: 정적 템플릿을 식별하며, 편집 가능한 템플릿으로 업그레이드해야 합니다.
    * 이 하위 유형은 `jcr:primaryType` 속성 값이 `cq:Template`일 때 감지됩니다.
 * `content.fragment.template`: 콘텐츠 조각 템플릿이 조각 템플릿을 대체할 조각 모델을 생성해야 합니다.
@@ -58,7 +59,7 @@ ht-degree: 100%
 
 * 클래식 UI는 AEM as a Cloud Service에서 더 이상 사용할 수 없습니다. 제작을 위한 표준 인터페이스는 터치 기능이 지원되는 UI입니다.
 * 기존 사용자 정의 구성 요소에 의지하면 시간이 지남에 따라 유지 관리에 더 많은 비용이 필요하게 될 수 있습니다.
-* 콘텐츠 조각 템플릿은 AEM 6.3에서 콘텐츠 조각 모델로 대체되었습니다. 레거시 템플릿을 기반으로 하는 콘텐츠 조각을 AEM as a Cloud Service로 마이그레이션하면 이들 조각은 기능적으로 유지되지만 레거시 템플릿을 기반으로 하는 조각은 생성할 수 없습니다. 또한 스키마로 콘텐츠 조각 모델을 필요로 하는 AEM GraphQL을 사용하여 이들 조각을 전달할 수 없습니다.
+* 컨텐츠 조각 템플릿이 AEM 6.3에서 컨텐츠 조각 모델을 대체했습니다. 레거시 템플릿을 기반으로 하는 콘텐츠 조각을 AEM as a Cloud Service으로 마이그레이션하면 이러한 조각은 기능적으로 유지되지만 레거시 템플릿을 기반으로 하는 조각을 만들 수는 없습니다. 또한 스키마로 콘텐츠 조각 모델을 필요로 하는 AEM GraphQL을 사용하여 이들 조각을 전달할 수 없습니다.
 * /apps가 런타임에 변경되지 않으며 translator.html을 더 이상 AEM as a Cloud Service에서 사용할 수 없습니다. 따라서 CI / CD 파이프라인을 통해 Git에서 `I18n` 사전을 가져와야 합니다.
 
 ## 가능한 해결 방법 {#solutions}
