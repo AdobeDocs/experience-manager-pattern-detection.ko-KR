@@ -19,7 +19,7 @@ Commerce Integration Framework 클래식
 >id="aemcloud_bpa_cif_overview"
 >title="Commerce Integration Framework 클래식"
 >abstract="CIF는 AEM as a Cloud Service와 호환되지 않는 클래식 버전의 Commerce Integration Framework 사용을 식별합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content 및 Commerce"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
 `CIF`는 AEM as a Cloud Service와 호환되지 않는 클래식 버전의 Commerce Integration Framework 사용을 식별합니다. 각 `CIF` 결과에 대한 메시지는 사용을 식별하며 추가 정보를 제공합니다.
 
@@ -33,7 +33,7 @@ Commerce Integration Framework 클래식
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 모든 클래식 버전의 Commerce Integration Framework 사용을 검토하는 것입니다."
+>abstract="모범 사례는 클래식 버전의 Commerce Integration Framework 사용을 모두 검토하는 것입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/content-and-commerce/changes" text="CIF의 주요 변경 내용"
 
 * 클래식 버전의 Commerce Integration Framework는 AEM as a Cloud Service에서 더 이상 지원되지 않습니다. AEM as a Cloud Service로의 업그레이드가 차단됩니다.
