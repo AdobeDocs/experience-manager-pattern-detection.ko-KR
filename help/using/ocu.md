@@ -2,13 +2,17 @@
 title: OCU
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
-
 ---
-
 # OCU {#ocu}
 
 더 이상 사용되지 않는 기능: 오래된 코드 사용 - OU(오래된 사용)으로 대체됨
@@ -18,10 +22,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_overview"
 >title="오래된 코드 사용"
->abstract="OCU는 Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용하지 못하게 될 수 있습니다."
+>abstract="OCU는 Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용할 수 없게 될 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="주요 변경 내용 - AEM as a Cloud Service"
 
-`OCU`는 Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용하지 못하게 될 수 있습니다.
+`OCU`는 Sling, AEM 구성 요소 또는 API OSGi 내보내기와 같은 일부 JCR 노드가 호환되지 않는 방식으로 변경되거나 제거되는 상황을 식별합니다. 고객은 업그레이드하기 전에 이러한 변경 내용에 대해 알지 못할 수 있습니다. 이들 노드는 호환되지 않는 버전으로 업그레이드되거나 아예 사용할 수 없게 될 수 있습니다.
 
 이전 버전이 기본적으로 설치되어 있지 않으므로, 고객 애플리케이션이 제대로 작동하지 않을 수 있습니다.
 
@@ -39,6 +43,6 @@ ht-degree: 100%
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
-* 단기적 지원: 호환성 패키지를 설치하십시오.
-* 장기적 지원: 고객 코드를 조정하여 최신 버전의 AEM 구성 요소 또는 API를 사용하십시오.
+* 단기적으로는 호환성 패키지를 설치하면 도움이 될 수 있습니다.
+* 장기적으로: 고객 코드를 조정하여 최신 버전의 AEM 구성 요소 또는 API를 사용하십시오.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

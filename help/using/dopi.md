@@ -2,13 +2,17 @@
 title: DOPI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
-
 ---
-
 # DOPI {#dopi}
 
 더 이상 사용되지 않는 순서가 지정된 속성 색인
@@ -29,12 +33,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 더 이상 사용되지 않는 모든 순서가 지정된 색인을 검토한 다음 이를 지원되는 형식의 Lucene 색인으로 이동하여 심각한 성능 문제 또는 고객 요구 사항 관련 문제를 방지하는 것입니다."
+>abstract="모범 사례는 더 이상 사용되지 않는 모든 순서가 지정된 색인을 검토하고 이를 지원되는 형식의 Lucene 색인으로 이동하여 심각한 성능 문제 또는 비기능적 고객 요구 사항을 방지하는 것입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing" text="모범 사례 - 쿼리 및 색인화"
 
 * 일부 쿼리가 응답하지 않을 수 있습니다.
 * 고객 기능이 올바르게 작동하지 않을 수 있습니다.
-* 더 이상 사용되지 않는 색인으로 인한 경고 또는 오류 및 심각한 성능 페널티는 영향을 주지 않습니다.
+* 더 이상 사용되지 않는 색인은 영향을 미치지 않으므로 순회 경고나 오류가 발생할 수 있으며 성능이 크게 저하될 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 

@@ -2,13 +2,17 @@
 title: INS
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
-
 ---
-
 # INS {#ins}
 
 잘못된 네임스페이스
@@ -38,5 +42,5 @@ ht-degree: 100%
 >abstract="도움이 필요한 경우 고객 지원 센터에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
-* [JCR 사양](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html)에 따라 네임스페이스 정의를 수정하십시오. [여기](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163?profile.language=ko)에 기재되어 있는 단계를 따르십시오.
+* [JCR 사양](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html)에 따라 네임스페이스 정의를 수정하십시오. [여기](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)에 기재되어 있는 단계를 따르십시오.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

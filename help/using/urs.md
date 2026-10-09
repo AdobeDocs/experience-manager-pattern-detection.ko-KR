@@ -2,13 +2,17 @@
 title: URS
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
-
 ---
-
 # URS {#urs}
 
 지원되지 않는 저장소 구조
@@ -16,16 +20,16 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="지원되지 않는 저장소 구조"
->abstract="URS는 지원되지 않는 저장소 구조(URS) 및 노드 특성에 대한 사례를 식별합니다. 여기에는 AEM 제품 코드와 고객 코드 간의 충돌을 방지하기 위한 정보, `/etc`에서 저장소의 다른 폴더로 재구성되는 콘텐츠 등이 표시됩니다."
+>abstract="URS는 지원되지 않는 저장소 구조(URS) 사례와 노드 특성을 식별합니다. 여기에는 AEM 제품 코드와 고객 코드 간의 충돌을 방지하기 위한 정보, `/etc`에서 저장소의 다른 폴더로 재구성되는 콘텐츠 등이 표시됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="저장소 재구성"
 
 ## 배경 {#background}
 
-`URS`는 지원되지 않는 저장소 구조(URS) 및 노드 특성에 대한 사례를 식별합니다. AEM 6.4부터 저장소 콘텐츠 재구성을 위한 지침이 제공되고 있습니다. AEM 제품 코드 및 고객 코드에 대한 계층을 명확하게 기술하고 상호 간의 충돌을 방지함으로써, 콘텐츠는 `/etc`에서 저장소의 다른 폴더로 재구성되고 있습니다. 이를 위해 다음과 같은 높은 수준의 규칙을 준수합니다.
+`URS`는 지원되지 않는 저장소 구조(URS) 및 노드 특성에 대한 사례를 식별합니다. AEM 6.4부터 저장소 콘텐츠 재구성을 위한 지침이 제공되고 있습니다. AEM 제품 코드 및 고객 코드에 대한 계층을 명확하게 기술하고 상호 간의 충돌을 방지함으로써, 콘텐츠는 `/etc`에서 저장소의 다른 폴더로 재구성되고 있습니다. 이렇게 하려면 다음과 같은 상위 수준의 규칙을 준수하십시오.
 
 * AEM 제품 코드는 항상 `/libs`에 배치되며 이는 사용자 정의 코드로 덮어쓸 수 없습니다.
 * 사용자 정의 코드는 `/apps`, `/content` 및 `/conf`에 배치해야 합니다.
-* AEM as a Cloud Service에 대해 이들 지침을 따르는 것이 좋습니다.
+* AEM as a Cloud Service의 경우 이러한 지침을 따르는 것이 강력히 권장됩니다.
 
 해결이 필요한 특정 유형의 저장소 문제를 식별하기 위해 다음과 같은 하위 유형이 사용됩니다.
 
@@ -38,7 +42,7 @@ ht-degree: 100%
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
-* 이전 패스에 의존하는 사용자 정의 코드를 사용하면 원하지 않는 비헤이비어가 발생할 수 있으며 제품 기능에 영향을 줄 수 있습니다.
+* 이전 경로에 의존하는 사용자 정의 코드를 사용하면 원하지 않는 동작이 발생할 수 있으며 제품 기능에 영향을 줄 수 있습니다.
 * 변경 가능한 콘텐츠와 변경 불가능한 콘텐츠가 모두 포함된 패키지를 사용하면 배포 도중 문제가 발생할 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
@@ -46,7 +50,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 코드 프로젝트를 검토하는 것입니다. AEM 프로젝트 구조 지침을 준수하도록 하고 지원되지 않거나 이전 버전의 저장소 패스에 의존하여 AEM as a Cloud Service에서 원하지 않은 비헤이비어를 야기할 수 있는 코드를 사용하지 않는 것입니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="모범 사례는 코드 프로젝트를 검토하는 것입니다. AEM 프로젝트 구조 지침을 준수하는지 확인하고, AEM as a Cloud Service에서 원하지 않는 동작을 일으킬 수 있는 이전 또는 지원되지 않는 저장소 경로에 의존하는 코드는 사용하지 마십시오. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 프로젝트 구조 지침"
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 

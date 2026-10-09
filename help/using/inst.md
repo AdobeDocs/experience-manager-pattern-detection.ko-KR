@@ -2,13 +2,17 @@
 title: INST
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 92%
-
 ---
-
 # INST {#inst}
 
 설치된 아티팩트
@@ -18,7 +22,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="설치된 아티팩트"
->abstract="INST는 고객이 AEM에 설치한 맞춤형 및 서드파티 패키지 및 번들을 식별합니다. 해당 패키지 및 번들을 보고하면 일반적인 업그레이드 범위 내에서 시스템 상태를 특성화하는 데 도움이 됩니다. 모든 서드파티 패키지는 AEM as a Cloud Service 개발 및 패키징 지침을 준수해야 합니다."
+>abstract="INST는 고객이 AEM에 설치한 맞춤형 및 제3자 패키지 및 번들을 식별합니다. 해당 패키지 및 번들을 보고하면 일반적인 업그레이드 범위 내에서 시스템 상태를 특성화하는 데 도움이 됩니다. 모든 제3자 패키지는 AEM as a Cloud Service 개발 및 패키징 지침을 준수해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="개발 지침 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="패키징 지침 - AEM as a Cloud Service"
 
@@ -38,12 +42,12 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="구현 지침"
->abstract="고객은 CRX 패키지 관리자를 사용하여 더 이상 서드파티 패키지를 설치할 수 없습니다. 고객은 설치된 아티팩트를 검토하고, AEM as a Cloud Service와 호환되도록 구성하고 최적화해야 합니다. 제작자 또는 Adobe를 통해 서드파티 패키지와 AEM as a Cloud Service의 호환성을 확인합니다."
+>abstract="고객은 CRX 패키지 관리자를 사용하여 더 이상 제3자 패키지를 설치할 수 없습니다. 고객은 설치된 아티팩트를 검토하고, AEM as a Cloud Service와 호환되도록 구성하고 최적화해야 합니다. 제작자 또는 Adobe를 통해 서드파티 패키지와 AEM as a Cloud Service의 호환성을 확인합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="컨테이너 패키지에 하위 패키지 임베드"
 
 
-* AEM as a Cloud Service에서는 CRX 패키지 관리자를 사용하여 서드파티 패키지를 설치할 수 없습니다.
-* 서드파티 패키지에 의존하는 애플리케이션은 AEM as a Cloud Service와 호환되도록 올바르게 배포되지 않으면 예상대로 작동하지 않을 수 있습니다.
+* AEM as a Cloud Service에서는 CRX 패키지 관리자를 사용하여 제3자 패키지를 설치할 수 없습니다.
+* 제3자 패키지에 의존하는 애플리케이션은 AEM as a Cloud Service와 호환되도록 올바르게 배포되지 않으면 예상대로 작동하지 않을 수 있습니다.
 * AEM as a Cloud service에 최적화하지 않은 서드파티 공급업체 패키지를 사용하면 원하지 않은 비헤이비어가 발생할 수 있습니다.
 
 또한 다음과 같은 특정 하위 유형에 주의하십시오.
@@ -55,7 +59,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="도구 및 리소스"
->abstract="WKND 레거시 프로젝트를 검토하여 INST 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. GitHub에서 INST 위반 사례를 검토하여 이 문제를 해결하고 AEM as a Cloud Service에 제대로 배포하는 방법에 대해서도 알아보십시오."
+>abstract="WKND-legacy 프로젝트를 검토하여 INST 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. GitHub에서 INST 위반 사례를 검토하여 이 문제를 해결하고 AEM as a Cloud Service에 제대로 배포하는 방법에 대해서도 알아보십시오."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND 레거시 프로젝트"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 위반 사례 - GitHub"
 

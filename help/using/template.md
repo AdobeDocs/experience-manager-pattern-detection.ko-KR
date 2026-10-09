@@ -1,13 +1,14 @@
 ---
 title: 템플릿
 description: 패턴 감지기 코드 도움말 페이지를 위한 템플릿.
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 
 # [!DNL TEMPLATE] {#template}
 
@@ -29,7 +30,7 @@ ht-degree: 100%
 ## 가능한 해결 방법 {#solutions}
 
 해당 문제를 완화하거나 해결할 수 있는 가능한 단계에 대한 설명을 입력합니다. 다른 곳에서도 찾을 수 있는 정보를 중복해서 입력하지 않도록 하십시오. 가능하면 공개 Adobe 설명서를 참조하십시오.
-질문에 답변합니다. “이 문제에 대해 필요한 조치는 무엇입니까?”
+질문에 답변합니다. “이 문제에 대해 무엇을 할 수 있습니까?”
 
 * 가능한 해결 방법 1
 * 가능한 해결 방법 2

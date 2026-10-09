@@ -2,13 +2,17 @@
 title: URC
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
-
 ---
-
 # URC {#urc}
 
 지원되지 않는 실행 모드 구성
@@ -40,7 +44,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="도구 및 리소스"
->abstract="WKND 레거시 프로젝트를 검토하여 URC 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. 또한 GitHub에서 URC 위반 사례를 검토하여 사용자 정의 실행 모드 기반 OSGi 구성을 AEM as a Cloud Service와 호환되도록 업데이트하는 방법에 대해 알아보십시오."
+>abstract="WKND-legacy 프로젝트를 검토하여 URC 위반이 AEM Cloud Service와 호환되도록 하는 방법에 대해 알아보십시오. 또한 GitHub에서 URC 위반 사례를 검토하여 사용자 정의 실행 모드 기반 OSGi 구성을 AEM as a Cloud Service와 호환되도록 업데이트하는 방법에 대해 알아보십시오."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND 레거시 프로젝트"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 위반 사례 - GitHub"
 

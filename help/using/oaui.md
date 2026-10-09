@@ -2,13 +2,17 @@
 title: OAUI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
-
 ---
-
 # OAUI {#oaui}
 
 OAuth 사용자 인스턴스
@@ -18,7 +22,7 @@ OAuth 사용자 인스턴스
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth 사용자 인스턴스"
->abstract="OAUI 코드는 최소 한 명 이상의 올바른 마이그레이션이 필요한 OAuth 관련 구성된 사용자가 있는 패턴을 식별합니다. rep:AuthorizableId 노드의 바로 아래에 OAuth라는 이름의 하위 노드가 /home/user-path/user-node/oauth의 형식으로 존재하는 경우 사용자에 대해 OAuth가 구성됩니다."
+>abstract="OAUI 코드는 올바른 마이그레이션이 필요한 OAuth 관련 구성 사용자가 한 명 이상 있는 패턴을 식별합니다. rep:AuthorizableId 노드의 바로 아래에 OAuth라는 이름의 하위 노드가 /home/user-path/user-node/oauth의 형식으로 존재하는 경우 사용자에 대해 OAuth가 구성됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 릴리스 정보"
 
 `OAUI`는 최소 한 명 이상의 올바른 마이그레이션이 필요한 OAuth 관련 구성된 사용자가 있는 패턴을 식별합니다.
@@ -36,7 +40,7 @@ OAuth 사용자 인스턴스
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="구현 지침"
->abstract="OAuth로 구성된 외부 사용자는 AEM as a Cloud Service와 호환되도록 재구성되기 전까지 작성자/게시 인스턴스에 로그인할 수 없습니다. AEM as a Cloud Service에서는 작성자, 관리자 및 개발자 사용자에 대해서만 IMS 인증 지원 서비스를 제공하며 게시 환경에 대한 SAML 기반 통합 기능을 제공합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="OAuth로 구성된 외부 사용자는 AEM as a Cloud Service와 호환되도록 재구성되기 전까지 작성자/게시 인스턴스에 로그인할 수 없습니다. AEM as a Cloud Service에서는 작성자, 관리자 및 개발자 사용자에 대해서만 IMS 인증을 지원하며 게시 환경에 대해서는 SAML 기반 통합을 제공합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS 지원 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 통합 - 게시"
 

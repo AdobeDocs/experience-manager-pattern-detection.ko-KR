@@ -2,13 +2,17 @@
 title: OID
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
-
 ---
-
 # OID {#oid}
 
 Oak 색인 정의
@@ -33,7 +37,7 @@ Oak 색인 정의
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 모든 사용자 정의 색인을 검토하여 콘텐츠 색인화 지침에 따라 재구성하는 것입니다. 인덱스 변환기를 사용하여 기존의 맞춤형 Oak 색인 정의를 호환되는 AEM as a Cloud Service로 마이그레이션하십시오."
+>abstract="모범 사례는 모든 사용자 정의 색인을 검토하여 콘텐츠 색인화 지침에 따라 재구성하는 것입니다. 인덱스 변환기를 사용하여 기존의 맞춤형 Oak 색인 정의를 호환되는 AEM as a Cloud Service로 마이그레이션하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#oak-indexes" text="패키징 지침"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools" text="인덱스 변환기"
 
@@ -46,7 +50,7 @@ Oak 색인 정의
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="도구 및 리소스"
->abstract="WKND 레거시 프로젝트를 검토하여 프로젝트에서 OID 위반을 해결하는 방법에 대해 알아보십시오. 또한 GitHub에서 OID 위반 사례를 검토하십시오. 인덱스 변환기 도구를 통해 기존 색인을 변환하고 AEM as a Cloud Service와 호환되도록 하는 방법을 이해하는 데 도움이 됩니다."
+>abstract="WKND-legacy 프로젝트를 검토하여 프로젝트에서 OID 위반을 해결하는 방법에 대해 알아보십시오. 또한 GitHub에서 OID 위반 사례를 검토하십시오. 인덱스 변환기 도구를 통해 기존 색인을 변환하고 AEM as a Cloud Service와 호환되도록 하는 방법을 이해하는 데 도움이 됩니다."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND 레거시 프로젝트"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="OID 위반 사례 - GitHub"
 
