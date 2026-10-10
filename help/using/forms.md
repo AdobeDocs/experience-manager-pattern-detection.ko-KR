@@ -2,13 +2,17 @@
 title: FORM
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 97%
-
 ---
-
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
@@ -28,7 +32,7 @@ ht-degree: 97%
 * `modified.feature`: 기능, 자산 또는 API가 Cloud Service용으로 업데이트 또는 수정되었습니다. Cloud Service로 마이그레이션하기 전에, 마이그레이션 유틸리티를 실행하여 이러한 기능 및 자산이 Cloud Service와 호환되도록 조정하십시오.
 * `unavailable.feature`: 귀하의 환경에 Cloud Service에서 사용 또는 제거할 수 없는 기능 및 자산이 포함되어 있습니다. 이러한 기능 또는 자산을 Cloud Service 환경으로 마이그레이션하지 마십시오.
 * `unsupported.feature`: 귀하의 환경이 Cloud Service에서 아직 지원되지 않는 일부 기능을 사용합니다. 이러한 기능 또는 자산을 Cloud Service 환경으로 마이그레이션하지 마십시오. 이들 기능의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오.
-* `unsupported.api`: 귀하의 환경에 Cloud Service에서 아직 지원되지 않는 일부 API가 포함되어 있습니다. Cloud Service로 마이그레이션하기 전에 귀하의 코드에서 이들 API를 비활성화하고, 바꾸고, 제거하십시오. 이들 기능의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오.
+* `unsupported.api`: 귀하의 환경에 Cloud Service에서 아직 지원되지 않는 일부 API가 포함되어 있습니다. Cloud Service로 마이그레이션하기 전에 코드에서 이들 API를 비활성화하고, 바꾸고, 제거하십시오. 이들 기능의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오.
 
 일부 기능 및 API를 Cloud Service와 호환되도록 하는 데 필요한 대체 기능 및 기타 작업에 대한 정보는 [가능한 영향 및 위험](#implications-and-risks) 및 [가능한 해결 방법](#solutions) 섹션을 참조하십시오.
 
@@ -44,19 +48,19 @@ ht-degree: 97%
 
 * XFA 기반 적응형 양식은 아직 지원되지 않습니다. (XFA_BASED_FORM, XDP_BASED_FORM)
 
-* 모든 서명자가 서명을 완료할 때까지 기다리지 않고 양식 제출에 제출 액션이 즉시 호출됩니다. 따라서 서명자에게 전송된 Adobe Sign 계약서 PDF에 대해 제출 액션을 사용하거나 처리할 수 없습니다. (FORM_SIGN_INTEGRATION)
+* 모든 서명자가 서명을 완료할 때까지 기다리지 않고 양식 제출 시 제출 액션이 즉시 호출됩니다. 따라서 서명자에게 전송된 Adobe Sign 계약서 PDF는 제출 액션에서 사용하거나 처리할 수 없습니다. (FORM_SIGN_INTEGRATION)
 
 * 서명 단계를 사용할 수 없습니다. (SIGNATURE_STEP)
 
 * 확인 단계를 사용할 수 없습니다. (VERIFY_STEP)
 
-* **[!UICONTROL Forms Workflow에 제출]** 액션을 사용할 수 없습니다. AEM 6.5 Forms 및 이전 버전에서는 제출 액션을 사용하여 기존 JEE Workflow의 AEM Forms 및 LiveCycle Workflow에 적응형 양식을 제출했습니다. (LC_WORKFLOW_SUBMISSION)
+* **[!UICONTROL Forms Workflow에 제출]** 액션을 사용할 수 없습니다. AEM 6.5 Forms 및 이전 버전에서는 제출 액션을 사용하여 적응형 양식 데이터를 기존 JEE Workflow의 AEM Forms 및 LiveCycle Workflow에 제출했습니다. (LC_WORKFLOW_SUBMISSION)
 
 * 대화형 커뮤니케이션 기능을 사용할 수 없습니다. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * 메타데이터 아코디언을 사용할 수 없습니다. (METADATA_ACCORDION_FORM_CONTAINER)
 
-* 이제 CAPTCHA 구성 요소는 기본적으로 Google reCAPTCHA 서비스를 사용하여 CAPTCHA의 유효성을 검사합니다. Adobe Experience Manager를 사용하여 CAPTCHA의 유효성을 검사하는 옵션은 더 이상 사용되지 않습니다. (FORMS_CAPTCHA)
+* 이제 CAPTCHA 구성 요소는 기본적으로 Google reCAPTCHA 서비스를 사용하여 CAPTCHA의 유효성을 검사합니다. Adobe Experience Manager를 사용하여 captcha의 유효성을 검사하는 옵션은 더 이상 사용되지 않습니다. (FORMS_CAPTCHA)
 
 * [!DNL AEM Forms] 앱은 [!DNL Cloud Services]에서 사용할 수 없습니다. (AEM_FORMS_APP)
 
@@ -72,13 +76,13 @@ ht-degree: 97%
 
 * 마이그레이션 유틸리티를 사용하여 환경의 모든 규칙 스크립트를 재사용 가능한 기능으로 변환하십시오. 재사용 가능한 기능을 시각적 규칙 편집기와 함께 사용하여 규칙 스크립트를 통해 얻은 결과를 유지할 수 있습니다. (CODE_EDITOR)
 
-* 귀하의 환경에 대해 이메일(SMTP 포트 열기) 기능을 활성화하려면 지원 팀에 문의하십시오. 기본적으로 송신 HTTP 및 HTTPS 연결만 활성화할 수 있습니다. (EMAIL_SERVICE_CONFIGURATION, Email step)
+* 귀하의 환경에 대해 이메일(SMTP 포트 열기) 기능을 활성화하려면 지원 팀에 문의하십시오. 기본적으로 송신 HTTP 및 HTTPS 연결만 활성화됩니다. (EMAIL_SERVICE_CONFIGURATION, Email step)
 
 * **[!UICONTROL 이메일 PDF]** 대신 **[!UICONTROL 이메일]** 제출 액션을 사용하십시오. **[!UICONTROL 이메일]** 제출 액션은 첨부 파일을 전송하고 이메일에 기록 문서(DoR)를 첨부할 수 있는 옵션을 제공합니다. (EMAIL_PDF_SUBMIT_ACTION)
 
 * 제출된 데이터에는 Adobe Sign Agreement ID가 포함됩니다. 필요한 경우, Sign Agreement ID를 사용하여 Sign Agreement PDF를 가져올 수 있습니다. (FORM_SIGN_INTEGRATION)
 
-* 기존 적응형 양식에서 서명 단계를 제거하십시오. [브라우저 내 서명 경험](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)을 사용하도록 적응형 양식을 구성하십시오. 브라우저 내 서명 경험은 적응형 양식 제출 시 브라우저 내에 서명할 Adobe Sign 계약서를 표시합니다. 브라우저 내 서명 경험은 서명 속도를 높이고 서명자의 시간을 절약하는 데 도움이 됩니다. (SIGNATURE_STEP)
+* 기존 적응형 양식에서 서명 단계를 제거하십시오. [브라우저 내 서명 경험](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)을 사용하도록 적응형 양식을 구성하십시오. 적응형 양식을 제출하면 브라우저 내에서 계약서에 서명할 수 있도록 Adobe Sign 계약서가 표시됩니다. 브라우저 내 서명 경험은 서명 속도를 높이고 서명자의 시간을 절약하는 데 도움이 됩니다. (SIGNATURE_STEP)
 
 * 이러한 양식을 [!DNL Cloud Service] 환경으로 이동하기 전에 기존 적응형 양식에서 유효성 검사 단계를 제거하십시오. (VERIFY_STEP)
 
@@ -86,13 +90,13 @@ ht-degree: 97%
 
 * **[!UICONTROL Forms Workflow에 제출]** 제출 액션을 사용하는 대신 [AEM Workflow](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) 제출 액션을 사용하여 AEM Workflow에 데이터를 전송하도록 AEM Workflow를 개발하고 기존 적응형 양식을 편집할 수 있습니다. [!UICONTROL Forms Workflow에 제출] 액션을 사용하는 대신 LiveCycle 프로세스에 데이터, 첨부 파일 또는 기록 문서(DoR)를 전송하도록 사용자 정의 제출 액션을 개발할 수 있습니다. (LC_WORKFLOW_SUBMISSION)
 
-* 대화형 커뮤니케이션 기능의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. 해당 기능을 사용할 수 없는 경우 대화형 커뮤니케이션, 문자 및 관련 사전을 Cloud Service 환경으로 마이그레이션할 수 없습니다. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* 대화형 커뮤니케이션 기능의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. 해당 기능을 사용할 수 있을 때까지 대화형 커뮤니케이션, 문자 및 관련 사전을 Cloud Service 환경으로 마이그레이션하지 마십시오. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * 메타데이터 아코디언에 대한 대체 기능은 존재하지 않습니다. Cloud Service으로 마이그레이션하기 전에 양식에서 메타데이터/아코디언/양식/컨테이너
 
 * Adobe Experience Manager에서 제공하는 CAPTCHA 서비스 대신 Google reCAPTCHA를 사용하십시오. (FORMS_CAPTCHA)
 
-* 문서 서비스 워크플로 단계를 사용하는 AEM Workflow 모델을 마이그레이션하지 마십시오. 또한 문서 서비스 워크플로 단계를 사용하는 워크플로 모델로 사용자 데이터를 전송하는 적응형 양식을 마이그레이션 또는 업데이트하거나 양식을 마이그레이션하기 전에 **`Submit Action`**&#x200B;을 [지원되는 액션](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions)으로 변경하지 마십시오. (WORKFLOW_DOCSERVICES)
+* 문서 서비스 워크플로 단계를 사용하는 AEM 워크플로 모델을 마이그레이션하지 마십시오. 또한 문서 서비스 워크플로 단계를 사용하는 워크플로 모델로 사용자 데이터를 전송하는 적응형 양식을 마이그레이션 또는 업데이트하거나 양식을 마이그레이션하기 전에 **`Submit Action`**&#x200B;을 [지원되는 액션](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions)으로 변경하지 마십시오. (WORKFLOW_DOCSERVICES)
 
 * 적응형 양식은 반응형 디자인을 제공합니다. 이러한 양식은 기본 디바이스에 따라 모양, 디자인 및 인터랙티브 요소를 변경합니다. 모바일 디바이스에서 적응형 양식을 계속 사용할 수 있습니다. [!DNL AEM Forms] 앱의 가용성에 대한 정보는 월별 릴리스 정보를 확인하십시오. (AEM_FORMS_APP)
 

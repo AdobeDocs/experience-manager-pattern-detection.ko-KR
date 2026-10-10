@@ -2,13 +2,17 @@
 title: CCL
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
-
 ---
-
 # CCL {#ccl}
 
 맞춤형 클라이언트 라이브러리
@@ -28,14 +32,14 @@ ht-degree: 100%
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
-* AEM에 추가된 클라이언트 라이브러리를 검토하여 복제가 없는지 확인하고 최신 버전을 사용하도록 해야 합니다.
+* AEM에 추가된 클라이언트 라이브러리를 검토하여 중복이 없는지 확인하고 최신 버전을 사용하도록 해야 합니다.
 
 ## 가능한 해결 방법 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
 >title="구현 지침"
->abstract="AEM에 추가되어 CCL을 통해 식별된 클라이언트 라이브러리를 검토하여 복제가 없는지 확인하고 최신 버전을 사용하도록 해야 합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
+>abstract="AEM에 추가되어 CCL을 통해 식별된 클라이언트 라이브러리를 검토하여 중복이 없는지 확인하고 최신 버전을 사용하도록 해야 합니다. 도움 및 설명이 필요한 경우 Adobe 지원 팀에 문의하십시오."
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

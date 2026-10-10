@@ -2,13 +2,17 @@
 title: ECU
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
-
+source-wordcount: '290'
+ht-degree: 97%
 ---
-
 # ECU {#ecu}
 
 더 이상 사용되지 않는 기능: 불필요한 콘텐츠 사용 - CAV(콘텐츠 영역 위반)로 대체됨
@@ -30,12 +34,12 @@ Sling 요청 처리는 리소스의 콘텐츠(특히 `sling:resourceType` 속성
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
-* AEM 업그레이드 이후 페이지 렌더링 문제 및 기타 원하지 않은 비헤이비어가 발생할 수 있습니다.
+* AEM 업그레이드 이후 페이지 렌더링 문제 및 기타 원하지 않은 동작이 발생할 수 있습니다.
 * 보안 업데이트는 효과적이지 않습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
-* 콘텐츠 오버레이 사용을 필요한 경우로 최소화하십시오.
+* 콘텐츠 오버레이는 필요한 경우에만 사용하도록 최소화하십시오.
 * 특히 제한된 콘텐츠(최종 및 내부 분류)를 오버레이하지 마십시오.
 * AEM 업그레이드, 서비스 팩 또는 누적 수정 팩 설치 후 `/libs`에서 발생하는 변경 내용을 조정하는 것이 좋습니다.
 * 자세한 내용을 확인하거나 문제를 해결하려면 [AEM 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

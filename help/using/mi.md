@@ -2,13 +2,17 @@
 title: MI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
-
 ---
-
 # MI {#mi}
 
 구성 오류 문제
@@ -18,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="구성 오류 문제"
->abstract="MI는 AEM 인스턴스에서 구성 문제 식별"
+>abstract="MI는 AEM 인스턴스에서 구성 문제를 식별"
 
 `MI`(구성 오류 문제)는 AEM 인스턴스의 구성 문제를 식별합니다.
 
@@ -30,9 +34,9 @@ ht-degree: 100%
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * 값 -1은 사용 가능한 프로세서 수로 대체됩니다. 이로 인해 AEM 인스턴스에서 성능 문제가 발생할 수 있습니다.
+  * 값 -1은 사용 가능한 프로세서 수로 대체됩니다. 이로 인해 AEM 인스턴스에서 성능 문제가 발생할 수 있습니다.
 * `missing.maintenance.configuration`
-   * 유지 관리 작업 구성이 누락되면 성능이 저하되거나 인스턴스가 손상될 수 있습니다.
+  * 유지 관리 작업 구성이 누락되면 성능이 저하되거나 인스턴스가 손상될 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -43,11 +47,11 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * `sling.job.max.parallel`
-   * Adobe는 해당 값을 0.5로 설정하여 사용 가능한 프로세서의 절반을 활용할 것을 권장합니다.
+  * Adobe는 해당 값을 0.5로 설정하여 사용 가능한 프로세서의 절반을 활용할 것을 권장합니다.
 * `missing.maintenance.configuration`
-   * 개정 정리: [개정 정리](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)를 참조하십시오. 구성과 관련된 중요한 부분은 [개정 정리 - 테일 및 전체 압축 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)에 있습니다.
-   * Lucene 바이너리 정리: [작업 대시보드 - Lucene 바이너리 정리](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)를 참조하십시오.
-   * 데이터 스토어 가비지 수집: [데이터 스토어 가비지 수집](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection)을 참조하십시오.
-   * 워크플로 제거: [정기적인 워크플로 인스턴스 제거](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances)를 참조하십시오.
-   * 감사 로그 유지 관리 작업: [감사 로그 유지 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log)를 참조하십시오.
+  * 개정 정리: [개정 정리](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)를 참조하십시오. 구성과 관련된 중요한 부분은 [개정 정리 - 테일 및 전체 압축 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)에 있습니다.
+  * Lucene 바이너리 정리: [작업 대시보드 - Lucene 바이너리 정리](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)를 참조하십시오.
+  * 데이터 스토어 가비지 수집: [데이터 스토어 가비지 수집](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection)을 참조하십시오.
+  * 워크플로 제거: [정기적인 워크플로 인스턴스 제거](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances)를 참조하십시오.
+  * 감사 로그 유지 관리 작업: [감사 로그 유지 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log)를 참조하십시오.
 * 자세한 설명이 필요하거나 문제를 해결하려면 [Experience Manager 고객 지원 팀](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.

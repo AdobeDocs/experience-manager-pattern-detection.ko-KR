@@ -2,13 +2,17 @@
 title: ACV
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
-
 ---
-
 # ACV {#acv}
 
 Assets 콘텐츠 유효성 검사기
@@ -18,7 +22,7 @@ Assets 콘텐츠 유효성 검사기
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_overview"
 >title="Assets 콘텐츠 유효성 검사기"
->abstract="ACV는 자산 콘텐츠의 누락된 필수 노드를 식별합니다."
+>abstract="ACV는 에셋 콘텐츠의 누락된 필수 노드를 식별합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview" text="주요 변경 내용 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 릴리스 정보"
 
@@ -40,7 +44,7 @@ Assets 콘텐츠 유효성 검사기
 * 메타데이터 노드 아래에 하위 항목이 많으면 위반 자산이 있는 폴더의 로드 속도가 느려질 수 있습니다.
 * 충돌 노드가 있으면 AEM as a Cloud Service에서 수집 실패가 발생할 수 있습니다.
 * Experience Manager는 고해상도 PSB 파일을 처리하지 못할 수 있습니다. 대용량 파일을 처리하기 위해 ImageMagick을 사용하는 고객은 Experience Manager 서버를 적절하게 벤치마킹하지 않으면 성능에 영향을 받을 수 있습니다.
-* 자산 이름에 잘못된 문자가 있으면 AEM as a Cloud Service로 마이그레이션하는 동안 오류가 발생할 수 있습니다.
+* 에셋 이름에 잘못된 문자가 있으면 AEM as a Cloud Service로 마이그레이션하는 동안 오류가 발생할 수 있습니다.
 
 ## 가능한 해결 방법 {#solutions}
 

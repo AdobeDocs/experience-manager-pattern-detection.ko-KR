@@ -2,13 +2,17 @@
 title: CAV
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
-
 ---
-
 # CAV {#cav}
 
 콘텐츠 영역 위반
@@ -36,7 +40,7 @@ Sling 요청 처리는 리소스의 콘텐츠(특히 `sling:resourceType` 속성
 
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
-* AEM 업그레이드 이후 페이지 렌더링 문제 및 기타 원하지 않은 비헤이비어가 발생할 수 있습니다.
+* AEM 업그레이드 이후 페이지 렌더링 문제 및 기타 원하지 않은 동작이 발생할 수 있습니다.
 * 보안 업데이트는 효과적이지 않습니다.
 
 ## 가능한 해결 방법 {#solutions}

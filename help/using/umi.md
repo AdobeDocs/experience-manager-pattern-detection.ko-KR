@@ -2,13 +2,17 @@
 title: UMI
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
-
 ---
-
 # UMI {#umi}
 
 업그레이드 구성 오류 문제
@@ -36,11 +40,11 @@ ht-degree: 100%
 ## 가능한 영향 및 위험 {#implications-and-risks}
 
 * 구성을 변경 또는 제거하면 다음과 같은 문제가 발생할 수 있습니다.
-   * 업그레이드가 멈출 수 있습니다(예: `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName`이 누락되었지만 `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`에 존재함).
-   * 업그레이드 이후 인증 문제가 발생할 수 있습니다(`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
-   * 특정 기능이 예상대로 작동하지 않을 수 있습니다. 예를 들어 `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`를 변경하면 일부 JSP 파일이 컴파일되지 않아 궁극적으로 기능 손실이 발생할 수 있습니다.
-   * 외부화 구성 `com.day.cq.commons.impl.ExternalizerImpl`의 값이 AEM as a Cloud Service의 클라우드 관리자 환경 변수를 사용하여 설정되었습니다.
-   * AEM as a Cloud Service가 사용자 정의 로그 파일을 지원하지 않습니다. 사용자 정의 로그에 기록된 로그를 AEM as a Cloud Service에서 액세스할 수 없습니다.
+  * 업그레이드가 멈출 수 있습니다(예: `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName`이 누락되었지만 `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`에 존재함).
+  * 업그레이드 이후 인증 문제가 발생할 수 있습니다(`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
+  * 특정 기능이 예상대로 작동하지 않을 수 있습니다. 예를 들어 `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`를 변경하면 일부 JSP 파일이 컴파일되지 않아 궁극적으로 기능 손실이 발생할 수 있습니다.
+  * 외부화 구성 `com.day.cq.commons.impl.ExternalizerImpl`의 값이 AEM as a Cloud Service의 클라우드 관리자 환경 변수를 사용하여 설정되었습니다.
+  * AEM as a Cloud Service가 사용자 정의 로그 파일을 지원하지 않습니다. 사용자 지정 이름의 로그에 기록된 로그는 AEM as a Cloud Service에서 액세스할 수 없습니다.
 
 ## 가능한 해결 방법 {#solutions}
 
@@ -51,9 +55,9 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 지원"
 
 * 위에서 언급한 4가지의 구성을 변경하거나 제거하지 마십시오.
-   * 다음과 같은 위반 사항이 있는 경우:\
-     “OSGi 구성 `xyz-configuration`에 대한 필수 속성 누락: “[property-1, property-2 ...]”.”\
-     이러한 OSGI 구성이 OOTB이며 OSGi 구성 관리자에서 수정되거나 저장된 적이 없을 수 있으므로 이러한 삭제가 적절한지 확인하십시오.
+  * 다음과 같은 위반 사항이 있는 경우:\
+    “OSGi 구성 `xyz-configuration`에 대한 필수 속성 누락: “[property-1, property-2 ...]”.”\
+    이러한 OSGI 구성이 OOTB이며 OSGi 구성 관리자에서 수정되거나 저장된 적이 없을 수 있으므로 이러한 삭제가 적절한지 확인하십시오.
 * 구성을 변경한 경우 예상 값으로 다시 복원해야 합니다. 이들 값은 `UMI` 메시지에 기재되어 있습니다.
 * `com.day.cq.commons.impl.ExternalizerImpl`에 대해서는 AEM as a Cloud Service의 클라우드 관리자 환경 변수를 사용하여 외부화 구성 설정하기에 대한 [설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developer-tools/externalizer)를 참조하십시오.
 * `org.apache.sling.commons.log.LogManager.factory.config`의 경우 OSGI 구성을 사용자 정의된 로거가 `logs/error.log` 파일로 전송될 수 있도록 변경하십시오. [설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs)를 통해 `logs/error.log` 파일을 다시 가리키도록 하는 방법을 살펴보십시오.

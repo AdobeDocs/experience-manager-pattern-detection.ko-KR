@@ -2,13 +2,17 @@
 title: CTEM
 description: 패턴 감지기 코드 도움말 페이지.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
-
 ---
-
 # CTEM {#ctem}
 
 사용자 정의 템플릿
@@ -32,11 +36,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="구현 지침"
->abstract="가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다. 고객은 기존 AEM 현대화 도구를 통해 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
+>abstract="모범 사례는 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다. 고객은 기존 AEM 현대화 도구를 통해 정적 템플릿을 편집 가능한 템플릿으로 마이그레이션할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="편집 가능한 템플릿"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 현대화 도구"
 
-* 가장 좋은 방법은 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다.
+* 모범 사례는 모든 정적 템플릿을 편집 가능한 템플릿으로 전환하는 것입니다.
 
 ## 가능한 해결 방법 {#solutions}
 
